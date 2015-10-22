@@ -1,903 +1,850 @@
-﻿[2015.10.21-02.07.51:729][  0]Log file open, 10/21/15 10:07:51
-[2015.10.21-02.07.51:729][  0]LogInit:Display: Running engine for game: Introduction
-[2015.10.21-02.07.51:729][  0]LogInit:Display: RandInit(-697193704) SRandInit(-697193704).
-[2015.10.21-02.07.51:729][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
-[2015.10.21-02.07.51:729][  0]LogStats: Stats thread started at 0.060792
-[2015.10.21-02.07.51:729][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2015.10.21-02.07.51:729][  0]LogInit: API Version: 2672455
-[2015.10.21-02.07.51:729][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
-[2015.10.21-02.07.51:729][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
-[2015.10.21-02.07.51:729][  0]LogInit: Build Configuration: Development
-[2015.10.21-02.07.51:729][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
-[2015.10.21-02.07.51:729][  0]LogInit: Command line: 
-[2015.10.21-02.07.51:729][  0]LogInit: Base directory: E:/UE4/app/Epic Games/4.9/Engine/Binaries/Win64/
-[2015.10.21-02.07.51:729][  0]LogInit: Rocket: 1
-[2015.10.21-02.07.51:738][  0]LogInit: Using libcurl 7.41.0
-[2015.10.21-02.07.51:738][  0]LogInit:  - built for x86_64-pc-win32
-[2015.10.21-02.07.51:738][  0]LogInit:  - supports SSL with WinSSL
-[2015.10.21-02.07.51:738][  0]LogInit:  - other features:
-[2015.10.21-02.07.51:738][  0]LogInit:      CURL_VERSION_SSL
-[2015.10.21-02.07.51:738][  0]LogInit:      CURL_VERSION_IPV6
-[2015.10.21-02.07.51:738][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2015.10.21-02.07.51:738][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2015.10.21-02.07.51:738][  0]LogInit:      CURL_VERSION_IDN
-[2015.10.21-02.07.51:738][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2015.10.21-02.07.51:738][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2015.10.21-02.07.51:738][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2015.10.21-02.07.51:738][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2015.10.21-02.07.51:738][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2015.10.21-02.07.51:746][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.10.21-02.07.51:754][  0]LogInit: Object subsystem initialized
-[2015.10.21-02.07.51:755][  0]LogInit: Selected Device Profile: [Windows]
-[2015.10.21-02.07.51:755][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.10.21-02.07.51:764][  0]LogInit: Computer: ZH
-[2015.10.21-02.07.51:764][  0]LogInit: User: zhouhui
-[2015.10.21-02.07.51:764][  0]LogInit: CPU Page size=4096, Cores=2
-[2015.10.21-02.07.51:764][  0]LogInit: High frequency timer resolution =3.215368 MHz
-[2015.10.21-02.07.51:764][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2015.10.21-02.07.51:764][  0]LogMemory: Platform Memory Stats for Windows
-[2015.10.21-02.07.51:764][  0]LogMemory: Process Physical Memory: 54.47 MB used, 54.47 MB peak
-[2015.10.21-02.07.51:764][  0]LogMemory: Process Virtual Memory: 55.21 MB used, 55.21 MB peak
-[2015.10.21-02.07.51:764][  0]LogMemory: Physical Memory: 3069.79 MB used, 8162.07 MB total
-[2015.10.21-02.07.51:764][  0]LogMemory: Virtual Memory: 363.12 MB used, 134217728.00 MB total
-[2015.10.21-02.07.51:799][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
-[2015.10.21-02.07.52:627][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 620 (Feature Level 11_0)
-[2015.10.21-02.07.52:627][  0]LogD3D11RHI: Adapter has 973MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 1 output[s]
-[2015.10.21-02.07.52:629][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
-[2015.10.21-02.07.52:629][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4081MB of shared system memory, 0 output[s]
-[2015.10.21-02.07.52:629][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.10.21-02.07.52:632][  0]LogD3D11RHI: !Direct3DDevice
-[2015.10.21-02.07.52:632][  0]LogRHI: Texture pool is 681 MB (70% of 973 MB)
-[2015.10.21-02.07.52:640][  0]LogD3D11RHI: Async texture creation enabled
-[2015.10.21-02.07.52:660][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../projects/Introduction/Intermediate/Shaders/WorkingDirectory/6884/).
-[2015.10.21-02.07.52:661][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../projects/Introduction/Intermediate/Shaders/tmp/07DF69764FED70AA88EC16993FA9FB9D/'.
-[2015.10.21-02.07.52:661][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2015.10.21-02.07.53:806][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2015.10.21-02.07.53:811][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2015.10.21-02.07.53:817][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2015.10.21-02.07.53:823][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2015.10.21-02.07.53:829][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2015.10.21-02.07.53:832][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2015.10.21-02.07.53:836][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2015.10.21-02.07.53:840][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2015.10.21-02.07.53:843][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2015.10.21-02.07.53:847][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2015.10.21-02.07.53:851][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2015.10.21-02.07.53:855][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2015.10.21-02.07.53:855][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2015.10.21-02.07.53:873][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2015.10.21-02.07.53:876][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2015.10.21-02.07.53:880][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2015.10.21-02.07.53:883][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2015.10.21-02.07.53:883][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.10.21-02.07.53:975][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.10.21-02.07.54:019][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/zhouhui/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2015.10.21-02.07.54:019][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/zhouhui/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
-[2015.10.21-02.07.54:019][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../projects/Introduction/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.10.21-02.07.54:019][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.10.21-02.07.54:019][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../projects/Introduction/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2015.10.21-02.07.54:019][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2015.10.21-02.07.54:177][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.10.21-02.07.54:190][  0]LogDerivedDataCache: Using Local data cache path C:/Users/zhouhui/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.10.21-02.07.54:388][  0]LogInit: Selected Device Profile: [Windows]
-[2015.10.21-02.07.54:391][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.10.21-02.07.54:532][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.10.21-02.07.54:532][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.10.21-02.07.54:771][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.10.21-02.07.55:437][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.10.21-02.07.55:547][  0]LogAssetRegistry: FAssetRegistry took 0.0105 seconds to start up
-[2015.10.21-02.07.55:726][  0]SourceControl: Info Source control is disabled
-[2015.10.21-02.07.55:750][  0]SourceControl: Info Source control is disabled
-[2015.10.21-02.07.55:762][  0]SourceControl: Info Source control is disabled
-[2015.10.21-02.07.55:774][  0]SourceControl: Info Source control is disabled
-[2015.10.21-02.07.55:940][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.10.21-02.07.56:027][  0]LogObj: 28361 objects as part of root set at end of initial load.
-[2015.10.21-02.07.56:027][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
-[2015.10.21-02.07.56:085][  0]LogEngine: Initializing Engine...
-[2015.10.21-02.07.56:087][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
-[2015.10.21-02.07.56:088][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2015.10.21-02.07.56:218][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.10.21-02.07.56:224][  0]LogInit: XAudio2 using '扬声器 (Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.10.21-02.07.56:260][  0]LogInit: FAudioDevice initialized.
-[2015.10.21-02.07.56:281][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/zhouhui/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2015.10.21-02.07.56:284][  0]LogInit: Texture streaming: Enabled
-[2015.10.21-02.07.56:290][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.10.21-02.07.56:290][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2015.10.21-02.07.56:290][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId b6ebb264451e50e1159cad98c2cced92|b0673e94d52d486cbdf3580f32be2351|aa830f65-14fc-42d2-8598-ea137c4336f1
-[2015.10.21-02.07.56:290][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2015.10.21-02.07.56:300][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (微软拼音).
-[2015.10.21-02.07.56:344][  0]LogInit: Transaction tracking system initialized
-[2015.10.21-02.07.56:378][  0]BlueprintLog: New page: Editor Load
-[2015.10.21-02.07.56:505][  0]LocalizationService: Info Localization service is disabled
-[2015.10.21-02.07.56:834][  0]LogConsoleResponse:Display: 
-[2015.10.21-02.07.56:976][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.10.21-02.07.57:053][  0]LogFileCache: Scanning file cache for directory 'E:/UE4/projects/Introduction/Content/' took 0.01s
-[2015.10.21-02.07.57:061][  0]SourceControl: Info Source control is disabled
-[2015.10.21-02.07.57:061][  0]Cmd: MAP LOAD FILE="../../../../../../projects/Introduction/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.21-02.07.57:117][  0]LightingResults: New page: Lighting Build
-[2015.10.21-02.07.57:120][  0]MapCheck: New page: Map Check
-[2015.10.21-02.07.57:120][  0]LightingResults: New page: Lighting Build
-[2015.10.21-02.07.57:143][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B7E41A2160
-[2015.10.21-02.07.59:082][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2015.10.21-02.07.59:125][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.21-02.07.59:126][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.21-02.07.59:194][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 68.155ms to complete.
-[2015.10.21-02.07.59:194][  0]LogFileHelpers: Loading map 'Minimal_Default' took 2.133
-[2015.10.21-02.07.59:417][  0]LogCollectionManager: Loaded 0 collections in 0.002306 seconds
-[2015.10.21-02.07.59:461][  0]LogFileCache: Scanning file cache for directory 'E:/UE4/projects/Introduction/Saved/Collections/' took 0.01s
-[2015.10.21-02.07.59:461][  0]LogFileCache: Scanning file cache for directory 'E:/UE4/projects/Introduction/Content/Developers/zhouhui/Collections/' took 0.01s
-[2015.10.21-02.07.59:461][  0]LogFileCache: Scanning file cache for directory 'E:/UE4/projects/Introduction/Content/Collections/' took 0.01s
-[2015.10.21-02.07.59:461][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 1867 classes and 333 folders.
-[2015.10.21-02.07.59:465][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2015.10.21-02.07.59:472][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2015.10.21-02.07.59:943][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2015.10.21-02.07.59:951][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2015.10.21-02.08.00:086][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.10.21-02.08.00:091][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.10.21-02.08.00:113][  0]LogLoad: Full Startup: 9.21 seconds (BP compile: 0.08 seconds)
-[2015.10.21-02.08.00:194][  0]LogContentStreaming: Texture pool size now 200 MB
-[2015.10.21-02.08.00:324][  0]LogRenderer: Reallocating scene render targets to support 984x456 (Frame:2).
-[2015.10.21-02.08.00:871][  3]LogAssetRegistry: Asset discovery search completed in 5.3344 seconds
-[2015.10.21-02.08.00:871][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2015.10.21-02.08.00:871][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
-[2015.10.21-02.08.28:483][541]Cmd: MAP LOAD FILE="../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.21-02.08.28:498][541]LightingResults: New page: Lighting Build
-[2015.10.21-02.08.28:515][541]LoadErrors: New page: Loading map: My_ComplexRoom.umap
-[2015.10.21-02.08.28:515][541]MapCheck: New page: Map Check
-[2015.10.21-02.08.28:515][541]LightingResults: New page: Lighting Build
-[2015.10.21-02.08.28:534][541]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B7D36560C0
-[2015.10.21-02.08.28:601][541]LogAIModule: Creating AISystem for world My_ComplexRoom
-[2015.10.21-02.08.28:633][541]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.21-02.08.28:661][541]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.21-02.08.28:714][541]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 52.292ms to complete.
-[2015.10.21-02.08.28:714][541]LogFileHelpers: Loading map 'My_ComplexRoom' took 0.232
-[2015.10.21-02.08.36:167][203]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2015.10.21-02.08.36:167][203]Can't find target actor or component.
-[2015.10.21-02.08.37:944][381]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2015.10.21-02.08.39:090][467]LogEditorViewport: Clicking Background
-[2015.10.21-02.08.41:246][608]LogEditorViewport: Clicking Background
-[2015.10.21-02.09.02:104][256]LogEditorViewport: Clicking Background
-[2015.10.21-02.09.07:766][705]LogEditorViewport: Clicking Background
-[2015.10.21-02.09.21:968][856]Cmd: DELETE
-[2015.10.21-02.09.21:968][856]Cmd: ACTOR DELETE
-[2015.10.21-02.09.21:969][856]LogEditorActor: Deleted Actor: PointLight
-[2015.10.21-02.09.22:010][856]LogEditorActor: Deleted 1 Actors (0.041 secs)
-[2015.10.21-02.09.34:031][915]Cmd: DELETE
-[2015.10.21-02.09.34:031][915]Cmd: ACTOR DELETE
-[2015.10.21-02.09.34:032][915]LogEditorActor: Deleted Actor: DirectionalLight
-[2015.10.21-02.09.34:071][915]LogEditorActor: Deleted 1 Actors (0.040 secs)
-[2015.10.21-02.11.04:912][303]LogHttp:Warning: Timeout processing Http request. 000000B7EE75BF00
-[2015.10.21-02.12.20:614][663]LogEditorViewport: Clicking Background
-[2015.10.21-02.12.31:578][766]LogEditorViewport: Clicking Background
-[2015.10.21-02.12.39:504][594]LogEditorViewport: Clicking Background
-[2015.10.21-02.14.56:825][447]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/StarterContent/Maps/My_ComplexRoom.My_ComplexRoom:PersistentLevel.ModelComponent_369' invalid (220 verts, 0 indices).
-[2015.10.21-02.14.56:825][447]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/StarterContent/Maps/My_ComplexRoom.My_ComplexRoom:PersistentLevel.ModelComponent_370' invalid (220 verts, 0 indices).
-[2015.10.21-02.14.56:825][447]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/StarterContent/Maps/My_ComplexRoom.My_ComplexRoom:PersistentLevel.ModelComponent_371' invalid (220 verts, 0 indices).
-[2015.10.21-02.14.56:825][447]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/StarterContent/Maps/My_ComplexRoom.My_ComplexRoom:PersistentLevel.ModelComponent_372' invalid (220 verts, 0 indices).
-[2015.10.21-02.18.29:066][659]LogSavePackage: Save=16.988413ms
-[2015.10.21-02.18.29:066][659]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/My_ComplexRoom_Auto15F4BC92B463991E450591AAE33F82EB6.tmp' to '../../../../../../projects/Introduction/Saved/Autosaves/Game/StarterContent/Maps/My_ComplexRoom_Auto1.umap'
-[2015.10.21-02.18.29:067][659]LogSavePackage: Total save time: 31.196740ms
-[2015.10.21-02.18.29:067][659]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Saved/Autosaves/Game/StarterContent/Maps/My_ComplexRoom_Auto1.umap
-[2015.10.21-02.18.29:070][659]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/My_ComplexRoom' took 0.088
-[2015.10.21-02.18.29:070][659]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.088
-[2015.10.21-02.26.05:436][459]LogSavePackage: Save=15.517353ms
-[2015.10.21-02.26.05:436][459]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/My_ComplexRoom223B6F814D4873C1C7B0FF8A58C9E723.tmp' to '../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap'
-[2015.10.21-02.26.05:440][459]LogSavePackage: Total save time: 22.593681ms
-[2015.10.21-02.26.05:440][459]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap
-[2015.10.21-02.26.05:466][459]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.126
-[2015.10.21-02.26.48:271][406]Cmd: MAP LOAD FILE="../../../../../../projects/Introduction/Content/StarterContent/Maps/StarterMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.21-02.26.48:288][406]LightingResults: New page: Lighting Build
-[2015.10.21-02.26.48:305][406]LoadErrors: New page: Loading map: StarterMap.umap
-[2015.10.21-02.26.48:305][406]MapCheck: New page: Map Check
-[2015.10.21-02.26.48:305][406]LightingResults: New page: Lighting Build
-[2015.10.21-02.26.48:326][406]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B7EF5B2CA0
-[2015.10.21-02.26.57:057][406]LogAIModule: Creating AISystem for world StarterMap
-[2015.10.21-02.26.57:393][406]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.21-02.26.57:435][406]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.21-02.26.57:540][406]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 104.528ms to complete.
-[2015.10.21-02.26.57:540][406]LogFileHelpers: Loading map 'StarterMap' took 9.271
-[2015.10.21-02.27.13:200][791]Cmd: MAP LOAD FILE="../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.21-02.27.13:215][791]LightingResults: New page: Lighting Build
-[2015.10.21-02.27.13:235][791]LoadErrors: New page: Loading map: My_ComplexRoom.umap
-[2015.10.21-02.27.13:238][791]MapCheck: New page: Map Check
-[2015.10.21-02.27.13:238][791]LightingResults: New page: Lighting Build
-[2015.10.21-02.27.13:261][791]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B7963D1F80
-[2015.10.21-02.27.13:274][791]LogAIModule: Creating AISystem for world My_ComplexRoom
-[2015.10.21-02.27.13:323][791]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.21-02.27.13:357][791]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.21-02.27.13:456][791]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 98.756ms to complete.
-[2015.10.21-02.27.13:456][791]LogFileHelpers: Loading map 'My_ComplexRoom' took 0.257
-[2015.10.21-02.27.40:355][ 16]LogEditorViewport: Clicking Background
-[2015.10.21-02.28.00:823][208]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2015.10.21-02.28.09:717][737]Cmd: DELETE
-[2015.10.21-02.28.09:718][737]Cmd: ACTOR DELETE
-[2015.10.21-02.28.09:718][737]LogEditorActor: Deleted Actor: Brush
-[2015.10.21-02.28.09:751][737]LogEditorActor: Deleted 1 Actors (0.033 secs)
-[2015.10.21-02.28.13:129][943]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2015.10.21-02.28.14:382][ 16]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2015.10.21-02.29.46:514][954]LogEditorActor: Deleted Actor: SkyLight
-[2015.10.21-02.29.46:544][954]LogEditorActor: Deleted 1 Actors (0.031 secs)
-[2015.10.21-02.29.47:549][  4]LogSavePackage: Save=20.846758ms
-[2015.10.21-02.29.47:549][  4]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/My_ComplexRoomA73513504160380AEA00E9B21DDF3DFD.tmp' to '../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap'
-[2015.10.21-02.29.47:553][  4]LogSavePackage: Total save time: 27.237941ms
-[2015.10.21-02.29.47:553][  4]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap
-[2015.10.21-02.29.47:579][  4]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.173
-[2015.10.21-02.32.39:509][309]Cmd: MAP LOAD FILE="../../../../../../projects/Introduction/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.21-02.32.39:521][309]LightingResults: New page: Lighting Build
-[2015.10.21-02.32.39:543][309]LoadErrors: New page: Loading map: Minimal_Default.umap
-[2015.10.21-02.32.39:544][309]MapCheck: New page: Map Check
-[2015.10.21-02.32.39:544][309]LightingResults: New page: Lighting Build
-[2015.10.21-02.32.39:577][309]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B7963D0F40
-[2015.10.21-02.32.39:610][309]LogAIModule: Creating AISystem for world Minimal_Default
-[2015.10.21-02.32.39:674][309]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.21-02.32.39:710][309]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.21-02.32.39:818][309]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 108.039ms to complete.
-[2015.10.21-02.32.39:818][309]LogFileHelpers: Loading map 'Minimal_Default' took 0.312
-[2015.10.21-02.32.44:487][478]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2015.10.21-02.33.15:268][804]LightingResults: New page: Lighting Build
-[2015.10.21-02.33.15:268][804]MapCheck: New page: Map Check
-[2015.10.21-02.33.15:269][804]LightingResults: New page: Lighting Build
-[2015.10.21-02.33.15:317][804]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B796C74C20
-[2015.10.21-02.33.15:318][804]LogAIModule: Creating AISystem for world NewWorld
-[2015.10.21-02.33.15:373][804]LoadErrors: New page: New Map
-[2015.10.21-02.33.15:530][813]LogEditorViewport: Clicking Background
-[2015.10.21-02.33.23:549][307]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2015.10.21-02.33.40:438][237]Cmd: MAP LOAD FILE="../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.21-02.33.40:459][237]LightingResults: New page: Lighting Build
-[2015.10.21-02.33.40:478][237]LoadErrors: New page: Loading map: My_ComplexRoom.umap
-[2015.10.21-02.33.40:478][237]MapCheck: New page: Map Check
-[2015.10.21-02.33.40:478][237]LightingResults: New page: Lighting Build
-[2015.10.21-02.33.40:503][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B786D3DB20
-[2015.10.21-02.33.40:511][237]LogAIModule: Creating AISystem for world My_ComplexRoom
-[2015.10.21-02.33.40:555][237]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.21-02.33.40:586][237]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.21-02.33.40:686][237]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 99.998ms to complete.
-[2015.10.21-02.33.40:686][237]LogFileHelpers: Loading map 'My_ComplexRoom' took 0.250
-[2015.10.21-02.36.36:427][537]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2015.10.21-02.43.39:611][359]LogSavePackage: Save=37.913857ms
-[2015.10.21-02.43.39:611][359]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/My_ComplexRoom_Auto2C71FD2DC4F39201150CD558AFCCF5533.tmp' to '../../../../../../projects/Introduction/Saved/Autosaves/Game/StarterContent/Maps/My_ComplexRoom_Auto2.umap'
-[2015.10.21-02.43.39:612][359]LogSavePackage: Total save time: 42.412564ms
-[2015.10.21-02.43.39:613][359]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Saved/Autosaves/Game/StarterContent/Maps/My_ComplexRoom_Auto2.umap
-[2015.10.21-02.43.39:615][359]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/My_ComplexRoom' took 0.081
-[2015.10.21-02.43.39:615][359]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.081
-[2015.10.21-02.44.45:819][ 66]Cmd: DUPLICATE
-[2015.10.21-02.44.45:819][ 66]Cmd: ACTOR DUPLICATE
-[2015.10.21-02.45.40:274][ 96]Cmd: DUPLICATE
-[2015.10.21-02.45.40:274][ 96]Cmd: ACTOR DUPLICATE
-[2015.10.21-02.46.16:278][763]LogEditorViewport: Clicking Background
-[2015.10.21-02.50.50:855][650]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2015.10.21-02.51.11:122][885]LogEditorViewport: Clicking Background
-[2015.10.21-02.54.05:757][824]LogSavePackage: Save=88.152893ms
-[2015.10.21-02.54.05:757][824]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/My_ComplexRoom_Auto3AB94C4FB420FB30589790080D95A4BAA.tmp' to '../../../../../../projects/Introduction/Saved/Autosaves/Game/StarterContent/Maps/My_ComplexRoom_Auto3.umap'
-[2015.10.21-02.54.05:759][824]LogSavePackage: Total save time: 93.163829ms
-[2015.10.21-02.54.05:759][824]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Saved/Autosaves/Game/StarterContent/Maps/My_ComplexRoom_Auto3.umap
-[2015.10.21-02.54.05:761][824]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/My_ComplexRoom' took 0.135
-[2015.10.21-02.54.05:761][824]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.135
-[2015.10.21-02.54.38:456][118]Cmd: DUPLICATE
-[2015.10.21-02.54.38:456][118]Cmd: ACTOR DUPLICATE
-[2015.10.21-02.55.00:209][488]LogEditorViewport: Clicking Background
-[2015.10.21-02.59.15:350][788]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2015.10.21-03.00.34:705][221]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush3)
-[2015.10.21-03.01.04:234][375]LogEditorViewport: Clicking Background
-[2015.10.21-03.01.53:562][440]LogEditorViewport: Clicking Background
-[2015.10.21-03.02.03:343][174]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush4)
-[2015.10.21-03.02.08:857][575]LogEditorViewport: Clicking Background
-[2015.10.21-03.02.32:502][ 92]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush2)
-[2015.10.21-03.04.06:711][662]LogSavePackage: Save=105.505501ms
-[2015.10.21-03.04.06:711][662]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/My_ComplexRoom_Auto4C09514C24FC28E86BC238E9902DB1A54.tmp' to '../../../../../../projects/Introduction/Saved/Autosaves/Game/StarterContent/Maps/My_ComplexRoom_Auto4.umap'
-[2015.10.21-03.04.06:713][662]LogSavePackage: Total save time: 110.616889ms
-[2015.10.21-03.04.06:713][662]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Saved/Autosaves/Game/StarterContent/Maps/My_ComplexRoom_Auto4.umap
-[2015.10.21-03.04.06:715][662]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/My_ComplexRoom' took 0.172
-[2015.10.21-03.04.06:715][662]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.172
-[2015.10.21-04.37.33:332][683]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../../BaiduYunDownload/Introduction_to_Unreal_Engine_4_Project_Files/Digital Tutors - Introduction to Unreal Engine 4/Referenced Files/Meshes/SM_Wall_2xWindow.FBX)
-[2015.10.21-04.37.33:534][683]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2015.10.21-04.37.33:534][683]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2015.10.21-04.37.33:534][683]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2015.10.21-04.37.33:534][683]LogFbx: ItemName: Model, ItemCount : 1
-[2015.10.21-04.37.33:534][683]LogFbx: ItemName: Geometry, ItemCount : 1
-[2015.10.21-04.37.33:534][683]LogFbx: ItemName: Material, ItemCount : 4
-[2015.10.21-04.37.33:534][683]LogFbx: ItemName: Texture, ItemCount : 1
-[2015.10.21-04.37.33:534][683]LogFbx: ItemName: Video, ItemCount : 1
-[2015.10.21-04.37.33:599][683]LogFbx: Loading FBX Scene from ../../../../../../../BaiduYunDownload/Introduction_to_Unreal_Engine_4_Project_Files/Digital Tutors - Introduction to Unreal Engine 4/Referenced Files/Meshes/SM_Wall_2xWindow.FBX
-[2015.10.21-04.37.33:645][683]LogFbx: FBX Scene Loaded Succesfully
-[2015.10.21-04.38.02:028][683]LogFbx: Loading FBX Scene from ../../../../../../../BaiduYunDownload/Introduction_to_Unreal_Engine_4_Project_Files/Digital Tutors - Introduction to Unreal Engine 4/Referenced Files/Meshes/SM_Wall_2xWindow.FBX
-[2015.10.21-04.38.02:036][683]LogFbx: FBX Scene Loaded Succesfully
-[2015.10.21-04.38.02:105][683]LogLinker:Warning: Can't find file '/Game/MyMeshes/Material__25'
-[2015.10.21-04.38.02:105][683]LogLinker:Warning: Can't find file '/Game/MyMeshes/Material__25'
-[2015.10.21-04.38.02:180][683]LogLinker:Warning: Can't find file '/Game/MyMeshes/UV_Checker_Map'
-[2015.10.21-04.38.02:180][683]LogLinker:Warning: Can't find file '/Game/MyMeshes/UV_Checker_Map'
-[2015.10.21-04.38.02:180][683]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/MyMeshes/UV_Checker_Map.UV_Checker_Map'
-[2015.10.21-04.38.02:180][683]LogStreaming:Warning: Failed to read file 'C:\Users\josh\Documents\3dsMax\..\..\Desktop\Texture Library\UV Checker Map.jpg' error.
-[2015.10.21-04.38.02:180][683]LogStreaming:Warning: Failed to read file '../../../../../../../BaiduYunDownload/Introduction_to_Unreal_Engine_4_Project_Files/Digital Tutors - Introduction to Unreal Engine 4/Referenced Files/Meshes/..\..\..\..\..\..\Users\josh\Desktop\Texture Library\UV Checker Map.jpg' error.
-[2015.10.21-04.38.02:180][683]LogStreaming:Warning: Failed to read file '../../../../../../../BaiduYunDownload/Introduction_to_Unreal_Engine_4_Project_Files/Digital Tutors - Introduction to Unreal Engine 4/Referenced Files/Meshes/UV Checker Map.jpg' error.
-[2015.10.21-04.38.02:180][683]LogFbxMaterialImport:Warning: Unable to find TEXTure file UV Checker Map.jpg. Tried:
- - C:\Users\josh\Documents\3dsMax\..\..\Desktop\Texture Library\UV Checker Map.jpg
- - ../../../../../../../BaiduYunDownload/Introduction_to_Unreal_Engine_4_Project_Files/Digital Tutors - Introduction to Unreal Engine 4/Referenced Files/Meshes/..\..\..\..\..\..\Users\josh\Desktop\Texture Library\UV Checker Map.jpg
- - ../../../../../../../BaiduYunDownload/Introduction_to_Unreal_Engine_4_Project_Files/Digital Tutors - Introduction to Unreal Engine 4/Referenced Files/Meshes/UV Checker Map.jpg
-[2015.10.21-04.38.02:226][683]LogMaterial: Missing cached shader map for material Material__25, compiling. 
-[2015.10.21-04.38.02:387][683]LogLinker:Warning: Can't find file '/Game/MyMeshes/Wood_Painted'
-[2015.10.21-04.38.02:387][683]LogLinker:Warning: Can't find file '/Game/MyMeshes/Wood_Painted'
-[2015.10.21-04.38.02:394][683]LogMaterial: Missing cached shader map for material Wood_Painted, compiling. 
-[2015.10.21-04.38.02:409][683]LogLinker:Warning: Can't find file '/Game/MyMeshes/Glass'
-[2015.10.21-04.38.02:409][683]LogLinker:Warning: Can't find file '/Game/MyMeshes/Glass'
-[2015.10.21-04.38.02:415][683]LogMaterial: Missing cached shader map for material Glass, compiling. 
-[2015.10.21-04.38.02:427][683]LogLinker:Warning: Can't find file '/Game/MyMeshes/Metal'
-[2015.10.21-04.38.02:427][683]LogLinker:Warning: Can't find file '/Game/MyMeshes/Metal'
-[2015.10.21-04.38.02:433][683]LogMaterial: Missing cached shader map for material Metal, compiling. 
-[2015.10.21-04.38.02:641][683]LogStaticMesh: Building static mesh SM_Wall_2xWindow...
-[2015.10.21-04.38.03:212][683]LogStaticMesh: Built static mesh [0.571276.2s] /Game/MyMeshes/SM_Wall_2xWindow.SM_Wall_2xWindow
-[2015.10.21-04.39.05:746][813]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B798F79F80
-[2015.10.21-04.39.05:748][813]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/My_ComplexRoom' took 0.033
-[2015.10.21-04.39.05:753][813]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyMeshes/SM_Wall_2xWindow] ([1] browsable assets)...
-[2015.10.21-04.39.05:793][813]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/MyMeshes/SM_Wall_2xWindow.SM_Wall_2xWindow]
-[2015.10.21-04.39.05:793][813]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyMeshes/SM_Wall_2xWindow]
-[2015.10.21-04.39.05:793][813]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMeshes/SM_Wall_2xWindow" FILE="../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/SM_Wall_2xWindow_Auto5.uasset" SILENT=false AUTOSAVING=true
-[2015.10.21-04.39.05:837][813]LogSavePackage: Save=42.730412ms
-[2015.10.21-04.39.05:837][813]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/SM_Wall_2xWindow_Auto55730369A45334E9B5D8B6A99582E99D7.tmp' to '../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/SM_Wall_2xWindow_Auto5.uasset'
-[2015.10.21-04.39.05:839][813]LogSavePackage: Total save time: 44.710588ms
-[2015.10.21-04.39.05:839][813]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/SM_Wall_2xWindow_Auto5.uasset
-[2015.10.21-04.39.05:842][813]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyMeshes/Material__25] ([1] browsable assets)...
-[2015.10.21-04.39.05:862][813]OBJ SavePackage:     Rendered thumbnail for [Material /Game/MyMeshes/Material__25.Material__25]
-[2015.10.21-04.39.05:862][813]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyMeshes/Material__25]
-[2015.10.21-04.39.05:862][813]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMeshes/Material__25" FILE="../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/Material__25_Auto5.uasset" SILENT=false AUTOSAVING=true
-[2015.10.21-04.39.05:877][813]LogSavePackage: Save=13.029923ms
-[2015.10.21-04.39.05:877][813]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/Material__25_Auto55AEC6A404CC3C36B9D89B08301A47CAB.tmp' to '../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/Material__25_Auto5.uasset'
-[2015.10.21-04.39.05:879][813]LogSavePackage: Total save time: 15.536014ms
-[2015.10.21-04.39.05:879][813]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/Material__25_Auto5.uasset
-[2015.10.21-04.39.05:883][813]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyMeshes/Wood_Painted] ([1] browsable assets)...
-[2015.10.21-04.39.05:904][813]OBJ SavePackage:     Rendered thumbnail for [Material /Game/MyMeshes/Wood_Painted.Wood_Painted]
-[2015.10.21-04.39.05:904][813]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyMeshes/Wood_Painted]
-[2015.10.21-04.39.05:904][813]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMeshes/Wood_Painted" FILE="../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/Wood_Painted_Auto5.uasset" SILENT=false AUTOSAVING=true
-[2015.10.21-04.39.05:920][813]LogSavePackage: Save=14.655554ms
-[2015.10.21-04.39.05:920][813]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/Wood_Painted_Auto5DFDD5DAC4327104EF3C1D79C5B4A8C1C.tmp' to '../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/Wood_Painted_Auto5.uasset'
-[2015.10.21-04.39.05:924][813]LogSavePackage: Total save time: 18.657587ms
-[2015.10.21-04.39.05:924][813]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/Wood_Painted_Auto5.uasset
-[2015.10.21-04.39.05:929][813]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyMeshes/Glass] ([1] browsable assets)...
-[2015.10.21-04.39.05:948][813]OBJ SavePackage:     Rendered thumbnail for [Material /Game/MyMeshes/Glass.Glass]
-[2015.10.21-04.39.05:948][813]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyMeshes/Glass]
-[2015.10.21-04.39.05:949][813]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMeshes/Glass" FILE="../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/Glass_Auto5.uasset" SILENT=false AUTOSAVING=true
-[2015.10.21-04.39.05:962][813]LogSavePackage: Save=11.844367ms
-[2015.10.21-04.39.05:962][813]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/Glass_Auto5F223C80D422AE00E2428B5AC2C11AA8E.tmp' to '../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/Glass_Auto5.uasset'
-[2015.10.21-04.39.05:964][813]LogSavePackage: Total save time: 13.806198ms
-[2015.10.21-04.39.05:964][813]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/Glass_Auto5.uasset
-[2015.10.21-04.39.05:969][813]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyMeshes/Metal] ([1] browsable assets)...
-[2015.10.21-04.39.05:990][813]OBJ SavePackage:     Rendered thumbnail for [Material /Game/MyMeshes/Metal.Metal]
-[2015.10.21-04.39.05:990][813]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyMeshes/Metal]
-[2015.10.21-04.39.05:990][813]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMeshes/Metal" FILE="../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/Metal_Auto5.uasset" SILENT=false AUTOSAVING=true
-[2015.10.21-04.39.06:019][813]LogSavePackage: Save=15.329194ms
-[2015.10.21-04.39.06:019][813]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/Metal_Auto57DA987644CE1C2B0CCBB9B841AD90257.tmp' to '../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/Metal_Auto5.uasset'
-[2015.10.21-04.39.06:020][813]LogSavePackage: Total save time: 17.871052ms
-[2015.10.21-04.39.06:020][813]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/Metal_Auto5.uasset
-[2015.10.21-04.39.06:021][813]LogFileHelpers: Auto-saving content packages took 0.271
-[2015.10.21-05.28.41:991][489]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../../BaiduYunDownload/Introduction_to_Unreal_Engine_4_Project_Files/Digital Tutors - Introduction to Unreal Engine 4/Referenced Files/Meshes/SM_Door.FBX)
-[2015.10.21-05.28.41:996][489]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2015.10.21-05.28.41:996][489]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2015.10.21-05.28.41:996][489]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2015.10.21-05.28.41:996][489]LogFbx: ItemName: Model, ItemCount : 1
-[2015.10.21-05.28.41:996][489]LogFbx: ItemName: Geometry, ItemCount : 1
-[2015.10.21-05.28.41:996][489]LogFbx: ItemName: Material, ItemCount : 2
-[2015.10.21-05.28.42:002][489]LogFbx: Loading FBX Scene from ../../../../../../../BaiduYunDownload/Introduction_to_Unreal_Engine_4_Project_Files/Digital Tutors - Introduction to Unreal Engine 4/Referenced Files/Meshes/SM_Door.FBX
-[2015.10.21-05.28.42:011][489]LogFbx: FBX Scene Loaded Succesfully
-[2015.10.21-05.28.45:140][489]LogFbx: Loading FBX Scene from ../../../../../../../BaiduYunDownload/Introduction_to_Unreal_Engine_4_Project_Files/Digital Tutors - Introduction to Unreal Engine 4/Referenced Files/Meshes/SM_Door.FBX
-[2015.10.21-05.28.45:147][489]LogFbx: FBX Scene Loaded Succesfully
-[2015.10.21-05.28.45:153][489]LogStaticMesh: Building static mesh SM_Door...
-[2015.10.21-05.28.45:210][489]LogStaticMesh: Built static mesh [0.058003.2s] /Game/MyMeshes/SM_Door.SM_Door
-[2015.10.21-05.28.45:227][489]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../../BaiduYunDownload/Introduction_to_Unreal_Engine_4_Project_Files/Digital Tutors - Introduction to Unreal Engine 4/Referenced Files/Meshes/SM_DoorFrame.FBX)
-[2015.10.21-05.28.46:525][489]LogFbx: Loading FBX Scene from ../../../../../../../BaiduYunDownload/Introduction_to_Unreal_Engine_4_Project_Files/Digital Tutors - Introduction to Unreal Engine 4/Referenced Files/Meshes/SM_DoorFrame.FBX
-[2015.10.21-05.28.46:534][489]LogFbx: FBX Scene Loaded Succesfully
-[2015.10.21-05.28.46:538][489]LogStaticMesh: Building static mesh SM_DoorFrame...
-[2015.10.21-05.28.46:554][489]LogStaticMesh: Built static mesh [0.016567.2s] /Game/MyMeshes/SM_DoorFrame.SM_DoorFrame
-[2015.10.21-05.28.46:565][489]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../../BaiduYunDownload/Introduction_to_Unreal_Engine_4_Project_Files/Digital Tutors - Introduction to Unreal Engine 4/Referenced Files/Meshes/SM_Electrical_Outlet.FBX)
-[2015.10.21-05.28.46:580][489]LogFbx: Loading FBX Scene from ../../../../../../../BaiduYunDownload/Introduction_to_Unreal_Engine_4_Project_Files/Digital Tutors - Introduction to Unreal Engine 4/Referenced Files/Meshes/SM_Electrical_Outlet.FBX
-[2015.10.21-05.28.46:590][489]LogFbx: FBX Scene Loaded Succesfully
-[2015.10.21-05.28.46:593][489]LogStaticMesh: Building static mesh SM_Electrical_Outlet...
-[2015.10.21-05.28.46:632][489]LogStaticMesh: Built static mesh [0.038477.2s] /Game/MyMeshes/SM_Electrical_Outlet.SM_Electrical_Outlet
-[2015.10.21-05.28.46:646][489]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../../BaiduYunDownload/Introduction_to_Unreal_Engine_4_Project_Files/Digital Tutors - Introduction to Unreal Engine 4/Referenced Files/Meshes/SM_Electrical_Pipe_Curved.FBX)
-[2015.10.21-05.28.46:660][489]LogFbx: Loading FBX Scene from ../../../../../../../BaiduYunDownload/Introduction_to_Unreal_Engine_4_Project_Files/Digital Tutors - Introduction to Unreal Engine 4/Referenced Files/Meshes/SM_Electrical_Pipe_Curved.FBX
-[2015.10.21-05.28.46:667][489]LogFbx: FBX Scene Loaded Succesfully
-[2015.10.21-05.28.46:671][489]LogStaticMesh: Building static mesh SM_Electrical_Pipe_Curved...
-[2015.10.21-05.28.46:686][489]LogStaticMesh: Built static mesh [0.015581.2s] /Game/MyMeshes/SM_Electrical_Pipe_Curved.SM_Electrical_Pipe_Curved
-[2015.10.21-05.28.46:699][489]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../../BaiduYunDownload/Introduction_to_Unreal_Engine_4_Project_Files/Digital Tutors - Introduction to Unreal Engine 4/Referenced Files/Meshes/SM_Electrical_Pipe_Straight.FBX)
-[2015.10.21-05.28.46:714][489]LogFbx: Loading FBX Scene from ../../../../../../../BaiduYunDownload/Introduction_to_Unreal_Engine_4_Project_Files/Digital Tutors - Introduction to Unreal Engine 4/Referenced Files/Meshes/SM_Electrical_Pipe_Straight.FBX
-[2015.10.21-05.28.46:723][489]LogFbx: FBX Scene Loaded Succesfully
-[2015.10.21-05.28.46:726][489]LogStaticMesh: Building static mesh SM_Electrical_Pipe_Straight...
-[2015.10.21-05.28.46:732][489]LogStaticMesh: Built static mesh [0.005713.2s] /Game/MyMeshes/SM_Electrical_Pipe_Straight.SM_Electrical_Pipe_Straight
-[2015.10.21-05.28.46:743][489]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../../BaiduYunDownload/Introduction_to_Unreal_Engine_4_Project_Files/Digital Tutors - Introduction to Unreal Engine 4/Referenced Files/Meshes/SM_Floor.FBX)
-[2015.10.21-05.28.46:754][489]LogFbx: Loading FBX Scene from ../../../../../../../BaiduYunDownload/Introduction_to_Unreal_Engine_4_Project_Files/Digital Tutors - Introduction to Unreal Engine 4/Referenced Files/Meshes/SM_Floor.FBX
-[2015.10.21-05.28.46:760][489]LogFbx: FBX Scene Loaded Succesfully
-[2015.10.21-05.28.46:763][489]LogStaticMesh: Building static mesh SM_Floor...
-[2015.10.21-05.28.46:766][489]LogStaticMesh: Built static mesh [0.003225.2s] /Game/MyMeshes/SM_Floor.SM_Floor
-[2015.10.21-05.28.46:777][489]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../../BaiduYunDownload/Introduction_to_Unreal_Engine_4_Project_Files/Digital Tutors - Introduction to Unreal Engine 4/Referenced Files/Meshes/SM_HangingLight.FBX)
-[2015.10.21-05.28.46:791][489]LogFbx: Loading FBX Scene from ../../../../../../../BaiduYunDownload/Introduction_to_Unreal_Engine_4_Project_Files/Digital Tutors - Introduction to Unreal Engine 4/Referenced Files/Meshes/SM_HangingLight.FBX
-[2015.10.21-05.28.46:801][489]LogFbx: FBX Scene Loaded Succesfully
-[2015.10.21-05.28.46:804][489]LogLinker:Warning: Can't find file '/Game/MyMeshes/Material__207'
-[2015.10.21-05.28.46:804][489]LogLinker:Warning: Can't find file '/Game/MyMeshes/Material__207'
-[2015.10.21-05.28.46:809][489]LogMaterial: Missing cached shader map for material Material__207, compiling. 
-[2015.10.21-05.28.46:823][489]LogStaticMesh: Building static mesh SM_HangingLight...
-[2015.10.21-05.28.46:852][489]LogStaticMesh: Built static mesh [0.029160.2s] /Game/MyMeshes/SM_HangingLight.SM_HangingLight
-[2015.10.21-05.28.50:139][489]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../../BaiduYunDownload/Introduction_to_Unreal_Engine_4_Project_Files/Digital Tutors - Introduction to Unreal Engine 4/Referenced Files/Meshes/SM_Wall_2xWindow.FBX)
-[2015.10.21-05.28.50:154][489]LogFbx: Loading FBX Scene from ../../../../../../../BaiduYunDownload/Introduction_to_Unreal_Engine_4_Project_Files/Digital Tutors - Introduction to Unreal Engine 4/Referenced Files/Meshes/SM_Wall_2xWindow.FBX
-[2015.10.21-05.28.50:165][489]LogFbx: FBX Scene Loaded Succesfully
-[2015.10.21-05.28.50:171][489]LogStaticMesh: Building static mesh SM_Wall_2xWindow...
-[2015.10.21-05.28.50:197][489]LogStaticMesh: Built static mesh [0.027318.2s] /Game/MyMeshes/SM_Wall_2xWindow.SM_Wall_2xWindow
-[2015.10.21-05.28.50:208][489]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../../BaiduYunDownload/Introduction_to_Unreal_Engine_4_Project_Files/Digital Tutors - Introduction to Unreal Engine 4/Referenced Files/Meshes/SM_Window_Bottom.FBX)
-[2015.10.21-05.28.50:227][489]LogFbx: Loading FBX Scene from ../../../../../../../BaiduYunDownload/Introduction_to_Unreal_Engine_4_Project_Files/Digital Tutors - Introduction to Unreal Engine 4/Referenced Files/Meshes/SM_Window_Bottom.FBX
-[2015.10.21-05.28.50:238][489]LogFbx: FBX Scene Loaded Succesfully
-[2015.10.21-05.28.50:242][489]LogStaticMesh: Building static mesh SM_Window_Bottom...
-[2015.10.21-05.28.50:274][489]LogStaticMesh: Built static mesh [0.032200.2s] /Game/MyMeshes/SM_Window_Bottom.SM_Window_Bottom
-[2015.10.21-05.28.50:292][489]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../../BaiduYunDownload/Introduction_to_Unreal_Engine_4_Project_Files/Digital Tutors - Introduction to Unreal Engine 4/Referenced Files/Meshes/SM_Window_Top.FBX)
-[2015.10.21-05.28.50:306][489]LogFbx: Loading FBX Scene from ../../../../../../../BaiduYunDownload/Introduction_to_Unreal_Engine_4_Project_Files/Digital Tutors - Introduction to Unreal Engine 4/Referenced Files/Meshes/SM_Window_Top.FBX
-[2015.10.21-05.28.50:317][489]LogFbx: FBX Scene Loaded Succesfully
-[2015.10.21-05.28.50:321][489]LogStaticMesh: Building static mesh SM_Window_Top...
-[2015.10.21-05.28.50:352][489]LogStaticMesh: Built static mesh [0.030776.2s] /Game/MyMeshes/SM_Window_Top.SM_Window_Top
-[2015.10.21-05.29.45:908][198]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B7EEAD3600
-[2015.10.21-05.29.45:911][198]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/My_ComplexRoom' took 0.030
-[2015.10.21-05.29.45:917][198]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyMeshes/SM_Wall_2xWindow] ([1] browsable assets)...
-[2015.10.21-05.29.45:934][198]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/MyMeshes/SM_Wall_2xWindow.SM_Wall_2xWindow]
-[2015.10.21-05.29.45:934][198]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyMeshes/SM_Wall_2xWindow]
-[2015.10.21-05.29.45:934][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMeshes/SM_Wall_2xWindow" FILE="../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/SM_Wall_2xWindow_Auto6.uasset" SILENT=false AUTOSAVING=true
-[2015.10.21-05.29.45:948][198]LogSavePackage: Save=11.559175ms
-[2015.10.21-05.29.45:948][198]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/SM_Wall_2xWindow_Auto6AC3318534C4DBC8C4BD8F98C13CD0600.tmp' to '../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/SM_Wall_2xWindow_Auto6.uasset'
-[2015.10.21-05.29.45:949][198]LogSavePackage: Total save time: 13.464402ms
-[2015.10.21-05.29.45:949][198]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/SM_Wall_2xWindow_Auto6.uasset
-[2015.10.21-05.29.45:954][198]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyMeshes/SM_Door] ([1] browsable assets)...
-[2015.10.21-05.29.45:975][198]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/MyMeshes/SM_Door.SM_Door]
-[2015.10.21-05.29.45:975][198]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyMeshes/SM_Door]
-[2015.10.21-05.29.45:975][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMeshes/SM_Door" FILE="../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/SM_Door_Auto6.uasset" SILENT=false AUTOSAVING=true
-[2015.10.21-05.29.45:990][198]LogSavePackage: Save=13.323825ms
-[2015.10.21-05.29.45:990][198]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/SM_Door_Auto659EA2E8144EF758AC65C2EB1D6D65C87.tmp' to '../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/SM_Door_Auto6.uasset'
-[2015.10.21-05.29.45:992][198]LogSavePackage: Total save time: 15.591063ms
-[2015.10.21-05.29.45:992][198]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/SM_Door_Auto6.uasset
-[2015.10.21-05.29.45:997][198]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyMeshes/SM_DoorFrame] ([1] browsable assets)...
-[2015.10.21-05.29.46:017][198]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/MyMeshes/SM_DoorFrame.SM_DoorFrame]
-[2015.10.21-05.29.46:017][198]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyMeshes/SM_DoorFrame]
-[2015.10.21-05.29.46:017][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMeshes/SM_DoorFrame" FILE="../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/SM_DoorFrame_Auto6.uasset" SILENT=false AUTOSAVING=true
-[2015.10.21-05.29.46:030][198]LogSavePackage: Save=11.134962ms
-[2015.10.21-05.29.46:030][198]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/SM_DoorFrame_Auto615D2E9AF413E09F04441659649D8964D.tmp' to '../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/SM_DoorFrame_Auto6.uasset'
-[2015.10.21-05.29.46:031][198]LogSavePackage: Total save time: 12.963060ms
-[2015.10.21-05.29.46:031][198]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/SM_DoorFrame_Auto6.uasset
-[2015.10.21-05.29.46:036][198]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyMeshes/SM_Electrical_Outlet] ([1] browsable assets)...
-[2015.10.21-05.29.46:058][198]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/MyMeshes/SM_Electrical_Outlet.SM_Electrical_Outlet]
-[2015.10.21-05.29.46:059][198]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyMeshes/SM_Electrical_Outlet]
-[2015.10.21-05.29.46:078][198]LogSavePackage: Save=16.939585ms
-[2015.10.21-05.29.46:078][198]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/SM_Electrical_Outlet_Auto67755A5E0416D99D1CA8168BB2CC9019A.tmp' to '../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/SM_Electrical_Outlet_Auto6.uasset'
-[2015.10.21-05.29.46:080][198]LogSavePackage: Total save time: 19.015864ms
-[2015.10.21-05.29.46:080][198]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/SM_Electrical_Outlet_Auto6.uasset
-[2015.10.21-05.29.46:083][198]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyMeshes/SM_Electrical_Pipe_Curved] ([1] browsable assets)...
-[2015.10.21-05.29.46:104][198]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/MyMeshes/SM_Electrical_Pipe_Curved.SM_Electrical_Pipe_Curved]
-[2015.10.21-05.29.46:104][198]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyMeshes/SM_Electrical_Pipe_Curved]
-[2015.10.21-05.29.46:118][198]LogSavePackage: Save=12.136091ms
-[2015.10.21-05.29.46:118][198]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/SM_Electrical_Pipe_Curved_Auto6FA48276E450F0C24A28B4D9C8EFCEC88.tmp' to '../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/SM_Electrical_Pipe_Curved_Auto6.uasset'
-[2015.10.21-05.29.46:120][198]LogSavePackage: Total save time: 14.652755ms
-[2015.10.21-05.29.46:120][198]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/SM_Electrical_Pipe_Curved_Auto6.uasset
-[2015.10.21-05.29.46:124][198]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyMeshes/SM_Electrical_Pipe_Straight] ([1] browsable assets)...
-[2015.10.21-05.29.46:146][198]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/MyMeshes/SM_Electrical_Pipe_Straight.SM_Electrical_Pipe_Straight]
-[2015.10.21-05.29.46:146][198]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyMeshes/SM_Electrical_Pipe_Straight]
-[2015.10.21-05.29.46:160][198]LogSavePackage: Save=12.678487ms
-[2015.10.21-05.29.46:160][198]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/SM_Electrical_Pipe_Straight_Auto61D6A6FA8485E6083CFEE4594EA956BF6.tmp' to '../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/SM_Electrical_Pipe_Straight_Auto6.uasset'
-[2015.10.21-05.29.46:162][198]LogSavePackage: Total save time: 14.887255ms
-[2015.10.21-05.29.46:162][198]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/SM_Electrical_Pipe_Straight_Auto6.uasset
-[2015.10.21-05.29.46:166][198]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyMeshes/SM_Floor] ([1] browsable assets)...
-[2015.10.21-05.29.46:183][198]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/MyMeshes/SM_Floor.SM_Floor]
-[2015.10.21-05.29.46:183][198]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyMeshes/SM_Floor]
-[2015.10.21-05.29.46:183][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMeshes/SM_Floor" FILE="../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/SM_Floor_Auto6.uasset" SILENT=false AUTOSAVING=true
-[2015.10.21-05.29.46:220][198]LogSavePackage: Save=13.519136ms
-[2015.10.21-05.29.46:220][198]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/SM_Floor_Auto6451C16554BE73CCC9C0593B7D6024BD9.tmp' to '../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/SM_Floor_Auto6.uasset'
-[2015.10.21-05.29.46:223][198]LogSavePackage: Total save time: 16.405586ms
-[2015.10.21-05.29.46:223][198]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/SM_Floor_Auto6.uasset
-[2015.10.21-05.29.46:226][198]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyMeshes/SM_HangingLight] ([1] browsable assets)...
-[2015.10.21-05.29.46:246][198]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/MyMeshes/SM_HangingLight.SM_HangingLight]
-[2015.10.21-05.29.46:246][198]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyMeshes/SM_HangingLight]
-[2015.10.21-05.29.46:246][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMeshes/SM_HangingLight" FILE="../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/SM_HangingLight_Auto6.uasset" SILENT=false AUTOSAVING=true
-[2015.10.21-05.29.46:266][198]LogSavePackage: Save=17.045328ms
-[2015.10.21-05.29.46:266][198]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/SM_HangingLight_Auto60E3A876844A6ABC0E769F1975647A87A.tmp' to '../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/SM_HangingLight_Auto6.uasset'
-[2015.10.21-05.29.46:268][198]LogSavePackage: Total save time: 19.550793ms
-[2015.10.21-05.29.46:268][198]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/SM_HangingLight_Auto6.uasset
-[2015.10.21-05.29.46:272][198]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyMeshes/Material__207] ([1] browsable assets)...
-[2015.10.21-05.29.46:294][198]OBJ SavePackage:     Rendered thumbnail for [Material /Game/MyMeshes/Material__207.Material__207]
-[2015.10.21-05.29.46:294][198]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyMeshes/Material__207]
-[2015.10.21-05.29.46:294][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMeshes/Material__207" FILE="../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/Material__207_Auto6.uasset" SILENT=false AUTOSAVING=true
-[2015.10.21-05.29.46:308][198]LogSavePackage: Save=11.628218ms
-[2015.10.21-05.29.46:308][198]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/Material__207_Auto6D73F3BAE4E71E04A698870AA568895DB.tmp' to '../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/Material__207_Auto6.uasset'
-[2015.10.21-05.29.46:310][198]LogSavePackage: Total save time: 13.513230ms
-[2015.10.21-05.29.46:310][198]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/Material__207_Auto6.uasset
-[2015.10.21-05.29.46:315][198]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyMeshes/SM_Window_Bottom] ([1] browsable assets)...
-[2015.10.21-05.29.46:337][198]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/MyMeshes/SM_Window_Bottom.SM_Window_Bottom]
-[2015.10.21-05.29.46:338][198]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyMeshes/SM_Window_Bottom]
-[2015.10.21-05.29.46:339][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMeshes/SM_Window_Bottom" FILE="../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/SM_Window_Bottom_Auto6.uasset" SILENT=false AUTOSAVING=true
-[2015.10.21-05.29.46:353][198]LogSavePackage: Save=11.080225ms
-[2015.10.21-05.29.46:353][198]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/SM_Window_Bottom_Auto64C5853084ADE857E13AB229C5273B0EB.tmp' to '../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/SM_Window_Bottom_Auto6.uasset'
-[2015.10.21-05.29.46:354][198]LogSavePackage: Total save time: 13.165213ms
-[2015.10.21-05.29.46:355][198]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/SM_Window_Bottom_Auto6.uasset
-[2015.10.21-05.29.46:360][198]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyMeshes/SM_Window_Top] ([1] browsable assets)...
-[2015.10.21-05.29.46:381][198]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/MyMeshes/SM_Window_Top.SM_Window_Top]
-[2015.10.21-05.29.46:382][198]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyMeshes/SM_Window_Top]
-[2015.10.21-05.29.46:382][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMeshes/SM_Window_Top" FILE="../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/SM_Window_Top_Auto6.uasset" SILENT=false AUTOSAVING=true
-[2015.10.21-05.29.46:400][198]LogSavePackage: Save=15.168093ms
-[2015.10.21-05.29.46:400][198]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/SM_Window_Top_Auto6094045454AFF1D24146639BAE43C4C9B.tmp' to '../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/SM_Window_Top_Auto6.uasset'
-[2015.10.21-05.29.46:402][198]LogSavePackage: Total save time: 17.364729ms
-[2015.10.21-05.29.46:402][198]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Saved/Autosaves/Game/MyMeshes/SM_Window_Top_Auto6.uasset
-[2015.10.21-05.29.46:402][198]LogFileHelpers: Auto-saving content packages took 0.489
-[2015.10.21-05.30.55:556][538]LogActorFactory: Actor Factory created SM_Wall_2xWindow
-[2015.10.21-05.30.59:671][758]LogActorFactory: Actor Factory created SM_Wall_2xWindow
-[2015.10.21-05.31.34:787][621]LogEditorViewport: Clicking Background
-[2015.10.21-05.31.41:538][  1]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow)
-[2015.10.21-05.32.33:097][512]LogEditorViewport: Clicking Background
-[2015.10.21-05.33.21:421][944]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow)
-[2015.10.21-05.33.31:363][621]LogEditorViewport: Clicking Background
-[2015.10.21-05.34.38:627][548]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow)
-[2015.10.21-05.39.47:087][981]LogSavePackage: Save=103.619553ms
-[2015.10.21-05.39.47:087][981]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/My_ComplexRoom_Auto7B843C9F3471F834567E4E0A62E389E2F.tmp' to '../../../../../../projects/Introduction/Saved/Autosaves/Game/StarterContent/Maps/My_ComplexRoom_Auto7.umap'
-[2015.10.21-05.39.47:089][981]LogSavePackage: Total save time: 109.514058ms
-[2015.10.21-05.39.47:089][981]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Saved/Autosaves/Game/StarterContent/Maps/My_ComplexRoom_Auto7.umap
-[2015.10.21-05.39.47:092][981]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/My_ComplexRoom' took 0.153
-[2015.10.21-05.39.47:092][981]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.153
-[2015.10.21-05.43.13:757][274]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow)
-[2015.10.21-05.45.26:008][673]Cmd: TRANSACTION UNDO
-[2015.10.21-05.45.26:023][673]LogEditorTransaction: Undo Edit Z
-[2015.10.21-05.45.26:072][673]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/My_ComplexRoom.My_ComplexRoom:PersistentLevel.BathRoom.BrushComponent0) Component already registered.
-[2015.10.21-05.46.05:230][831]Cmd: TRANSACTION UNDO
-[2015.10.21-05.46.05:230][831]LogEditorTransaction: Undo Edit Z
-[2015.10.21-05.46.05:237][831]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/My_ComplexRoom.My_ComplexRoom:PersistentLevel.BathRoom.BrushComponent0) Component already registered.
-[2015.10.21-05.46.05:703][845]Cmd: TRANSACTION UNDO
-[2015.10.21-05.46.05:703][845]LogEditorTransaction: Undo Edit Z
-[2015.10.21-05.46.05:709][845]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/My_ComplexRoom.My_ComplexRoom:PersistentLevel.BathRoom.BrushComponent0) Component already registered.
-[2015.10.21-05.46.08:921][  2]LogSavePackage: Save=139.598022ms
-[2015.10.21-05.46.08:921][  2]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/My_ComplexRoom1E322F1B4080901F04343EA036028705.tmp' to '../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap'
-[2015.10.21-05.46.08:926][  2]LogSavePackage: Total save time: 148.087870ms
-[2015.10.21-05.46.08:926][  2]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap
-[2015.10.21-05.46.08:976][  2]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.335
-[2015.10.21-05.46.08:997][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMeshes/SM_Wall_2xWindow" FILE="../../../../../../projects/Introduction/Content/MyMeshes/SM_Wall_2xWindow.uasset" SILENT=true
-[2015.10.21-05.46.09:015][  2]LogSavePackage: Save=15.527617ms
-[2015.10.21-05.46.09:015][  2]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/SM_Wall_2xWindow56612D7F40A9DC92D33AD8BB8E5A68E5.tmp' to '../../../../../../projects/Introduction/Content/MyMeshes/SM_Wall_2xWindow.uasset'
-[2015.10.21-05.46.09:019][  2]LogSavePackage: Total save time: 19.899432ms
-[2015.10.21-05.46.09:019][  2]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/MyMeshes/SM_Wall_2xWindow.uasset
-[2015.10.21-05.46.09:044][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMeshes/Material__25" FILE="../../../../../../projects/Introduction/Content/MyMeshes/Material__25.uasset" SILENT=true
-[2015.10.21-05.46.09:058][  2]LogSavePackage: Save=12.568079ms
-[2015.10.21-05.46.09:058][  2]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/Material__2534A78ECB4AB26C3FA645F4931330E22D.tmp' to '../../../../../../projects/Introduction/Content/MyMeshes/Material__25.uasset'
-[2015.10.21-05.46.09:062][  2]LogSavePackage: Total save time: 16.970687ms
-[2015.10.21-05.46.09:062][  2]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/MyMeshes/Material__25.uasset
-[2015.10.21-05.46.09:089][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMeshes/SM_Door" FILE="../../../../../../projects/Introduction/Content/MyMeshes/SM_Door.uasset" SILENT=true
-[2015.10.21-05.46.09:107][  2]LogSavePackage: Save=15.315821ms
-[2015.10.21-05.46.09:107][  2]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/SM_DoorD92A0600485C7AE287890D83DBB6BA5D.tmp' to '../../../../../../projects/Introduction/Content/MyMeshes/SM_Door.uasset'
-[2015.10.21-05.46.09:111][  2]LogSavePackage: Total save time: 19.611754ms
-[2015.10.21-05.46.09:111][  2]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/MyMeshes/SM_Door.uasset
-[2015.10.21-05.46.09:135][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMeshes/Wood_Painted" FILE="../../../../../../projects/Introduction/Content/MyMeshes/Wood_Painted.uasset" SILENT=true
-[2015.10.21-05.46.09:149][  2]LogSavePackage: Save=11.919009ms
-[2015.10.21-05.46.09:149][  2]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/Wood_PaintedDC434992451FCF830736D6AE2D446454.tmp' to '../../../../../../projects/Introduction/Content/MyMeshes/Wood_Painted.uasset'
-[2015.10.21-05.46.09:152][  2]LogSavePackage: Total save time: 15.533835ms
-[2015.10.21-05.46.09:152][  2]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/MyMeshes/Wood_Painted.uasset
-[2015.10.21-05.46.09:179][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMeshes/Glass" FILE="../../../../../../projects/Introduction/Content/MyMeshes/Glass.uasset" SILENT=true
-[2015.10.21-05.46.09:195][  2]LogSavePackage: Save=13.396912ms
-[2015.10.21-05.46.09:195][  2]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/GlassCE19722A41D1D925612CF988760F933E.tmp' to '../../../../../../projects/Introduction/Content/MyMeshes/Glass.uasset'
-[2015.10.21-05.46.09:198][  2]LogSavePackage: Total save time: 16.880494ms
-[2015.10.21-05.46.09:198][  2]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/MyMeshes/Glass.uasset
-[2015.10.21-05.46.09:223][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMeshes/Metal" FILE="../../../../../../projects/Introduction/Content/MyMeshes/Metal.uasset" SILENT=true
-[2015.10.21-05.46.09:239][  2]LogSavePackage: Save=14.175050ms
-[2015.10.21-05.46.09:239][  2]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/MetalC9347C584AACF3BC871A0B8BD7F11429.tmp' to '../../../../../../projects/Introduction/Content/MyMeshes/Metal.uasset'
-[2015.10.21-05.46.09:244][  2]LogSavePackage: Total save time: 19.605841ms
-[2015.10.21-05.46.09:244][  2]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/MyMeshes/Metal.uasset
-[2015.10.21-05.46.09:266][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMeshes/SM_DoorFrame" FILE="../../../../../../projects/Introduction/Content/MyMeshes/SM_DoorFrame.uasset" SILENT=true
-[2015.10.21-05.46.09:282][  2]LogSavePackage: Save=14.363520ms
-[2015.10.21-05.46.09:282][  2]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/SM_DoorFrameB527826C4A4013CDDF0400B7E64D16F3.tmp' to '../../../../../../projects/Introduction/Content/MyMeshes/SM_DoorFrame.uasset'
-[2015.10.21-05.46.09:287][  2]LogSavePackage: Total save time: 18.880263ms
-[2015.10.21-05.46.09:287][  2]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/MyMeshes/SM_DoorFrame.uasset
-[2015.10.21-05.46.09:311][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMeshes/SM_Electrical_Outlet" FILE="../../../../../../projects/Introduction/Content/MyMeshes/SM_Electrical_Outlet.uasset" SILENT=true
-[2015.10.21-05.46.09:326][  2]LogSavePackage: Save=12.760903ms
-[2015.10.21-05.46.09:326][  2]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/SM_Electrical_Outlet6C0E9C114E0A7F4DCD89609A618FA1AE.tmp' to '../../../../../../projects/Introduction/Content/MyMeshes/SM_Electrical_Outlet.uasset'
-[2015.10.21-05.46.09:329][  2]LogSavePackage: Total save time: 16.596545ms
-[2015.10.21-05.46.09:329][  2]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/MyMeshes/SM_Electrical_Outlet.uasset
-[2015.10.21-05.46.09:352][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMeshes/SM_Electrical_Pipe_Curved" FILE="../../../../../../projects/Introduction/Content/MyMeshes/SM_Electrical_Pipe_Curved.uasset" SILENT=true
-[2015.10.21-05.46.09:369][  2]LogSavePackage: Save=14.225432ms
-[2015.10.21-05.46.09:369][  2]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/SM_Electrical_Pipe_Curved2EEC5D194978EE5EF494688EAEDCA8EB.tmp' to '../../../../../../projects/Introduction/Content/MyMeshes/SM_Electrical_Pipe_Curved.uasset'
-[2015.10.21-05.46.09:373][  2]LogSavePackage: Total save time: 19.308832ms
-[2015.10.21-05.46.09:373][  2]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/MyMeshes/SM_Electrical_Pipe_Curved.uasset
-[2015.10.21-05.46.09:397][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMeshes/SM_Electrical_Pipe_Straight" FILE="../../../../../../projects/Introduction/Content/MyMeshes/SM_Electrical_Pipe_Straight.uasset" SILENT=true
-[2015.10.21-05.46.09:412][  2]LogSavePackage: Save=13.448539ms
-[2015.10.21-05.46.09:412][  2]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/SM_Electrical_Pipe_Straight04EBA2B54DF7BD6CCF6A5FBC3F1FDA51.tmp' to '../../../../../../projects/Introduction/Content/MyMeshes/SM_Electrical_Pipe_Straight.uasset'
-[2015.10.21-05.46.09:415][  2]LogSavePackage: Total save time: 16.884845ms
-[2015.10.21-05.46.09:415][  2]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/MyMeshes/SM_Electrical_Pipe_Straight.uasset
-[2015.10.21-05.46.09:438][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMeshes/SM_Floor" FILE="../../../../../../projects/Introduction/Content/MyMeshes/SM_Floor.uasset" SILENT=true
-[2015.10.21-05.46.09:455][  2]LogSavePackage: Save=14.894096ms
-[2015.10.21-05.46.09:455][  2]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/SM_FloorBD3A0B0F4D3872E0CED5A08DCCF189C0.tmp' to '../../../../../../projects/Introduction/Content/MyMeshes/SM_Floor.uasset'
-[2015.10.21-05.46.09:459][  2]LogSavePackage: Total save time: 18.970147ms
-[2015.10.21-05.46.09:459][  2]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/MyMeshes/SM_Floor.uasset
-[2015.10.21-05.46.09:480][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMeshes/SM_HangingLight" FILE="../../../../../../projects/Introduction/Content/MyMeshes/SM_HangingLight.uasset" SILENT=true
-[2015.10.21-05.46.09:494][  2]LogSavePackage: Save=12.387384ms
-[2015.10.21-05.46.09:494][  2]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/SM_HangingLightF7A92E9646D39863E543038AA2077525.tmp' to '../../../../../../projects/Introduction/Content/MyMeshes/SM_HangingLight.uasset'
-[2015.10.21-05.46.09:498][  2]LogSavePackage: Total save time: 16.637910ms
-[2015.10.21-05.46.09:498][  2]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/MyMeshes/SM_HangingLight.uasset
-[2015.10.21-05.46.09:525][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMeshes/Material__207" FILE="../../../../../../projects/Introduction/Content/MyMeshes/Material__207.uasset" SILENT=true
-[2015.10.21-05.46.09:541][  2]LogSavePackage: Save=13.026192ms
-[2015.10.21-05.46.09:541][  2]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/Material__207EB673BBE462673E629DC85A163B5D8DB.tmp' to '../../../../../../projects/Introduction/Content/MyMeshes/Material__207.uasset'
-[2015.10.21-05.46.09:545][  2]LogSavePackage: Total save time: 17.637484ms
-[2015.10.21-05.46.09:545][  2]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/MyMeshes/Material__207.uasset
-[2015.10.21-05.46.09:567][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMeshes/SM_Window_Bottom" FILE="../../../../../../projects/Introduction/Content/MyMeshes/SM_Window_Bottom.uasset" SILENT=true
-[2015.10.21-05.46.09:582][  2]LogSavePackage: Save=13.457869ms
-[2015.10.21-05.46.09:582][  2]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/SM_Window_Bottom1C6C3187436C117FFF9F35A6F357172C.tmp' to '../../../../../../projects/Introduction/Content/MyMeshes/SM_Window_Bottom.uasset'
-[2015.10.21-05.46.09:587][  2]LogSavePackage: Total save time: 18.297751ms
-[2015.10.21-05.46.09:587][  2]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/MyMeshes/SM_Window_Bottom.uasset
-[2015.10.21-05.46.09:610][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMeshes/SM_Window_Top" FILE="../../../../../../projects/Introduction/Content/MyMeshes/SM_Window_Top.uasset" SILENT=true
-[2015.10.21-05.46.09:625][  2]LogSavePackage: Save=13.744927ms
-[2015.10.21-05.46.09:625][  2]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/SM_Window_TopFF833B594DE57F4992AA1CB994C32208.tmp' to '../../../../../../projects/Introduction/Content/MyMeshes/SM_Window_Top.uasset'
-[2015.10.21-05.46.09:629][  2]LogSavePackage: Total save time: 17.192435ms
-[2015.10.21-05.46.09:629][  2]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/MyMeshes/SM_Window_Top.uasset
-[2015.10.21-05.46.41:074][690]LogEditorViewport: Clicking Background
-[2015.10.21-05.47.41:238][ 99]LogEditorViewport: Clicking Background
-[2015.10.21-05.48.57:286][294]LogSavePackage: Save=38.130318ms
-[2015.10.21-05.48.57:286][294]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/My_ComplexRoom7088DC244E26CC6773F2478227F129BE.tmp' to '../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap'
-[2015.10.21-05.48.57:290][294]LogSavePackage: Total save time: 44.342984ms
-[2015.10.21-05.48.57:290][294]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap
-[2015.10.21-05.48.57:321][294]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.201
-[2015.10.21-05.48.58:991][381]LogEditorViewport: Clicking Background
-[2015.10.21-05.48.59:505][409]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow)
-[2015.10.21-05.51.23:360][860]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow)
-[2015.10.21-05.51.31:687][484]Cmd: MODE GRID=0
-[2015.10.21-05.52.01:481][387]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow2)
-[2015.10.21-05.52.22:314][767]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow)
-[2015.10.21-05.52.22:998][802]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow2)
-[2015.10.21-05.52.40:258][834]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush2)
-[2015.10.21-05.52.52:286][700]LogEditorViewport: Clicking Background
-[2015.10.21-05.53.05:255][567]LogEditorViewport: Clicking on Actor (LMB): Brush (Cylinder Brush2)
-[2015.10.21-05.53.06:312][642]LogEditorViewport: Clicking Background
-[2015.10.21-05.53.07:383][720]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow2)
-[2015.10.21-05.53.15:098][261]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow)
-[2015.10.21-05.53.49:995][762]LogEditorViewport: Clicking Background
-[2015.10.21-05.55.08:033][239]LogActorFactory: Actor Factory created SM_Floor
-[2015.10.21-05.55.09:412][326]LogActorFactory: Actor Factory created SM_Floor
-[2015.10.21-05.55.10:687][405]LogActorFactory: Actor Factory created SM_Floor
-[2015.10.21-05.55.14:341][600]LogActorFactory: Actor Factory created SM_Electrical_Pipe_Straight
-[2015.10.21-05.55.20:754][920]LogActorFactory: Actor Factory created SM_Window_Bottom
-[2015.10.21-05.55.26:732][272]LogActorFactory: Actor Factory created SM_Window_Bottom
-[2015.10.21-05.55.32:913][602]LogActorFactory: Actor Factory created SM_Window_Top
-[2015.10.21-05.56.14:374][ 34]LogActorFactory: Actor Factory created Wall_400x400
-[2015.10.21-05.56.16:263][151]LogActorFactory: Actor Factory created Wall_400x400
-[2015.10.21-05.56.17:178][200]LogActorFactory: Actor Factory created Wall_400x400
-[2015.10.21-05.56.43:043][873]Cmd: MODE GRID=1
-[2015.10.21-05.57.09:192][514]LogEditorViewport: Clicking Background
-[2015.10.21-05.57.21:133][223]LogEditorViewport: Clicking on Actor (LMB): Brush (Cylinder Brush2)
-[2015.10.21-05.57.22:861][340]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
-[2015.10.21-05.57.33:192][ 81]Cmd: MODE GRID=0
-[2015.10.21-05.57.49:242][ 30]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow2)
-[2015.10.21-05.57.59:632][662]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow2)
-[2015.10.21-05.58.00:275][708]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow2)
-[2015.10.21-05.58.02:136][832]LogEditorViewport: Clicking Background
-[2015.10.21-05.58.02:878][887]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
-[2015.10.21-05.58.06:836][179]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow2)
-[2015.10.21-05.58.34:199][814]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
-[2015.10.21-05.58.35:051][858]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow2)
-[2015.10.21-05.58.37:115][961]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
-[2015.10.21-05.58.42:918][249]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
-[2015.10.21-05.58.44:093][305]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow2)
-[2015.10.21-05.58.45:008][351]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow2)
-[2015.10.21-05.58.45:573][380]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow2)
-[2015.10.21-05.58.47:536][481]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
-[2015.10.21-05.58.54:123][913]LogEditorViewport: Clicking on Actor (LMB): Brush (window2)
-[2015.10.21-05.58.56:976][120]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow2)
-[2015.10.21-05.59.19:293][580]LogEditorViewport: Clicking Background
-[2015.10.21-05.59.51:334][ 70]LogSavePackage: Save=37.747780ms
-[2015.10.21-05.59.51:334][ 70]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/My_ComplexRoom_Auto8C328FED54425C33123EA0498D3C9DE14.tmp' to '../../../../../../projects/Introduction/Saved/Autosaves/Game/StarterContent/Maps/My_ComplexRoom_Auto8.umap'
-[2015.10.21-05.59.51:336][ 70]LogSavePackage: Total save time: 43.306395ms
-[2015.10.21-05.59.51:336][ 70]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Saved/Autosaves/Game/StarterContent/Maps/My_ComplexRoom_Auto8.umap
-[2015.10.21-05.59.51:338][ 70]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/My_ComplexRoom' took 0.083
-[2015.10.21-05.59.51:338][ 70]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.083
-[2015.10.21-06.19.19:644][574]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.10.21-06.19.19:683][574]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (搜狗拼音输入法).
-[2015.10.21-06.19.20:447][603]LogSavePackage: Save=37.354046ms
-[2015.10.21-06.19.20:447][603]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/My_ComplexRoom0F5DC7534B7C714E13ABCF815E0B0B8A.tmp' to '../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap'
-[2015.10.21-06.19.20:481][603]LogSavePackage: Total save time: 76.006543ms
-[2015.10.21-06.19.20:481][603]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap
-[2015.10.21-06.19.20:513][603]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.264
-[2015.10.21-06.19.21:640][661]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (搜狗拼音输入法).
-[2015.10.21-06.19.22:059][662]Cmd: QUIT_EDITOR
-[2015.10.21-06.19.23:302][662]LogExit: Preparing to exit.
-[2015.10.21-06.19.24:561][662]LogExit: Editor shut down
-[2015.10.21-06.19.24:564][662]LogExit: Transaction tracking system shut down
-[2015.10.21-06.19.24:575][662]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B7EEA8F880
-[2015.10.21-06.19.24:576][662]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B7EF86CFE0
-[2015.10.21-06.19.24:585][662]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B7EF7DD6C0
-[2015.10.21-06.19.24:585][662]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B7F8E8A340
-[2015.10.21-06.19.24:993][662]LogExit: Object subsystem successfully closed.
-[2015.10.21-06.19.25:029][662]LogD3D11RHI: Shutdown
-[2015.10.21-06.19.25:029][662]LogD3D11RHI: CleanupD3DDevice
-[2015.10.21-06.19.25:152][662]LogD3D11RHI: ~FD3D11DynamicRHI
-[2015.10.21-06.19.25:175][662]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (199)
-[2015.10.21-06.19.25:175][662]LogModuleManager: Shutting down and abandoning module NewLevelDialog (198)
-[2015.10.21-06.19.25:175][662]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
-[2015.10.21-06.19.25:175][662]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
-[2015.10.21-06.19.25:175][662]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
-[2015.10.21-06.19.25:175][662]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
-[2015.10.21-06.19.25:175][662]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
-[2015.10.21-06.19.25:214][662]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
-[2015.10.21-06.19.25:214][662]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
-[2015.10.21-06.19.25:214][662]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
-[2015.10.21-06.19.25:214][662]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
-[2015.10.21-06.19.25:214][662]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
-[2015.10.21-06.19.25:214][662]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
-[2015.10.21-06.19.25:214][662]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
-[2015.10.21-06.19.25:214][662]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
-[2015.10.21-06.19.25:214][662]LogModuleManager: Shutting down and abandoning module BspMode (184)
-[2015.10.21-06.19.25:215][662]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
-[2015.10.21-06.19.25:215][662]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
-[2015.10.21-06.19.25:215][662]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
-[2015.10.21-06.19.25:215][662]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
-[2015.10.21-06.19.25:215][662]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
-[2015.10.21-06.19.25:215][662]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
-[2015.10.21-06.19.25:215][662]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
-[2015.10.21-06.19.25:215][662]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
-[2015.10.21-06.19.25:241][662]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
-[2015.10.21-06.19.25:242][662]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
-[2015.10.21-06.19.25:242][662]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
-[2015.10.21-06.19.25:242][662]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
-[2015.10.21-06.19.25:480][662]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
-[2015.10.21-06.19.25:480][662]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
-[2015.10.21-06.19.25:480][662]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
-[2015.10.21-06.19.25:480][662]LogModuleManager: Shutting down and abandoning module MergeActors (168)
-[2015.10.21-06.19.25:480][662]LogModuleManager: Shutting down and abandoning module SizeMap (167)
-[2015.10.21-06.19.25:480][662]LogModuleManager: Shutting down and abandoning module TreeMap (166)
-[2015.10.21-06.19.25:480][662]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
-[2015.10.21-06.19.25:480][662]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
-[2015.10.21-06.19.25:480][662]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
-[2015.10.21-06.19.25:480][662]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
-[2015.10.21-06.19.25:480][662]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
-[2015.10.21-06.19.25:480][662]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
-[2015.10.21-06.19.25:480][662]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
-[2015.10.21-06.19.25:480][662]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
-[2015.10.21-06.19.25:480][662]LogModuleManager: Shutting down and abandoning module XmlParser (157)
-[2015.10.21-06.19.25:480][662]LogModuleManager: Shutting down and abandoning module Blutility (156)
-[2015.10.21-06.19.25:480][662]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
-[2015.10.21-06.19.25:481][662]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
-[2015.10.21-06.19.25:481][662]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
-[2015.10.21-06.19.25:481][662]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
-[2015.10.21-06.19.25:482][662]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
-[2015.10.21-06.19.25:482][662]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
-[2015.10.21-06.19.25:482][662]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
-[2015.10.21-06.19.25:482][662]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
-[2015.10.21-06.19.25:482][662]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
-[2015.10.21-06.19.25:482][662]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
-[2015.10.21-06.19.25:482][662]LogModuleManager: Shutting down and abandoning module AutomationController (145)
-[2015.10.21-06.19.25:482][662]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
-[2015.10.21-06.19.25:482][662]LogModuleManager: Shutting down and abandoning module Layers (143)
-[2015.10.21-06.19.25:482][662]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
-[2015.10.21-06.19.25:482][662]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
-[2015.10.21-06.19.25:482][662]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
-[2015.10.21-06.19.25:482][662]LogModuleManager: Shutting down and abandoning module Persona (139)
-[2015.10.21-06.19.25:482][662]LogModuleManager: Shutting down and abandoning module Kismet (138)
-[2015.10.21-06.19.25:482][662]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
-[2015.10.21-06.19.25:483][662]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
-[2015.10.21-06.19.25:483][662]LogModuleManager: Shutting down and abandoning module Toolbox (135)
-[2015.10.21-06.19.25:483][662]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
-[2015.10.21-06.19.25:483][662]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
-[2015.10.21-06.19.25:483][662]LogModuleManager: Shutting down and abandoning module OutputLog (132)
-[2015.10.21-06.19.25:483][662]LogModuleManager: Shutting down and abandoning module GammaUI (131)
-[2015.10.21-06.19.25:483][662]LogModuleManager: Shutting down and abandoning module Documentation (130)
-[2015.10.21-06.19.25:483][662]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
-[2015.10.21-06.19.25:483][662]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
-[2015.10.21-06.19.25:483][662]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
-[2015.10.21-06.19.25:483][662]LogModuleManager: Shutting down and abandoning module Analytics (126)
-[2015.10.21-06.19.25:483][662]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
-[2015.10.21-06.19.25:483][662]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
-[2015.10.21-06.19.25:483][662]LogModuleManager: Shutting down and abandoning module AIModule (123)
-[2015.10.21-06.19.25:483][662]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
-[2015.10.21-06.19.25:602][662]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
-[2015.10.21-06.19.25:602][662]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
-[2015.10.21-06.19.25:602][662]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
-[2015.10.21-06.19.25:602][662]LogModuleManager: Shutting down and abandoning module SteamVR (118)
-[2015.10.21-06.19.25:602][662]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
-[2015.10.21-06.19.25:602][662]LogModuleManager: Shutting down and abandoning module OculusRift (116)
-[2015.10.21-06.19.25:602][662]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
-[2015.10.21-06.19.25:602][662]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
-[2015.10.21-06.19.25:616][662]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
-[2015.10.21-06.19.25:616][662]LogModuleManager: Shutting down and abandoning module CableComponent (112)
-[2015.10.21-06.19.25:616][662]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
-[2015.10.21-06.19.25:616][662]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
-[2015.10.21-06.19.25:616][662]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
-[2015.10.21-06.19.25:616][662]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
-[2015.10.21-06.19.25:616][662]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
-[2015.10.21-06.19.25:616][662]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
-[2015.10.21-06.19.25:616][662]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
-[2015.10.21-06.19.25:616][662]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
-[2015.10.21-06.19.25:616][662]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
-[2015.10.21-06.19.25:617][662]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
-[2015.10.21-06.19.25:617][662]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
-[2015.10.21-06.19.25:617][662]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
-[2015.10.21-06.19.25:617][662]LogModuleManager: Shutting down and abandoning module SourceControl (99)
-[2015.10.21-06.19.25:617][662]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
-[2015.10.21-06.19.25:617][662]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
-[2015.10.21-06.19.25:617][662]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
-[2015.10.21-06.19.25:617][662]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
-[2015.10.21-06.19.25:617][662]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
-[2015.10.21-06.19.25:617][662]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
-[2015.10.21-06.19.25:617][662]LogModuleManager: Shutting down and abandoning module HotReload (92)
-[2015.10.21-06.19.25:617][662]LogModuleManager: Shutting down and abandoning module MainFrame (91)
-[2015.10.21-06.19.25:617][662]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
-[2015.10.21-06.19.25:619][662]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
-[2015.10.21-06.19.25:623][662]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
-[2015.10.21-06.19.25:743][662]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
-[2015.10.21-06.19.25:746][662]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
-[2015.10.21-06.19.25:746][662]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
-[2015.10.21-06.19.25:847][662]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
-[2015.10.21-06.19.25:847][662]LogModuleManager: Shutting down and abandoning module Paper2D (83)
-[2015.10.21-06.19.25:847][662]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
-[2015.10.21-06.19.25:856][662]LogModuleManager: Shutting down and abandoning module Media (81)
-[2015.10.21-06.19.25:856][662]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
-[2015.10.21-06.19.25:856][662]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
-[2015.10.21-06.19.25:856][662]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
-[2015.10.21-06.19.25:856][662]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
-[2015.10.21-06.19.25:856][662]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
-[2015.10.21-06.19.25:856][662]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
-[2015.10.21-06.19.25:856][662]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
-[2015.10.21-06.19.25:856][662]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
-[2015.10.21-06.19.25:856][662]LogModuleManager: Shutting down and abandoning module MessageLog (72)
-[2015.10.21-06.19.25:856][662]LogModuleManager: Shutting down and abandoning module Sequencer (71)
-[2015.10.21-06.19.25:856][662]LogModuleManager: Shutting down and abandoning module AssetTools (70)
-[2015.10.21-06.19.25:856][662]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
-[2015.10.21-06.19.25:857][662]LogModuleManager: Shutting down and abandoning module UMG (68)
-[2015.10.21-06.19.25:857][662]LogModuleManager: Shutting down and abandoning module Slate (67)
-[2015.10.21-06.19.25:857][662]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
-[2015.10.21-06.19.25:861][662]LogModuleManager: Shutting down and abandoning module SessionServices (65)
-[2015.10.21-06.19.25:861][662]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
-[2015.10.21-06.19.25:861][662]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
-[2015.10.21-06.19.25:861][662]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
-[2015.10.21-06.19.25:861][662]LogModuleManager: Shutting down and abandoning module Networking (60)
-[2015.10.21-06.19.25:861][662]LogModuleManager: Shutting down and abandoning module Core (59)
-[2015.10.21-06.19.25:861][662]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
-[2015.10.21-06.19.25:861][662]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
-[2015.10.21-06.19.25:861][662]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
-[2015.10.21-06.19.25:861][662]LogModuleManager: Shutting down and abandoning module CookingStats (55)
-[2015.10.21-06.19.25:870][662]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
-[2015.10.21-06.19.25:903][662]LogDerivedDataCache: Shutdown
-[2015.10.21-06.19.25:903][662]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
-[2015.10.21-06.19.25:903][662]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
-[2015.10.21-06.19.25:903][662]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
-[2015.10.21-06.19.25:903][662]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
-[2015.10.21-06.19.25:903][662]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
-[2015.10.21-06.19.25:903][662]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
-[2015.10.21-06.19.25:903][662]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
-[2015.10.21-06.19.25:903][662]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
-[2015.10.21-06.19.25:903][662]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
-[2015.10.21-06.19.25:903][662]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
-[2015.10.21-06.19.25:903][662]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
-[2015.10.21-06.19.25:903][662]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
-[2015.10.21-06.19.25:903][662]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
-[2015.10.21-06.19.25:904][662]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
-[2015.10.21-06.19.25:904][662]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
-[2015.10.21-06.19.25:904][662]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
-[2015.10.21-06.19.25:904][662]LogModuleManager: Shutting down and abandoning module Messaging (37)
-[2015.10.21-06.19.25:904][662]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
-[2015.10.21-06.19.25:904][662]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
-[2015.10.21-06.19.25:904][662]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
-[2015.10.21-06.19.25:904][662]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
-[2015.10.21-06.19.25:904][662]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
-[2015.10.21-06.19.25:904][662]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
-[2015.10.21-06.19.25:904][662]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
-[2015.10.21-06.19.25:904][662]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
-[2015.10.21-06.19.25:904][662]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
-[2015.10.21-06.19.25:904][662]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
-[2015.10.21-06.19.25:904][662]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
-[2015.10.21-06.19.25:904][662]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
-[2015.10.21-06.19.25:904][662]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
-[2015.10.21-06.19.25:904][662]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
-[2015.10.21-06.19.25:904][662]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
-[2015.10.21-06.19.25:904][662]LogModuleManager: Shutting down and abandoning module InputCore (21)
-[2015.10.21-06.19.25:904][662]LogModuleManager: Shutting down and abandoning module Settings (20)
-[2015.10.21-06.19.25:904][662]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
-[2015.10.21-06.19.25:904][662]LogModuleManager: Shutting down and abandoning module HTTP (17)
-[2015.10.21-06.19.30:408][662]LogModuleManager: Shutting down and abandoning module XMPP (16)
-[2015.10.21-06.19.30:408][662]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2015.10.21-06.19.30:408][662]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2015.10.21-06.19.30:408][662]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2015.10.21-06.19.30:408][662]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2015.10.21-06.19.30:408][662]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2015.10.21-06.19.30:420][662]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2015.10.21-06.19.30:420][662]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2015.10.21-06.19.30:420][662]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2015.10.21-06.19.30:420][662]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.10.21-06.19.30:420][662]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.10.21-06.19.30:420][662]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.10.21-06.19.30:420][662]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.10.21-06.19.30:420][662]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.10.21-06.19.30:420][662]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.10.21-06.19.30:421][662]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.10.21-06.19.30:421][662]LogExit: Exiting.
-[2015.10.21-06.19.30:442][662]Log file closed, 10/21/15 14:19:30
+﻿[2015.10.22-06.45.09:426][  0]Log file open, 10/22/15 14:45:09
+[2015.10.22-06.45.09:426][  0]LogInit:Display: Running engine for game: Introduction
+[2015.10.22-06.45.09:426][  0]LogInit:Display: RandInit(-105164750) SRandInit(-105164749).
+[2015.10.22-06.45.09:426][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.10.22-06.45.09:426][  0]LogStats: Stats thread started at 0.066164
+[2015.10.22-06.45.09:426][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.22-06.45.09:426][  0]LogInit: API Version: 2672455
+[2015.10.22-06.45.09:426][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.10.22-06.45.09:426][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.22-06.45.09:426][  0]LogInit: Build Configuration: Development
+[2015.10.22-06.45.09:426][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.22-06.45.09:426][  0]LogInit: Command line: 
+[2015.10.22-06.45.09:426][  0]LogInit: Base directory: E:/UE4/app/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.22-06.45.09:426][  0]LogInit: Rocket: 1
+[2015.10.22-06.45.09:438][  0]LogInit: Using libcurl 7.41.0
+[2015.10.22-06.45.09:438][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.22-06.45.09:438][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.22-06.45.09:438][  0]LogInit:  - other features:
+[2015.10.22-06.45.09:438][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.22-06.45.09:438][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.22-06.45.09:438][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.22-06.45.09:438][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.22-06.45.09:438][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.22-06.45.09:438][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.22-06.45.09:438][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.22-06.45.09:438][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.22-06.45.09:438][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.22-06.45.09:438][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.22-06.45.09:449][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.22-06.45.09:461][  0]LogInit: Object subsystem initialized
+[2015.10.22-06.45.09:463][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.22-06.45.09:463][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.22-06.45.09:476][  0]LogInit: Computer: ZH
+[2015.10.22-06.45.09:476][  0]LogInit: User: zhouhui
+[2015.10.22-06.45.09:476][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.10.22-06.45.09:476][  0]LogInit: High frequency timer resolution =3.215368 MHz
+[2015.10.22-06.45.09:476][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2015.10.22-06.45.09:476][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.22-06.45.09:476][  0]LogMemory: Process Physical Memory: 54.38 MB used, 54.38 MB peak
+[2015.10.22-06.45.09:476][  0]LogMemory: Process Virtual Memory: 55.20 MB used, 55.20 MB peak
+[2015.10.22-06.45.09:476][  0]LogMemory: Physical Memory: 4946.60 MB used, 8162.07 MB total
+[2015.10.22-06.45.09:476][  0]LogMemory: Virtual Memory: 363.12 MB used, 134217728.00 MB total
+[2015.10.22-06.45.09:514][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2015.10.22-06.45.10:571][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 620 (Feature Level 11_0)
+[2015.10.22-06.45.10:571][  0]LogD3D11RHI: Adapter has 973MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 1 output[s]
+[2015.10.22-06.45.10:572][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.10.22-06.45.10:572][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4081MB of shared system memory, 0 output[s]
+[2015.10.22-06.45.10:572][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.22-06.45.10:576][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.22-06.45.10:576][  0]LogRHI: Texture pool is 681 MB (70% of 973 MB)
+[2015.10.22-06.45.10:586][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.22-06.45.10:603][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../projects/Introduction/Intermediate/Shaders/WorkingDirectory/2528/).
+[2015.10.22-06.45.10:603][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../projects/Introduction/Intermediate/Shaders/tmp/3C2362C546629D6ABED5539AAD091DD4/'.
+[2015.10.22-06.45.10:603][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.22-06.45.12:060][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.22-06.45.12:067][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.22-06.45.12:074][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.22-06.45.12:080][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.22-06.45.12:089][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.22-06.45.12:095][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.22-06.45.12:100][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.22-06.45.12:105][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.22-06.45.12:109][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.22-06.45.12:113][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.22-06.45.12:119][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.22-06.45.12:125][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.22-06.45.12:126][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.22-06.45.12:144][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.22-06.45.12:147][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.22-06.45.12:151][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.22-06.45.12:155][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.22-06.45.12:155][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.22-06.45.12:256][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.22-06.45.12:304][  0]LogDerivedDataCache: Loaded boot cache 0.05s 41MB C:/Users/zhouhui/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.22-06.45.12:304][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/zhouhui/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.22-06.45.12:304][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../projects/Introduction/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.22-06.45.12:304][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.22-06.45.12:304][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../projects/Introduction/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.22-06.45.12:304][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.22-06.45.12:478][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.22-06.45.12:491][  0]LogDerivedDataCache: Using Local data cache path C:/Users/zhouhui/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.22-06.45.12:719][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.22-06.45.12:723][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.22-06.45.12:872][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.22-06.45.12:872][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.22-06.45.13:150][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.22-06.45.13:926][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.22-06.45.14:027][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2015.10.22-06.45.14:302][  0]SourceControl: Info Source control is disabled
+[2015.10.22-06.45.14:332][  0]SourceControl: Info Source control is disabled
+[2015.10.22-06.45.14:349][  0]SourceControl: Info Source control is disabled
+[2015.10.22-06.45.14:366][  0]SourceControl: Info Source control is disabled
+[2015.10.22-06.45.14:551][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.22-06.45.14:639][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.10.22-06.45.14:639][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2015.10.22-06.45.14:716][  0]LogEngine: Initializing Engine...
+[2015.10.22-06.45.14:719][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.10.22-06.45.14:721][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.10.22-06.45.14:882][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.22-06.45.14:888][  0]LogInit: XAudio2 using '扬声器 (Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.22-06.45.14:927][  0]LogInit: FAudioDevice initialized.
+[2015.10.22-06.45.14:953][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/zhouhui/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.22-06.45.14:956][  0]LogInit: Texture streaming: Enabled
+[2015.10.22-06.45.14:962][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.22-06.45.14:962][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.22-06.45.14:962][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId b6ebb264451e50e1159cad98c2cced92|b0673e94d52d486cbdf3580f32be2351|aa830f65-14fc-42d2-8598-ea137c4336f1
+[2015.10.22-06.45.14:962][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.22-06.45.15:026][  0]LogInit: Transaction tracking system initialized
+[2015.10.22-06.45.15:068][  0]BlueprintLog: New page: Editor Load
+[2015.10.22-06.45.15:183][  0]LocalizationService: Info Localization service is disabled
+[2015.10.22-06.45.15:563][  0]LogConsoleResponse:Display: 
+[2015.10.22-06.45.15:765][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.22-06.45.15:863][  0]LogFileCache: Scanning file cache for directory 'E:/UE4/projects/Introduction/Content/' took 0.01s
+[2015.10.22-06.45.15:863][  0]SourceControl: Info Source control is disabled
+[2015.10.22-06.45.15:863][  0]Cmd: MAP LOAD FILE="../../../../../../projects/Introduction/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.22-06.45.15:920][  0]LightingResults: New page: Lighting Build
+[2015.10.22-06.45.15:925][  0]MapCheck: New page: Map Check
+[2015.10.22-06.45.15:925][  0]LightingResults: New page: Lighting Build
+[2015.10.22-06.45.15:948][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003FDEEDDC60
+[2015.10.22-06.45.17:212][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.10.22-06.45.17:237][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.22-06.45.17:238][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.22-06.45.17:311][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 72.437ms to complete.
+[2015.10.22-06.45.17:311][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.447
+[2015.10.22-06.45.17:488][  0]LogCollectionManager: Loaded 0 collections in 0.003857 seconds
+[2015.10.22-06.45.17:541][  0]LogFileCache: Scanning file cache for directory 'E:/UE4/projects/Introduction/Saved/Collections/' took 0.01s
+[2015.10.22-06.45.17:541][  0]LogFileCache: Scanning file cache for directory 'E:/UE4/projects/Introduction/Content/Developers/zhouhui/Collections/' took 0.01s
+[2015.10.22-06.45.17:541][  0]LogFileCache: Scanning file cache for directory 'E:/UE4/projects/Introduction/Content/Collections/' took 0.01s
+[2015.10.22-06.45.17:541][  0]LogContentBrowser: Native class hierarchy populated in 0.0136 seconds. Added 1867 classes and 333 folders.
+[2015.10.22-06.45.17:547][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2015.10.22-06.45.17:558][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.10.22-06.45.18:377][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.10.22-06.45.18:397][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2015.10.22-06.45.18:536][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.22-06.45.18:542][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.10.22-06.45.18:565][  0]LogLoad: Full Startup: 9.85 seconds (BP compile: 0.09 seconds)
+[2015.10.22-06.45.18:965][  0]LogContentStreaming: Texture pool size now 200 MB
+[2015.10.22-06.45.19:133][  0]LogRenderer: Reallocating scene render targets to support 984x456 (Frame:2).
+[2015.10.22-06.45.19:365][  3]LogAssetRegistry: Asset discovery search completed in 5.3489 seconds
+[2015.10.22-06.45.19:365][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.10.22-06.45.19:365][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
+[2015.10.22-06.45.25:424][263]Cmd: MAP LOAD FILE="../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.22-06.45.25:444][263]LightingResults: New page: Lighting Build
+[2015.10.22-06.45.25:467][263]LoadErrors: New page: Loading map: My_ComplexRoom.umap
+[2015.10.22-06.45.25:468][263]MapCheck: New page: Map Check
+[2015.10.22-06.45.25:468][263]LightingResults: New page: Lighting Build
+[2015.10.22-06.45.25:489][263]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003FCE828EA0
+[2015.10.22-06.45.25:682][263]LogAIModule: Creating AISystem for world My_ComplexRoom
+[2015.10.22-06.45.25:734][263]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.22-06.45.25:770][263]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.22-06.45.25:832][263]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 62.183ms to complete.
+[2015.10.22-06.45.25:832][263]LogFileHelpers: Loading map 'My_ComplexRoom' took 0.410
+[2015.10.22-06.45.29:271][454]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow2)
+[2015.10.22-06.45.34:710][735]LightingResults: New page: Lighting Build
+[2015.10.22-06.45.34:711][735]MapCheck: New page: Map Check
+[2015.10.22-06.45.34:711][735]LightingResults: New page: Lighting Build
+[2015.10.22-06.45.34:734][735]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003FCFF1B7E0
+[2015.10.22-06.45.34:738][735]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.22-06.45.34:791][735]LoadErrors: New page: New Map
+[2015.10.22-06.45.34:863][739]LogEditorViewport: Clicking Background
+[2015.10.22-06.45.41:298][145]Cmd: MAP LOAD FILE="../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.22-06.45.41:313][145]LightingResults: New page: Lighting Build
+[2015.10.22-06.45.41:335][145]LoadErrors: New page: Loading map: My_ComplexRoom.umap
+[2015.10.22-06.45.41:335][145]MapCheck: New page: Map Check
+[2015.10.22-06.45.41:335][145]LightingResults: New page: Lighting Build
+[2015.10.22-06.45.41:356][145]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003FE95E5580
+[2015.10.22-06.45.41:372][145]LogAIModule: Creating AISystem for world My_ComplexRoom
+[2015.10.22-06.45.41:439][145]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.22-06.45.41:473][145]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.22-06.45.41:533][145]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 59.716ms to complete.
+[2015.10.22-06.45.41:533][145]LogFileHelpers: Loading map 'My_ComplexRoom' took 0.237
+[2015.10.22-06.45.48:899][618]LogEditorViewport: Clicking Background
+[2015.10.22-06.45.49:819][689]LogEditorViewport: Clicking on Actor (LMB): Brush (Cylinder Brush2)
+[2015.10.22-06.45.51:890][843]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
+[2015.10.22-06.46.14:594][494]LogEditorViewport: Clicking Background
+[2015.10.22-06.46.22:145][897]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow2)
+[2015.10.22-06.46.22:963][938]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
+[2015.10.22-06.46.32:455][617]Cmd: DUPLICATE
+[2015.10.22-06.46.32:455][617]Cmd: ACTOR DUPLICATE
+[2015.10.22-06.46.45:376][565]Cmd: DUPLICATE
+[2015.10.22-06.46.45:376][565]Cmd: ACTOR DUPLICATE
+[2015.10.22-06.47.07:855][194]LogEditorViewport: Clicking Background
+[2015.10.22-06.47.18:552][864]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x401)
+[2015.10.22-06.47.19:035][883]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
+[2015.10.22-06.47.19:937][930]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x401)
+[2015.10.22-06.47.45:866][726]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x401)
+[2015.10.22-06.48.01:569][912]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
+[2015.10.22-06.48.02:923][ 12]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x401)
+[2015.10.22-06.48.05:800][226]LogEditorViewport: Clicking Background
+[2015.10.22-06.48.24:494][339]LogHttp:Warning: Timeout processing Http request. 0000003FE9ABB200
+[2015.10.22-06.48.35:243][160]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow2)
+[2015.10.22-06.49.19:658][194]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow)
+[2015.10.22-06.49.36:969][251]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush2)
+[2015.10.22-06.50.34:665][101]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow3)
+[2015.10.22-06.50.35:779][176]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Wall_2xWindow)
+[2015.10.22-06.50.37:197][274]LogEditorViewport: Clicking on Actor (CTRL LMB): Brush (Cylinder Brush)
+[2015.10.22-06.50.38:524][367]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Wall_2xWindow2)
+[2015.10.22-06.50.39:064][405]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush4)
+[2015.10.22-06.50.43:903][752]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow3)
+[2015.10.22-06.52.04:596][ 88]LogEditorViewport: Clicking Background
+[2015.10.22-06.55.42:109][115]LogSavePackage: Save=40.447002ms
+[2015.10.22-06.55.42:109][115]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/My_ComplexRoom_Auto1F4F3A48942855DEE742BDE8EC1E94990.tmp' to '../../../../../../projects/Introduction/Saved/Autosaves/Game/StarterContent/Maps/My_ComplexRoom_Auto1.umap'
+[2015.10.22-06.55.42:113][115]LogSavePackage: Total save time: 50.997585ms
+[2015.10.22-06.55.42:113][115]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Saved/Autosaves/Game/StarterContent/Maps/My_ComplexRoom_Auto1.umap
+[2015.10.22-06.55.42:116][115]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/My_ComplexRoom' took 0.089
+[2015.10.22-06.55.42:116][115]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.089
+[2015.10.22-06.58.54:174][807]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x403)
+[2015.10.22-06.58.54:502][820]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2015.10.22-07.00.26:943][280]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow2)
+[2015.10.22-07.00.44:012][180]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow2)
+[2015.10.22-07.01.29:803][602]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow3)
+[2015.10.22-07.01.44:954][416]Cmd: TRANSACTION UNDO
+[2015.10.22-07.01.44:954][416]LogEditorTransaction: Undo Move Actors
+[2015.10.22-07.01.57:002][152]LogEditorViewport: Clicking on Actor (LMB): Brush (Cylinder Brush)
+[2015.10.22-07.01.57:968][224]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush2)
+[2015.10.22-07.01.59:896][367]LogEditorViewport: Clicking on Actor (LMB): Brush (Cylinder Brush)
+[2015.10.22-07.02.01:028][448]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x403)
+[2015.10.22-07.02.13:747][371]LogEditorViewport: Clicking on Actor (LMB): Brush (Bath Room)
+[2015.10.22-07.02.14:703][438]LogEditorViewport: Clicking Background
+[2015.10.22-07.02.28:746][493]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush)
+[2015.10.22-07.02.58:535][204]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow3)
+[2015.10.22-07.03.40:944][691]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow)
+[2015.10.22-07.04.19:276][943]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
+[2015.10.22-07.04.30:312][516]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow2)
+[2015.10.22-07.04.32:195][614]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
+[2015.10.22-07.04.35:204][773]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
+[2015.10.22-07.07.27:890][726]LogSavePackage: Save=53.794777ms
+[2015.10.22-07.07.27:890][726]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/My_ComplexRoom_Auto220F0BD694C78F3E6CDEC9EA60D0354B9.tmp' to '../../../../../../projects/Introduction/Saved/Autosaves/Game/StarterContent/Maps/My_ComplexRoom_Auto2.umap'
+[2015.10.22-07.07.27:893][726]LogSavePackage: Total save time: 63.013624ms
+[2015.10.22-07.07.27:893][726]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Saved/Autosaves/Game/StarterContent/Maps/My_ComplexRoom_Auto2.umap
+[2015.10.22-07.07.27:896][726]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/My_ComplexRoom' took 0.114
+[2015.10.22-07.07.27:896][726]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.114
+[2015.10.22-07.09.13:726][358]Cmd: TRANSACTION UNDO
+[2015.10.22-07.09.13:726][358]LogEditorTransaction: Undo Move Actors
+[2015.10.22-07.10.03:466][829]LogEditorViewport: Clicking Background
+[2015.10.22-07.16.41:188][104]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x403)
+[2015.10.22-07.16.49:230][679]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush2)
+[2015.10.22-07.17.03:236][648]LogGeometryMode:Warning: Unable to find CylinderBrush2 Brush(s) in new BSP
+[2015.10.22-07.17.03:236][648]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.10.22-07.17.24:473][952]LogEditorViewport: Clicking on Actor (LMB): Brush (Cylinder Brush2)
+[2015.10.22-07.17.26:210][ 79]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow3)
+[2015.10.22-07.17.42:033][ 91]LogEditorViewport: Clicking Background
+[2015.10.22-07.18.20:131][677]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
+[2015.10.22-07.18.29:002][329]LogEditorViewport: Clicking Background
+[2015.10.22-07.19.18:667][695]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x405)
+[2015.10.22-07.19.34:965][580]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x406)
+[2015.10.22-07.19.59:451][228]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush2)
+[2015.10.22-07.20.08:897][925]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x406)
+[2015.10.22-07.20.45:506][786]LogActorFactory: Actor Factory created Wall_Door_400x400
+[2015.10.22-07.20.49:744][ 23]LogActorFactory: Actor Factory created Wall_Door_400x400
+[2015.10.22-07.21.41:074][784]LogEditorViewport: Clicking Background
+[2015.10.22-07.21.48:125][124]LogSavePackage: Save=50.223179ms
+[2015.10.22-07.21.48:125][124]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/My_ComplexRoomB6DF4E924C6916E0CF75F2B79F80A88E.tmp' to '../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.22-07.21.48:133][124]LogSavePackage: Total save time: 63.938871ms
+[2015.10.22-07.21.48:133][124]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.22-07.21.48:173][124]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.218
+[2015.10.22-07.32.07:148][788]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x406)
+[2015.10.22-07.33.11:483][396]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x405)
+[2015.10.22-07.33.47:206][ 45]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x403)
+[2015.10.22-07.34.15:871][971]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x403)
+[2015.10.22-07.34.21:332][370]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x404)
+[2015.10.22-07.34.30:971][ 95]LogEditorViewport: Clicking Background
+[2015.10.22-07.34.36:838][537]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x405)
+[2015.10.22-07.34.48:394][395]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush2)
+[2015.10.22-07.34.48:712][418]LogEditorViewport: Clicking Background
+[2015.10.22-07.35.00:506][313]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x405)
+[2015.10.22-07.35.05:236][651]LogEditorViewport: Clicking on Actor (CTRL LMB): Brush (Box Brush2)
+[2015.10.22-07.35.06:271][729]LogEditorViewport: Clicking Background
+[2015.10.22-07.35.06:909][779]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush2)
+[2015.10.22-07.35.08:071][867]LogEditorViewport: Clicking Background
+[2015.10.22-07.35.09:256][957]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x405)
+[2015.10.22-07.36.11:790][365]LogEditorViewport: Clicking Background
+[2015.10.22-07.36.21:540][ 29]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x406)
+[2015.10.22-07.36.27:486][469]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush2)
+[2015.10.22-07.36.29:702][622]LogEditorViewport: Clicking Background
+[2015.10.22-07.36.34:193][930]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x406)
+[2015.10.22-07.37.13:507][745]LogEditorViewport: Clicking Background
+[2015.10.22-07.37.24:891][522]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x407)
+[2015.10.22-07.37.49:362][295]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush)
+[2015.10.22-07.37.50:125][351]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x402)
+[2015.10.22-07.38.23:501][661]Cmd: MODE GRID=1
+[2015.10.22-07.38.36:396][506]LogEditorViewport: Clicking Background
+[2015.10.22-07.38.37:362][566]LogSavePackage: Save=35.397503ms
+[2015.10.22-07.38.37:362][566]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/My_ComplexRoom0567EEA847514EDCF62353AC6FECF5AB.tmp' to '../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.22-07.38.37:369][566]LogSavePackage: Total save time: 47.186825ms
+[2015.10.22-07.38.37:369][566]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.22-07.38.37:425][566]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.211
+[2015.10.22-08.00.32:414][351]LogActorFactory: Actor Factory created SM_Floor
+[2015.10.22-08.00.33:623][422]LogActorFactory: Actor Factory created SM_Floor
+[2015.10.22-08.01.20:346][722]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.22-08.01.24:024][997]Cmd: TRANSACTION UNDO
+[2015.10.22-08.01.24:024][997]LogEditorTransaction: Undo Move Actors
+[2015.10.22-08.01.45:872][183]LogEditorViewport: Clicking Background
+[2015.10.22-08.02.54:277][964]LogEditorViewport: Clicking Background
+[2015.10.22-08.03.02:214][413]LogEditorActor: Deleted Actor: Brush
+[2015.10.22-08.03.02:253][413]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2015.10.22-08.03.14:530][122]Cmd: DELETE
+[2015.10.22-08.03.14:553][122]Cmd: ACTOR DELETE
+[2015.10.22-08.03.14:554][122]LogEditorActor: Deleted Actor: Brush
+[2015.10.22-08.03.14:587][122]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2015.10.22-08.03.15:412][162]LogSavePackage: Save=37.220310ms
+[2015.10.22-08.03.15:412][162]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/My_ComplexRoom99AB2B60435277D313A8289805A7F5DA.tmp' to '../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.22-08.03.15:419][162]LogSavePackage: Total save time: 50.004229ms
+[2015.10.22-08.03.15:419][162]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.22-08.03.15:451][162]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.172
+[2015.10.22-08.03.32:877][173]Cmd: DELETE
+[2015.10.22-08.03.32:901][173]Cmd: ACTOR DELETE
+[2015.10.22-08.03.32:901][173]LogEditorActor: Deleted Actor: Brush
+[2015.10.22-08.03.32:939][173]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2015.10.22-08.03.45:016][848]Cmd: DELETE
+[2015.10.22-08.03.45:039][848]Cmd: ACTOR DELETE
+[2015.10.22-08.03.45:040][848]LogEditorActor: Deleted Actor: Brush
+[2015.10.22-08.03.45:073][848]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2015.10.22-08.03.52:235][259]LogSavePackage: Save=32.690193ms
+[2015.10.22-08.03.52:235][259]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/My_ComplexRoom33CAB92A437DA8ED5AA16CB448CE6BB0.tmp' to '../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.22-08.03.52:241][259]LogSavePackage: Total save time: 41.766290ms
+[2015.10.22-08.03.52:241][259]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.22-08.03.52:274][259]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.164
+[2015.10.22-08.05.58:968][652]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.10.22-08.06.46:928][793]LogEditorViewport: Clicking Background
+[2015.10.22-08.06.55:086][385]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush)
+[2015.10.22-08.07.42:378][854]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow2)
+[2015.10.22-08.07.46:841][166]LogEditorViewport: Clicking Background
+[2015.10.22-08.07.47:166][189]LogEditorViewport: Clicking Background
+[2015.10.22-08.07.48:001][250]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.22-08.08.18:873][346]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush3)
+[2015.10.22-08.08.19:956][422]LogEditorViewport: Clicking Background
+[2015.10.22-08.08.20:909][491]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x404)
+[2015.10.22-08.08.21:888][557]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x403)
+[2015.10.22-08.08.25:323][799]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush3)
+[2015.10.22-08.09.20:493][838]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.22-08.10.16:657][309]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow)
+[2015.10.22-08.10.25:490][914]LogEditorViewport: Clicking Background
+[2015.10.22-08.10.51:035][439]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow)
+[2015.10.22-08.10.58:244][936]LogEditorViewport: Clicking Background
+[2015.10.22-08.11.06:774][478]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow3)
+[2015.10.22-08.11.12:335][889]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush3)
+[2015.10.22-08.11.28:331][ 47]LogEditorViewport: Clicking Background
+[2015.10.22-08.11.29:037][100]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush3)
+[2015.10.22-08.11.37:275][711]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush4)
+[2015.10.22-08.11.37:276][711]LogGeometryMode:Warning: Unable to find BoxBrush4 Brush(s) in new BSP
+[2015.10.22-08.11.37:276][711]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.10.22-08.11.42:093][ 70]LogEditorViewport: Clicking Background
+[2015.10.22-08.11.47:018][376]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow2)
+[2015.10.22-08.11.51:365][625]LogEditorViewport: Clicking Background
+[2015.10.22-08.11.51:961][657]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow)
+[2015.10.22-08.11.53:377][736]LogEditorViewport: Clicking Background
+[2015.10.22-08.11.58:448][ 34]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow2)
+[2015.10.22-08.11.58:836][ 50]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow)
+[2015.10.22-08.12.05:298][461]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow2)
+[2015.10.22-08.12.13:206][ 45]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow)
+[2015.10.22-08.12.19:309][492]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush)
+[2015.10.22-08.12.29:477][199]LogEditorViewport: Clicking Background
+[2015.10.22-08.13.14:061][959]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush3)
+[2015.10.22-08.13.15:348][ 52]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush)
+[2015.10.22-08.13.20:780][439]LogEditorViewport: Clicking Background
+[2015.10.22-08.13.45:157][177]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush)
+[2015.10.22-08.13.57:786][123]LogEditorViewport: Clicking Background
+[2015.10.22-08.14.00:542][310]LogSavePackage: Save=58.538868ms
+[2015.10.22-08.14.00:542][310]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/My_ComplexRoom7F6A2D3A4913296B8C5F1CA8DD747F01.tmp' to '../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.22-08.14.00:548][310]LogSavePackage: Total save time: 69.319595ms
+[2015.10.22-08.14.00:548][310]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.22-08.14.00:584][310]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.213
+[2015.10.22-08.14.13:800][135]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush)
+[2015.10.22-08.14.32:450][512]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.22-08.14.37:933][822]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.22-08.14.57:342][141]Cmd: TRANSACTION UNDO
+[2015.10.22-08.14.57:342][141]LogEditorTransaction: Undo Move Actors
+[2015.10.22-08.14.57:383][141]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/My_ComplexRoom.My_ComplexRoom:PersistentLevel.BoxBrush3.BrushComponent0) Component already registered.
+[2015.10.22-08.14.57:395][141]LogActorComponent: RegisterComponentWithWorld: (/Game/StarterContent/Maps/My_ComplexRoom.My_ComplexRoom:PersistentLevel.BoxBrush6_9.BrushComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2015.10.22-08.15.00:898][399]LogEditorViewport: Clicking Background
+[2015.10.22-08.15.02:331][491]LogSavePackage: Save=46.520958ms
+[2015.10.22-08.15.02:331][491]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/My_ComplexRoomDEB5C893473B53C06DAF94AD9213E24B.tmp' to '../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.22-08.15.02:339][491]LogSavePackage: Total save time: 57.847500ms
+[2015.10.22-08.15.02:339][491]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.22-08.15.02:378][491]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.218
+[2015.10.22-08.16.11:421][490]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.22-08.16.14:614][668]LogEditorViewport: Clicking Background
+[2015.10.22-08.16.44:417][645]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush)
+[2015.10.22-08.16.53:547][330]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush2)
+[2015.10.22-08.16.56:757][556]LogSavePackage: Save=44.375324ms
+[2015.10.22-08.16.56:757][556]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/My_ComplexRoomAE1ABACE42CD214040F67F876F5636A8.tmp' to '../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.22-08.16.56:765][556]LogSavePackage: Total save time: 55.804189ms
+[2015.10.22-08.16.56:765][556]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.22-08.16.56:823][556]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.204
+[2015.10.22-08.16.58:613][679]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.22-08.17.18:770][905]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor2)
+[2015.10.22-08.17.56:117][164]LogSavePackage: Save=34.120201ms
+[2015.10.22-08.17.56:117][164]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/My_ComplexRoom6F93EB1F47EC48807A011688C8518F04.tmp' to '../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.22-08.17.56:124][164]LogSavePackage: Total save time: 44.444367ms
+[2015.10.22-08.17.56:124][164]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.22-08.17.56:177][164]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.184
+[2015.10.22-08.19.25:141][631]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Floor)
+[2015.10.22-08.19.25:820][677]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Floor)
+[2015.10.22-08.19.26:816][751]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x401)
+[2015.10.22-08.29.48:655][664]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush)
+[2015.10.22-08.29.50:006][741]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush)
+[2015.10.22-08.29.50:509][768]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush)
+[2015.10.22-08.29.52:250][868]Cmd: TRANSACTION UNDO
+[2015.10.22-08.29.52:250][868]LogEditorTransaction: Undo Select Brush Surface
+[2015.10.22-08.29.52:714][890]Cmd: TRANSACTION UNDO
+[2015.10.22-08.29.52:714][890]LogEditorTransaction: Undo Clicking on Actors
+[2015.10.22-08.29.53:244][919]Cmd: TRANSACTION UNDO
+[2015.10.22-08.29.53:244][919]LogEditorTransaction: Undo Clicking on Actors
+[2015.10.22-08.29.53:713][946]Cmd: TRANSACTION UNDO
+[2015.10.22-08.29.53:713][946]LogEditorTransaction: Undo Select Brush Surface
+[2015.10.22-08.29.54:618][996]Cmd: TRANSACTION UNDO
+[2015.10.22-08.29.54:618][996]LogEditorTransaction: Undo Clicking on Actors
+[2015.10.22-08.29.55:215][ 29]Cmd: TRANSACTION UNDO
+[2015.10.22-08.29.55:215][ 29]LogEditorTransaction: Undo Select Brush Surface
+[2015.10.22-08.29.55:766][ 58]Cmd: TRANSACTION UNDO
+[2015.10.22-08.29.55:766][ 58]LogEditorTransaction: Undo Create Actors
+[2015.10.22-08.29.55:784][ 58]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/StarterContent/Maps/My_ComplexRoom.My_ComplexRoom:PersistentLevel.ModelComponent_306' invalid (374 verts, 0 indices).
+[2015.10.22-08.29.56:230][ 81]Cmd: TRANSACTION UNDO
+[2015.10.22-08.29.56:230][ 81]LogEditorTransaction: Undo Clicking on Actors
+[2015.10.22-08.29.56:866][115]Cmd: TRANSACTION UNDO
+[2015.10.22-08.29.56:866][115]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2015.10.22-08.29.57:486][147]Cmd: TRANSACTION UNDO
+[2015.10.22-08.29.57:486][147]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2015.10.22-08.30.00:228][297]Cmd: TRANSACTION REDO
+[2015.10.22-08.30.00:228][297]LogEditorTransaction: Redo Clicking on Actors (context menu)
+[2015.10.22-08.30.01:280][354]Cmd: TRANSACTION REDO
+[2015.10.22-08.30.01:280][354]LogEditorTransaction: Redo Clicking on Actors (context menu)
+[2015.10.22-08.30.01:851][385]Cmd: TRANSACTION REDO
+[2015.10.22-08.30.01:851][385]LogEditorTransaction: Redo Clicking on Actors
+[2015.10.22-08.30.02:551][423]Cmd: TRANSACTION REDO
+[2015.10.22-08.30.02:551][423]LogEditorTransaction: Redo Create Actors
+[2015.10.22-08.30.02:961][443]Cmd: TRANSACTION REDO
+[2015.10.22-08.30.02:961][443]LogEditorTransaction: Redo Select Brush Surface
+[2015.10.22-08.30.03:952][499]Cmd: TRANSACTION REDO
+[2015.10.22-08.30.03:952][499]LogEditorTransaction: Redo Clicking on Actors
+[2015.10.22-08.30.04:367][522]Cmd: TRANSACTION REDO
+[2015.10.22-08.30.04:367][522]LogEditorTransaction: Redo Select Brush Surface
+[2015.10.22-08.30.04:781][545]Cmd: TRANSACTION REDO
+[2015.10.22-08.30.04:781][545]LogEditorTransaction: Redo Clicking on Actors
+[2015.10.22-08.30.05:371][578]Cmd: TRANSACTION REDO
+[2015.10.22-08.30.05:371][578]LogEditorTransaction: Redo Clicking on Actors
+[2015.10.22-08.30.05:898][608]Cmd: TRANSACTION REDO
+[2015.10.22-08.30.05:898][608]LogEditorTransaction: Redo Select Brush Surface
+[2015.10.22-08.30.13:384][ 48]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush)
+[2015.10.22-08.30.19:075][383]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush3)
+[2015.10.22-08.30.22:669][587]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush3)
+[2015.10.22-08.30.49:960][995]LogActorFactory: Actor Factory created Pillar_50x500
+[2015.10.22-08.30.50:898][ 48]LogActorFactory: Actor Factory created Pillar_50x500
+[2015.10.22-08.32.00:053][703]LogSavePackage: Save=53.804729ms
+[2015.10.22-08.32.00:053][703]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/My_ComplexRoom9D07DE5847DD9D96167AB48CD870572D.tmp' to '../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.22-08.32.00:060][703]LogSavePackage: Total save time: 66.105030ms
+[2015.10.22-08.32.00:060][703]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.22-08.32.00:098][703]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.192
+[2015.10.22-08.32.10:216][413]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush)
+[2015.10.22-08.32.14:102][705]Cmd: DELETE
+[2015.10.22-08.32.14:102][705]Cmd: ACTOR DELETE
+[2015.10.22-08.32.14:103][705]LogEditorActor: Deleted Actor: Brush
+[2015.10.22-08.32.14:129][705]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2015.10.22-08.32.15:169][787]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x500)
+[2015.10.22-08.32.31:747][  2]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.22-08.32.36:100][238]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x500)
+[2015.10.22-08.32.50:400][250]LogEditorViewport: Clicking Background
+[2015.10.22-08.33.03:607][127]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x500)
+[2015.10.22-08.33.05:596][270]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow)
+[2015.10.22-08.33.06:715][350]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x500)
+[2015.10.22-08.33.17:143][ 70]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x500)
+[2015.10.22-08.33.46:427][182]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.22-08.33.52:668][540]LogEditorViewport: Clicking Background
+[2015.10.22-08.34.01:272][ 44]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x500)
+[2015.10.22-08.34.16:891][ 18]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.22-08.34.17:540][ 43]LogSavePackage: Save=39.773052ms
+[2015.10.22-08.34.17:540][ 43]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/My_ComplexRoom1809A038415572358048AF837A4BAF70.tmp' to '../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.22-08.34.17:549][ 43]LogSavePackage: Total save time: 53.039964ms
+[2015.10.22-08.34.17:549][ 43]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.22-08.34.17:607][ 43]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.200
+[2015.10.22-08.34.18:359][ 87]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x500)
+[2015.10.22-08.34.20:807][222]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.22-08.34.33:673][158]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush2)
+[2015.10.22-08.34.34:924][251]Cmd: DELETE
+[2015.10.22-08.34.34:924][251]Cmd: ACTOR DELETE
+[2015.10.22-08.34.34:925][251]LogEditorActor: Deleted Actor: Brush
+[2015.10.22-08.34.34:951][251]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2015.10.22-08.34.36:159][346]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x500)
+[2015.10.22-08.34.44:417][943]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x501)
+[2015.10.22-08.34.48:104][192]LogSavePackage: Save=29.951160ms
+[2015.10.22-08.34.48:104][192]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/My_ComplexRoom002F76C04C07765A426B9EA67C4DD10C.tmp' to '../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.22-08.34.48:113][192]LogSavePackage: Total save time: 41.826941ms
+[2015.10.22-08.34.48:113][192]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.22-08.34.48:149][192]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.163
+[2015.10.22-08.34.49:791][309]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.22-08.34.58:021][862]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush5)
+[2015.10.22-08.34.59:066][937]Cmd: DELETE
+[2015.10.22-08.34.59:066][937]Cmd: ACTOR DELETE
+[2015.10.22-08.34.59:068][937]LogEditorActor: Deleted Actor: Brush
+[2015.10.22-08.34.59:095][937]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2015.10.22-08.35.01:417][115]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x500)
+[2015.10.22-08.35.27:237][965]LogEditorViewport: Clicking Background
+[2015.10.22-08.35.27:725][  0]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush6)
+[2015.10.22-08.35.28:641][ 65]Cmd: DELETE
+[2015.10.22-08.35.28:641][ 65]Cmd: ACTOR DELETE
+[2015.10.22-08.35.28:641][ 65]LogEditorActor: Deleted Actor: Brush
+[2015.10.22-08.35.28:667][ 65]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2015.10.22-08.35.29:972][163]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x503)
+[2015.10.22-08.35.36:710][629]LogSavePackage: Save=29.425869ms
+[2015.10.22-08.35.36:710][629]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/My_ComplexRoom4D6899454C9F3AFA9D9D718564D90B07.tmp' to '../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.22-08.35.36:719][629]LogSavePackage: Total save time: 43.292712ms
+[2015.10.22-08.35.36:719][629]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.22-08.35.36:780][629]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.209
+[2015.10.22-08.35.38:917][765]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.22-08.35.58:221][829]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x500)
+[2015.10.22-08.36.18:824][ 73]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x504)
+[2015.10.22-08.36.19:930][151]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x504)
+[2015.10.22-08.37.26:786][795]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush3)
+[2015.10.22-08.37.28:617][928]Cmd: DELETE
+[2015.10.22-08.37.28:617][928]Cmd: ACTOR DELETE
+[2015.10.22-08.37.28:618][928]LogEditorActor: Deleted Actor: Brush
+[2015.10.22-08.37.28:645][928]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2015.10.22-08.37.34:287][362]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush4)
+[2015.10.22-08.37.37:766][617]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x504)
+[2015.10.22-08.38.36:610][681]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.22-08.38.46:912][252]Cmd: DELETE
+[2015.10.22-08.38.46:912][252]Cmd: ACTOR DELETE
+[2015.10.22-08.38.46:913][252]LogEditorActor: Deleted Actor: Brush
+[2015.10.22-08.38.46:947][252]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2015.10.22-08.38.48:152][311]LogSavePackage: Save=29.311731ms
+[2015.10.22-08.38.48:152][311]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/My_ComplexRoom52170D4E49604A05AF1273A555AEBEDB.tmp' to '../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.22-08.38.48:161][311]LogSavePackage: Total save time: 42.709887ms
+[2015.10.22-08.38.48:161][311]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.22-08.38.48:196][311]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.187
+[2015.10.22-08.38.50:921][464]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x504)
+[2015.10.22-08.38.59:208][907]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow)
+[2015.10.22-08.38.59:524][923]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x504)
+[2015.10.22-08.39.09:665][495]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.22-08.39.21:464][202]LogEditorViewport: Clicking Background
+[2015.10.22-08.39.23:792][374]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x504)
+[2015.10.22-08.39.43:444][780]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow)
+[2015.10.22-08.39.44:301][827]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x500)
+[2015.10.22-08.39.46:266][938]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x504)
+[2015.10.22-08.39.55:362][439]LogEditorViewport: Clicking Background
+[2015.10.22-08.39.55:952][469]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x504)
+[2015.10.22-08.39.59:530][714]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x504)
+[2015.10.22-08.40.16:204][860]LogEditorViewport: Clicking Background
+[2015.10.22-08.40.23:341][270]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x504)
+[2015.10.22-08.40.25:111][365]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x500)
+[2015.10.22-08.40.29:167][587]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor2)
+[2015.10.22-08.40.30:495][653]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.22-08.40.37:235][ 76]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x504)
+[2015.10.22-08.40.56:277][466]LogEditorViewport: Clicking Background
+[2015.10.22-08.41.01:922][882]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.22-08.41.06:352][117]LogSavePackage: Save=28.876322ms
+[2015.10.22-08.41.06:352][117]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/My_ComplexRoomC9B565E648CB6A47814CC39777705842.tmp' to '../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.22-08.41.06:358][117]LogSavePackage: Total save time: 39.055869ms
+[2015.10.22-08.41.06:358][117]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.22-08.41.06:392][117]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.164
+[2015.10.22-08.41.12:690][454]LogActorFactory: Actor Factory created Wall_Door_400x400
+[2015.10.22-08.41.17:004][692]LogActorFactory: Actor Factory created Wall_Door_400x400
+[2015.10.22-08.41.29:478][359]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x401)
+[2015.10.22-08.41.56:476][799]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.22-08.42.04:097][226]LogActorFactory: Actor Factory created Wall_400x400
+[2015.10.22-08.42.05:692][322]LogActorFactory: Actor Factory created Wall_400x400
+[2015.10.22-08.42.06:550][368]LogActorFactory: Actor Factory created Wall_400x400
+[2015.10.22-08.43.39:527][  0]LogEditorViewport: Clicking Background
+[2015.10.22-08.43.45:007][335]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x401)
+[2015.10.22-08.44.03:391][554]Cmd: TRANSACTION UNDO
+[2015.10.22-08.44.03:391][554]LogEditorTransaction: Undo Set actor scale
+[2015.10.22-08.44.52:822][817]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x408)
+[2015.10.22-08.45.13:496][291]LogSavePackage: Save=26.787603ms
+[2015.10.22-08.45.13:496][291]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/My_ComplexRoom89C7D78F470E1B8430CBCA8CFF1721C5.tmp' to '../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.22-08.45.13:502][291]LogSavePackage: Total save time: 38.929913ms
+[2015.10.22-08.45.13:502][291]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.22-08.45.13:567][291]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.212
+[2015.10.22-08.45.17:049][523]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.22-08.45.18:304][584]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.22-08.45.20:932][714]LogEditorViewport: Clicking Background
+[2015.10.22-09.08.28:665][590]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x502)
+[2015.10.22-09.08.30:896][748]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow3)
+[2015.10.22-09.08.33:309][916]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x504)
+[2015.10.22-09.08.37:261][213]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor2)
+[2015.10.22-09.08.40:019][406]LogEditorViewport: Clicking Background
+[2015.10.22-09.08.43:547][668]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x500)
+[2015.10.22-09.08.45:223][786]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow3)
+[2015.10.22-09.08.59:000][798]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x504)
+[2015.10.22-09.08.59:641][843]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x500)
+[2015.10.22-09.09.07:471][408]LogEditorViewport: Clicking Background
+[2015.10.22-09.09.07:802][431]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x500)
+[2015.10.22-09.09.14:948][932]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x501)
+[2015.10.22-09.09.35:342][280]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.22-09.09.42:521][687]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x504)
+[2015.10.22-09.09.45:223][839]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x500)
+[2015.10.22-09.09.46:736][923]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Pillar_50x502)
+[2015.10.22-09.09.47:602][970]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Pillar_50x504)
+[2015.10.22-09.09.49:789][ 91]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Pillar_50x501)
+[2015.10.22-09.09.50:531][131]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Pillar_50x505)
+[2015.10.22-09.09.53:176][278]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Pillar_50x503)
+[2015.10.22-09.10.03:298][889]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x501)
+[2015.10.22-09.10.08:282][254]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x505)
+[2015.10.22-09.11.03:148][200]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x500)
+[2015.10.22-09.11.11:094][783]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x504)
+[2015.10.22-09.11.44:930][208]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x502)
+[2015.10.22-09.11.52:798][781]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x503)
+[2015.10.22-09.12.00:022][295]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Floor)
+[2015.10.22-09.12.00:394][313]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.10.22-09.12.00:524][313]LogSavePackage: Save=31.800093ms
+[2015.10.22-09.12.00:524][313]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/My_ComplexRoomE2C291EA42144CD9C931DC8ACBF690ED.tmp' to '../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.22-09.12.00:533][313]LogSavePackage: Total save time: 47.133021ms
+[2015.10.22-09.12.00:533][313]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.22-09.12.00:572][313]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.176
+[2015.10.22-09.12.01:104][353]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.22-09.12.16:314][217]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor2)
+[2015.10.22-09.12.17:139][276]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x504)
+[2015.10.22-09.12.18:615][384]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Pillar_50x505)
+[2015.10.22-09.12.26:746][940]LogSavePackage: Save=27.648468ms
+[2015.10.22-09.12.26:746][940]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/My_ComplexRoom124D92504F8721ED343065847CCE7C1F.tmp' to '../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.22-09.12.26:752][940]LogSavePackage: Total save time: 37.029356ms
+[2015.10.22-09.12.26:752][940]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.22-09.12.26:785][940]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.155
+[2015.10.22-09.12.28:167][ 34]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.22-09.12.42:381][840]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x404)
+[2015.10.22-09.12.43:231][885]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x504)
+[2015.10.22-09.12.44:186][936]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x404)
+[2015.10.22-09.12.45:873][ 20]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x405)
+[2015.10.22-09.13.30:463][245]Cmd: MODE GRID=0
+[2015.10.22-09.13.42:127][958]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x401)
+[2015.10.22-09.14.38:084][763]LogSavePackage: Save=33.400532ms
+[2015.10.22-09.14.38:084][763]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/My_ComplexRoom91CC21D840F9001E4248928BA392B290.tmp' to '../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.22-09.14.38:092][763]LogSavePackage: Total save time: 45.374896ms
+[2015.10.22-09.14.38:092][763]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.22-09.14.38:150][763]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.205
+[2015.10.22-09.14.40:443][912]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.22-09.14.44:745][134]Cmd: DELETE
+[2015.10.22-09.14.44:745][134]Cmd: ACTOR DELETE
+[2015.10.22-09.14.44:746][134]LogEditorActor: Deleted Actor: Brush
+[2015.10.22-09.14.44:779][134]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2015.10.22-09.14.49:333][373]Cmd: DELETE
+[2015.10.22-09.14.49:333][373]Cmd: ACTOR DELETE
+[2015.10.22-09.14.49:334][373]LogEditorActor: Deleted Actor: Brush
+[2015.10.22-09.14.49:366][373]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2015.10.22-09.14.50:539][428]LogSavePackage: Save=27.769138ms
+[2015.10.22-09.14.50:539][428]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/My_ComplexRoom679C02EE410D9CAAA2B162BBC3D00205.tmp' to '../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.22-09.14.50:547][428]LogSavePackage: Total save time: 38.523119ms
+[2015.10.22-09.14.50:547][428]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.22-09.14.50:578][428]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.162
+[2015.10.22-09.15.12:615][633]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (搜狗拼音输入法).
+[2015.10.22-09.15.12:980][634]Cmd: QUIT_EDITOR
+[2015.10.22-09.15.13:295][634]LogExit: Preparing to exit.
+[2015.10.22-09.15.14:062][634]LogExit: Editor shut down
+[2015.10.22-09.15.14:064][634]LogExit: Transaction tracking system shut down
+[2015.10.22-09.15.14:067][634]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003FFEB4D760
+[2015.10.22-09.15.14:072][634]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003FEEED65C0
+[2015.10.22-09.15.14:072][634]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003FEA713880
+[2015.10.22-09.15.14:290][634]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003FEE709260
+[2015.10.22-09.15.14:290][634]LogExit: Object subsystem successfully closed.
+[2015.10.22-09.15.14:310][634]LogD3D11RHI: Shutdown
+[2015.10.22-09.15.14:310][634]LogD3D11RHI: CleanupD3DDevice
+[2015.10.22-09.15.14:388][634]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.10.22-09.15.14:411][634]LogModuleManager: Shutting down and abandoning module NewLevelDialog (198)
+[2015.10.22-09.15.14:411][634]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2015.10.22-09.15.14:411][634]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2015.10.22-09.15.14:411][634]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2015.10.22-09.15.14:411][634]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2015.10.22-09.15.14:411][634]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2015.10.22-09.15.14:416][634]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2015.10.22-09.15.14:416][634]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2015.10.22-09.15.14:417][634]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2015.10.22-09.15.14:417][634]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.10.22-09.15.14:417][634]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.10.22-09.15.14:417][634]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.10.22-09.15.14:417][634]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.10.22-09.15.14:417][634]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.10.22-09.15.14:417][634]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.10.22-09.15.14:417][634]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.10.22-09.15.14:417][634]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.10.22-09.15.14:417][634]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.10.22-09.15.14:417][634]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.10.22-09.15.14:417][634]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.10.22-09.15.14:417][634]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.10.22-09.15.14:417][634]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.10.22-09.15.14:417][634]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.10.22-09.15.14:417][634]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.10.22-09.15.14:417][634]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.10.22-09.15.14:417][634]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.10.22-09.15.14:417][634]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.10.22-09.15.14:512][634]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.10.22-09.15.14:512][634]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.10.22-09.15.14:512][634]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.10.22-09.15.14:512][634]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.10.22-09.15.14:512][634]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.10.22-09.15.14:512][634]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.10.22-09.15.14:512][634]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.10.22-09.15.14:512][634]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.10.22-09.15.14:512][634]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.10.22-09.15.14:512][634]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.10.22-09.15.14:512][634]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.10.22-09.15.14:512][634]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.10.22-09.15.14:512][634]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.10.22-09.15.14:512][634]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.10.22-09.15.14:512][634]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.10.22-09.15.14:512][634]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.10.22-09.15.14:512][634]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.10.22-09.15.14:512][634]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.10.22-09.15.14:512][634]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.10.22-09.15.14:513][634]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.10.22-09.15.14:513][634]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.10.22-09.15.14:513][634]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.10.22-09.15.14:513][634]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.10.22-09.15.14:513][634]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.10.22-09.15.14:513][634]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.10.22-09.15.14:513][634]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.10.22-09.15.14:513][634]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.10.22-09.15.14:513][634]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.10.22-09.15.14:513][634]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.10.22-09.15.14:513][634]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.10.22-09.15.14:513][634]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.10.22-09.15.14:513][634]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.10.22-09.15.14:513][634]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.10.22-09.15.14:514][634]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.10.22-09.15.14:514][634]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.10.22-09.15.14:514][634]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.10.22-09.15.14:514][634]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.10.22-09.15.14:514][634]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.10.22-09.15.14:514][634]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.10.22-09.15.14:514][634]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.10.22-09.15.14:514][634]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.10.22-09.15.14:514][634]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.10.22-09.15.14:514][634]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.10.22-09.15.14:514][634]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.10.22-09.15.14:514][634]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.10.22-09.15.14:514][634]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.10.22-09.15.14:514][634]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.10.22-09.15.14:514][634]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.10.22-09.15.14:514][634]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.10.22-09.15.14:514][634]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.10.22-09.15.14:754][634]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.10.22-09.15.14:754][634]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.10.22-09.15.14:754][634]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.10.22-09.15.14:754][634]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.10.22-09.15.14:754][634]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.10.22-09.15.14:754][634]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.10.22-09.15.14:754][634]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.10.22-09.15.14:754][634]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.10.22-09.15.14:770][634]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.10.22-09.15.14:770][634]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.10.22-09.15.14:770][634]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.10.22-09.15.14:770][634]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.10.22-09.15.14:770][634]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.10.22-09.15.14:770][634]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.10.22-09.15.14:770][634]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.10.22-09.15.14:770][634]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.10.22-09.15.14:770][634]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.10.22-09.15.14:770][634]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.10.22-09.15.14:770][634]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.10.22-09.15.14:770][634]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.10.22-09.15.14:770][634]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.10.22-09.15.14:770][634]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.10.22-09.15.14:770][634]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.10.22-09.15.14:770][634]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.10.22-09.15.14:770][634]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.10.22-09.15.14:770][634]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.10.22-09.15.14:770][634]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.10.22-09.15.14:770][634]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.10.22-09.15.14:770][634]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.10.22-09.15.14:770][634]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.10.22-09.15.14:771][634]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.10.22-09.15.14:771][634]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.10.22-09.15.14:772][634]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.10.22-09.15.14:774][634]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.10.22-09.15.14:905][634]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.10.22-09.15.14:907][634]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.10.22-09.15.14:907][634]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.10.22-09.15.15:008][634]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.10.22-09.15.15:008][634]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.10.22-09.15.15:008][634]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.10.22-09.15.15:011][634]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.10.22-09.15.15:011][634]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.10.22-09.15.15:012][634]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.10.22-09.15.15:012][634]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.10.22-09.15.15:012][634]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.10.22-09.15.15:012][634]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.10.22-09.15.15:012][634]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.10.22-09.15.15:012][634]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.10.22-09.15.15:012][634]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.10.22-09.15.15:012][634]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.10.22-09.15.15:012][634]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.10.22-09.15.15:012][634]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.10.22-09.15.15:012][634]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.10.22-09.15.15:012][634]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.10.22-09.15.15:012][634]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.10.22-09.15.15:012][634]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.10.22-09.15.15:015][634]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.10.22-09.15.15:015][634]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.10.22-09.15.15:015][634]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.10.22-09.15.15:015][634]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.10.22-09.15.15:015][634]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.10.22-09.15.15:015][634]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.10.22-09.15.15:015][634]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.10.22-09.15.15:015][634]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.10.22-09.15.15:015][634]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.10.22-09.15.15:015][634]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.10.22-09.15.15:019][634]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.10.22-09.15.15:047][634]LogDerivedDataCache: Shutdown
+[2015.10.22-09.15.15:047][634]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.10.22-09.15.15:047][634]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.10.22-09.15.15:047][634]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.10.22-09.15.15:047][634]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.10.22-09.15.15:047][634]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.10.22-09.15.15:047][634]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.10.22-09.15.15:047][634]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.10.22-09.15.15:047][634]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.10.22-09.15.15:047][634]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.10.22-09.15.15:047][634]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.10.22-09.15.15:047][634]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.10.22-09.15.15:047][634]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.10.22-09.15.15:047][634]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.10.22-09.15.15:047][634]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.10.22-09.15.15:047][634]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.10.22-09.15.15:047][634]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.10.22-09.15.15:047][634]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.10.22-09.15.15:047][634]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.10.22-09.15.15:047][634]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.10.22-09.15.15:047][634]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.10.22-09.15.15:047][634]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.10.22-09.15.15:047][634]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.10.22-09.15.15:047][634]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.10.22-09.15.15:047][634]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.10.22-09.15.15:047][634]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.10.22-09.15.15:048][634]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.10.22-09.15.15:048][634]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.10.22-09.15.15:048][634]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.10.22-09.15.15:048][634]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.10.22-09.15.15:048][634]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.10.22-09.15.15:048][634]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.10.22-09.15.15:048][634]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.10.22-09.15.15:048][634]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.10.22-09.15.15:048][634]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.10.22-09.15.15:048][634]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.10.22-09.15.15:048][634]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.10.22-09.15.31:060][634]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.10.22-09.15.31:060][634]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.10.22-09.15.31:060][634]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.10.22-09.15.31:060][634]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.10.22-09.15.31:060][634]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.10.22-09.15.31:061][634]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.10.22-09.15.31:090][634]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.10.22-09.15.31:090][634]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.10.22-09.15.31:090][634]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.10.22-09.15.31:090][634]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.10.22-09.15.31:090][634]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.10.22-09.15.31:090][634]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.10.22-09.15.31:090][634]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.10.22-09.15.31:090][634]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.10.22-09.15.31:090][634]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.10.22-09.15.31:090][634]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.10.22-09.15.31:091][634]LogExit: Exiting.
+[2015.10.22-09.15.31:097][634]Log file closed, 10/22/15 17:15:31
