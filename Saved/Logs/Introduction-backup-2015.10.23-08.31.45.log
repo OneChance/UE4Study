@@ -1,0 +1,275 @@
+﻿[2015.10.23-00.27.45:554][  0]Log file open, 10/23/15 08:27:45
+[2015.10.23-00.27.45:554][  0]LogInit:Display: Running engine for game: Introduction
+[2015.10.23-00.27.45:554][  0]LogInit:Display: RandInit(-1263955283) SRandInit(-1263955282).
+[2015.10.23-00.27.45:554][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.10.23-00.27.45:554][  0]LogStats: Stats thread started at 0.067121
+[2015.10.23-00.27.45:554][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.23-00.27.45:554][  0]LogInit: API Version: 2672455
+[2015.10.23-00.27.45:554][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.10.23-00.27.45:554][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.23-00.27.45:554][  0]LogInit: Build Configuration: Development
+[2015.10.23-00.27.45:554][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.23-00.27.45:554][  0]LogInit: Command line:  
+[2015.10.23-00.27.45:554][  0]LogInit: Base directory: E:/UE4/app/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.23-00.27.45:554][  0]LogInit: Rocket: 1
+[2015.10.23-00.27.45:568][  0]LogInit: Using libcurl 7.41.0
+[2015.10.23-00.27.45:568][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.23-00.27.45:568][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.23-00.27.45:568][  0]LogInit:  - other features:
+[2015.10.23-00.27.45:568][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.23-00.27.45:568][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.23-00.27.45:568][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.23-00.27.45:568][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.23-00.27.45:568][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.23-00.27.45:568][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.23-00.27.45:568][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.23-00.27.45:568][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.23-00.27.45:568][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.23-00.27.45:568][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.23-00.27.45:579][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.23-00.27.45:587][  0]LogInit: Object subsystem initialized
+[2015.10.23-00.27.45:604][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.23-00.27.45:604][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.23-00.27.45:615][  0]LogInit: Computer: ZH
+[2015.10.23-00.27.45:615][  0]LogInit: User: zhouhui
+[2015.10.23-00.27.45:615][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.10.23-00.27.45:615][  0]LogInit: High frequency timer resolution =3.215368 MHz
+[2015.10.23-00.27.45:615][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2015.10.23-00.27.45:615][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.23-00.27.45:615][  0]LogMemory: Process Physical Memory: 54.02 MB used, 54.02 MB peak
+[2015.10.23-00.27.45:615][  0]LogMemory: Process Virtual Memory: 57.12 MB used, 57.12 MB peak
+[2015.10.23-00.27.45:615][  0]LogMemory: Physical Memory: 4956.96 MB used, 8162.07 MB total
+[2015.10.23-00.27.45:615][  0]LogMemory: Virtual Memory: 365.06 MB used, 134217728.00 MB total
+[2015.10.23-00.27.45:660][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2015.10.23-00.27.46:704][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 620 (Feature Level 11_0)
+[2015.10.23-00.27.46:704][  0]LogD3D11RHI: Adapter has 973MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 1 output[s]
+[2015.10.23-00.27.46:706][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.10.23-00.27.46:706][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4081MB of shared system memory, 0 output[s]
+[2015.10.23-00.27.46:706][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.23-00.27.46:711][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.23-00.27.46:711][  0]LogRHI: Texture pool is 681 MB (70% of 973 MB)
+[2015.10.23-00.27.46:722][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.23-00.27.46:746][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../projects/Introduction/Intermediate/Shaders/WorkingDirectory/10640/).
+[2015.10.23-00.27.46:746][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../projects/Introduction/Intermediate/Shaders/tmp/1B21B6464EBA339B59A74EB02DC0A1D5/'.
+[2015.10.23-00.27.46:746][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.23-00.27.48:196][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.23-00.27.48:202][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.23-00.27.48:207][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.23-00.27.48:215][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.23-00.27.48:224][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.23-00.27.48:230][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.23-00.27.48:236][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.23-00.27.48:240][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.23-00.27.48:244][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.23-00.27.48:247][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.23-00.27.48:251][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.23-00.27.48:256][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.23-00.27.48:257][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.23-00.27.48:275][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.23-00.27.48:278][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.23-00.27.48:282][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.23-00.27.48:286][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.23-00.27.48:286][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.23-00.27.48:388][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.23-00.27.48:439][  0]LogDerivedDataCache: Loaded boot cache 0.05s 41MB C:/Users/zhouhui/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.23-00.27.48:439][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/zhouhui/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.23-00.27.48:439][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../projects/Introduction/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.23-00.27.48:439][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.23-00.27.48:439][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../projects/Introduction/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.23-00.27.48:439][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.23-00.27.48:608][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.23-00.27.48:622][  0]LogDerivedDataCache: Using Local data cache path C:/Users/zhouhui/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.23-00.27.48:845][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.23-00.27.48:849][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.23-00.27.49:016][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.23-00.27.49:016][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.23-00.27.49:270][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.23-00.27.50:005][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.23-00.27.50:110][  0]LogAssetRegistry: FAssetRegistry took 0.0105 seconds to start up
+[2015.10.23-00.27.50:328][  0]SourceControl: Info Source control is disabled
+[2015.10.23-00.27.50:354][  0]SourceControl: Info Source control is disabled
+[2015.10.23-00.27.50:367][  0]SourceControl: Info Source control is disabled
+[2015.10.23-00.27.50:380][  0]SourceControl: Info Source control is disabled
+[2015.10.23-00.27.50:581][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.23-00.27.50:681][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.10.23-00.27.50:681][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2015.10.23-00.27.50:746][  0]LogEngine: Initializing Engine...
+[2015.10.23-00.27.50:748][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.10.23-00.27.50:750][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.10.23-00.27.50:904][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.23-00.27.50:911][  0]LogInit: XAudio2 using '扬声器 (Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.23-00.27.50:950][  0]LogInit: FAudioDevice initialized.
+[2015.10.23-00.27.50:976][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/zhouhui/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.23-00.27.50:979][  0]LogInit: Texture streaming: Enabled
+[2015.10.23-00.27.50:986][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.23-00.27.50:986][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.23-00.27.50:987][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId b6ebb264451e50e1159cad98c2cced92|b0673e94d52d486cbdf3580f32be2351|aa830f65-14fc-42d2-8598-ea137c4336f1
+[2015.10.23-00.27.50:987][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.23-00.27.51:003][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (搜狗拼音输入法).
+[2015.10.23-00.27.51:056][  0]LogInit: Transaction tracking system initialized
+[2015.10.23-00.27.51:093][  0]BlueprintLog: New page: Editor Load
+[2015.10.23-00.27.51:221][  0]LocalizationService: Info Localization service is disabled
+[2015.10.23-00.27.51:611][  0]LogConsoleResponse:Display: 
+[2015.10.23-00.27.51:789][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.23-00.27.51:884][  0]LogFileCache: Scanning file cache for directory 'E:/UE4/projects/Introduction/Content/' took 0.02s
+[2015.10.23-00.27.51:884][  0]SourceControl: Info Source control is disabled
+[2015.10.23-00.27.51:884][  0]Cmd: MAP LOAD FILE="../../../../../../projects/Introduction/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.23-00.27.51:885][  0]LightingResults: New page: Lighting Build
+[2015.10.23-00.27.51:890][  0]MapCheck: New page: Map Check
+[2015.10.23-00.27.51:890][  0]LightingResults: New page: Lighting Build
+[2015.10.23-00.27.51:917][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009037A35C60
+[2015.10.23-00.27.52:587][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.10.23-00.27.52:596][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.23-00.27.52:596][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.23-00.27.52:672][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 74.985ms to complete.
+[2015.10.23-00.27.52:672][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.788
+[2015.10.23-00.27.52:812][  0]LogCollectionManager: Loaded 0 collections in 0.003694 seconds
+[2015.10.23-00.27.52:865][  0]LogFileCache: Scanning file cache for directory 'E:/UE4/projects/Introduction/Saved/Collections/' took 0.01s
+[2015.10.23-00.27.52:865][  0]LogFileCache: Scanning file cache for directory 'E:/UE4/projects/Introduction/Content/Developers/zhouhui/Collections/' took 0.01s
+[2015.10.23-00.27.52:865][  0]LogFileCache: Scanning file cache for directory 'E:/UE4/projects/Introduction/Content/Collections/' took 0.01s
+[2015.10.23-00.27.52:865][  0]LogContentBrowser: Native class hierarchy populated in 0.0138 seconds. Added 1867 classes and 333 folders.
+[2015.10.23-00.27.52:872][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2015.10.23-00.27.52:882][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.10.23-00.27.52:962][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.10.23-00.27.52:968][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2015.10.23-00.27.53:052][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.23-00.27.53:058][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.10.23-00.27.53:081][  0]LogLoad: Full Startup: 8.17 seconds (BP compile: 0.08 seconds)
+[2015.10.23-00.27.53:145][  0]LogContentStreaming: Texture pool size now 200 MB
+[2015.10.23-00.27.53:298][  0]LogRenderer: Reallocating scene render targets to support 984x456 (Frame:2).
+[2015.10.23-00.27.57:228][139]LogAssetRegistry: Asset discovery search completed in 7.1282 seconds
+[2015.10.23-00.27.57:228][139]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.10.23-00.27.57:228][139]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000035 seconds (updated 0 objects)
+[2015.10.23-00.28.05:138][491]LightingResults: New page: Lighting Build
+[2015.10.23-00.28.05:139][491]MapCheck: New page: Map Check
+[2015.10.23-00.28.05:139][491]LightingResults: New page: Lighting Build
+[2015.10.23-00.28.05:165][491]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009026381C60
+[2015.10.23-00.28.05:172][491]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.23-00.28.05:212][491]LoadErrors: New page: New Map
+[2015.10.23-00.28.05:267][493]LogEditorViewport: Clicking Background
+[2015.10.23-00.28.08:717][715]Cmd: MAP LOAD FILE="../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.23-00.28.08:740][715]LightingResults: New page: Lighting Build
+[2015.10.23-00.28.08:762][715]LoadErrors: New page: Loading map: My_ComplexRoom.umap
+[2015.10.23-00.28.08:762][715]MapCheck: New page: Map Check
+[2015.10.23-00.28.08:762][715]LightingResults: New page: Lighting Build
+[2015.10.23-00.28.08:784][715]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000904E2F2E80
+[2015.10.23-00.28.08:950][715]LogAIModule: Creating AISystem for world My_ComplexRoom
+[2015.10.23-00.28.09:015][715]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.23-00.28.09:057][715]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.23-00.28.09:114][715]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 57.338ms to complete.
+[2015.10.23-00.28.09:114][715]LogFileHelpers: Loading map 'My_ComplexRoom' took 0.400
+[2015.10.23-00.28.24:385][591]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Top2)
+[2015.10.23-00.28.25:117][622]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom2)
+[2015.10.23-00.28.26:228][686]LogEditorViewport: Clicking Background
+[2015.10.23-00.28.32:214][ 22]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom2)
+[2015.10.23-00.28.32:836][ 50]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom)
+[2015.10.23-00.28.33:556][ 88]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Top)
+[2015.10.23-00.28.34:009][111]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Top2)
+[2015.10.23-00.28.38:155][333]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x401)
+[2015.10.23-00.28.38:850][365]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x401)
+[2015.10.23-00.28.39:646][407]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x408)
+[2015.10.23-00.28.41:916][524]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x409)
+[2015.10.23-00.28.42:509][550]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.23-00.28.46:099][738]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Top5)
+[2015.10.23-00.28.46:969][782]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow3)
+[2015.10.23-00.28.48:645][869]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom)
+[2015.10.23-00.28.49:287][895]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Wall_2xWindow)
+[2015.10.23-00.28.50:141][955]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.23-00.29.09:649][969]LogActorFactory: Actor Factory created SM_Window_Bottom
+[2015.10.23-00.29.18:633][475]LogActorFactory: Actor Factory created SM_Window_Bottom
+[2015.10.23-00.29.19:251][510]LogActorFactory: Actor Factory created SM_Window_Bottom
+[2015.10.23-00.29.23:096][714]LogEditorViewport: Clicking Background
+[2015.10.23-00.29.23:933][763]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom7)
+[2015.10.23-00.29.28:932][ 49]LogActorFactory: Actor Factory created SM_Window_Bottom
+[2015.10.23-00.29.30:002][112]LogActorFactory: Actor Factory created SM_Window_Bottom
+[2015.10.23-00.29.31:632][208]Cmd: DELETE
+[2015.10.23-00.29.31:632][208]Cmd: ACTOR DELETE
+[2015.10.23-00.29.31:633][208]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.10.23-00.29.31:658][208]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2015.10.23-00.29.33:709][326]LogActorFactory: Actor Factory created SM_Window_Top
+[2015.10.23-00.29.35:765][454]LogActorFactory: Actor Factory created SM_Window_Top
+[2015.10.23-00.29.37:070][528]LogEditorViewport: Clicking Background
+[2015.10.23-00.29.37:721][567]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Top7)
+[2015.10.23-00.29.41:688][800]LogEditorViewport: Clicking Background
+[2015.10.23-00.29.48:349][202]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Top7)
+[2015.10.23-00.29.48:549][211]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom7)
+[2015.10.23-00.29.49:516][267]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top7)
+[2015.10.23-00.29.51:354][376]Cmd: DELETE
+[2015.10.23-00.29.51:354][376]Cmd: ACTOR DELETE
+[2015.10.23-00.29.51:355][376]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.10.23-00.29.51:355][376]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.10.23-00.29.51:377][376]LogEditorActor: Deleted 2 Actors (0.023 secs)
+[2015.10.23-00.29.56:874][697]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door2)
+[2015.10.23-00.30.00:964][912]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door2)
+[2015.10.23-00.30.01:086][916]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2015.10.23-00.30.13:477][458]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000902F6DB380
+[2015.10.23-00.30.13:633][458]LogSavePackage: Save=34.976089ms
+[2015.10.23-00.30.13:633][458]LogSavePackage: Moving '../../../../../../projects/Introduction/Saved/My_ComplexRoomF3E12C7D47D153A0376240BCA650E973.tmp' to '../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.23-00.30.13:640][458]LogSavePackage: Total save time: 45.165282ms
+[2015.10.23-00.30.13:640][458]LogSavePackage:Warning: Finished SavePackage ../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.23-00.30.13:672][458]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.168
+[2015.10.23-00.30.20:756][869]Cmd: MAP LOAD FILE="../../../../../../projects/Introduction/Content/StarterContent/Maps/StarterMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.23-00.30.20:776][869]LightingResults: New page: Lighting Build
+[2015.10.23-00.30.20:796][869]LoadErrors: New page: Loading map: StarterMap.umap
+[2015.10.23-00.30.20:797][869]MapCheck: New page: Map Check
+[2015.10.23-00.30.20:797][869]LightingResults: New page: Lighting Build
+[2015.10.23-00.30.20:820][869]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009024F280E0
+[2015.10.23-00.30.27:139][869]LogAIModule: Creating AISystem for world StarterMap
+[2015.10.23-00.30.27:313][869]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.23-00.30.27:353][869]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.23-00.30.27:454][869]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 100.29ms to complete.
+[2015.10.23-00.30.27:454][869]LogFileHelpers: Loading map 'StarterMap' took 6.700
+[2015.10.23-00.30.40:720][299]Cmd: MAP LOAD FILE="../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.23-00.30.40:740][299]LightingResults: New page: Lighting Build
+[2015.10.23-00.30.40:763][299]LoadErrors: New page: Loading map: My_ComplexRoom.umap
+[2015.10.23-00.30.40:765][299]MapCheck: New page: Map Check
+[2015.10.23-00.30.40:765][299]LightingResults: New page: Lighting Build
+[2015.10.23-00.30.40:790][299]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000090577ECF40
+[2015.10.23-00.30.40:807][299]LogAIModule: Creating AISystem for world My_ComplexRoom
+[2015.10.23-00.30.40:893][299]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.23-00.30.40:931][299]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.23-00.30.41:028][299]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 97.208ms to complete.
+[2015.10.23-00.30.41:029][299]LogFileHelpers: Loading map 'My_ComplexRoom' took 0.311
+[2015.10.23-00.30.53:345][ 16]LightingResults: New page: Lighting Build
+[2015.10.23-00.30.53:346][ 16]MapCheck: New page: Map Check
+[2015.10.23-00.30.53:346][ 16]LightingResults: New page: Lighting Build
+[2015.10.23-00.30.53:373][ 16]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000903C5A7100
+[2015.10.23-00.30.53:374][ 16]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.23-00.30.53:466][ 16]LoadErrors: New page: New Map
+[2015.10.23-00.30.53:501][ 17]LogEditorViewport: Clicking Background
+[2015.10.23-00.31.02:670][586]Cmd: MAP LOAD FILE="../../../../../../projects/Introduction/Content/StarterContent/Maps/My_ComplexRoom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.23-00.31.02:688][586]LightingResults: New page: Lighting Build
+[2015.10.23-00.31.02:710][586]LoadErrors: New page: Loading map: My_ComplexRoom.umap
+[2015.10.23-00.31.02:710][586]MapCheck: New page: Map Check
+[2015.10.23-00.31.02:710][586]LightingResults: New page: Lighting Build
+[2015.10.23-00.31.02:737][586]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009059858B80
+[2015.10.23-00.31.02:752][586]LogAIModule: Creating AISystem for world My_ComplexRoom
+[2015.10.23-00.31.02:868][586]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.23-00.31.02:908][586]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.23-00.31.03:005][586]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 96.168ms to complete.
+[2015.10.23-00.31.03:005][586]LogFileHelpers: Loading map 'My_ComplexRoom' took 0.336
+[2015.10.23-00.31.08:283][878]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Top2)
+[2015.10.23-00.31.08:738][895]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Top)
+[2015.10.23-00.31.10:032][963]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom2)
+[2015.10.23-00.31.19:360][427]LightingResults: New page: Lighting Build
+[2015.10.23-00.31.19:361][427]MapCheck: New page: Map Check
+[2015.10.23-00.31.19:361][427]LightingResults: New page: Lighting Build
+[2015.10.23-00.31.19:384][427]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009040D3CCC0
+[2015.10.23-00.31.19:385][427]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.23-00.31.19:505][427]LoadErrors: New page: New Map
+[2015.10.23-00.31.27:077][427]LogCrashTracker: 
+
+
+[2015.10.23-00.31.27:307][427]LogCrashTracker: 
+
+
+[2015.10.23-00.31.27:307][427]LogWindows: === Critical error: ===
+Fatal error!
+
+
+
+[2015.10.23-00.31.27:457][427]LogExit: Executing StaticShutdownAfterError
+[2015.10.23-00.31.27:462][427]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.10.23-00.31.27:462][427]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.10.23-00.31.27:462][427]LogWindows: FPlatformMisc::RequestExit(1)
+[2015.10.23-00.31.27:462][427]Log file closed, 10/23/15 08:31:27
