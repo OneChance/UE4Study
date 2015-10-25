@@ -1,0 +1,1406 @@
+﻿[2015.10.24-03.13.02:903][  0]Log file open, 10/24/15 11:13:02
+[2015.10.24-03.13.02:903][  0]LogInit:Display: Running engine for game: Introduction
+[2015.10.24-03.13.02:903][  0]LogInit:Display: RandInit(49648021) SRandInit(49648021).
+[2015.10.24-03.13.02:903][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.10.24-03.13.02:903][  0]LogStats: Stats thread started at 0.066648
+[2015.10.24-03.13.02:903][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.24-03.13.02:903][  0]LogInit: API Version: 2672455
+[2015.10.24-03.13.02:903][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.10.24-03.13.02:903][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.24-03.13.02:903][  0]LogInit: Build Configuration: Development
+[2015.10.24-03.13.02:903][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.24-03.13.02:903][  0]LogInit: Command line: 
+[2015.10.24-03.13.02:903][  0]LogInit: Base directory: D:/Work/UE4/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.24-03.13.02:903][  0]LogInit: Rocket: 1
+[2015.10.24-03.13.02:915][  0]LogInit: Using libcurl 7.41.0
+[2015.10.24-03.13.02:915][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.24-03.13.02:915][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.24-03.13.02:915][  0]LogInit:  - other features:
+[2015.10.24-03.13.02:915][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.24-03.13.02:915][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.24-03.13.02:915][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.24-03.13.02:915][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.24-03.13.02:915][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.24-03.13.02:915][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.24-03.13.02:915][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.24-03.13.02:915][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.24-03.13.02:915][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.24-03.13.02:915][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.24-03.13.02:922][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.24-03.13.02:934][  0]LogInit: Object subsystem initialized
+[2015.10.24-03.13.02:936][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.24-03.13.02:936][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.24-03.13.02:949][  0]LogInit: Computer: LENOVO-PC
+[2015.10.24-03.13.02:949][  0]LogInit: User: user
+[2015.10.24-03.13.02:949][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.10.24-03.13.02:949][  0]LogInit: High frequency timer resolution =2.825498 MHz
+[2015.10.24-03.13.02:949][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2015.10.24-03.13.02:949][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.24-03.13.02:949][  0]LogMemory: Process Physical Memory: 52.27 MB used, 52.27 MB peak
+[2015.10.24-03.13.02:949][  0]LogMemory: Process Virtual Memory: 57.15 MB used, 57.15 MB peak
+[2015.10.24-03.13.02:949][  0]LogMemory: Physical Memory: 4309.68 MB used, 12200.27 MB total
+[2015.10.24-03.13.02:949][  0]LogMemory: Virtual Memory: 346.98 MB used, 134217728.00 MB total
+[2015.10.24-03.13.03:398][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 860M   (Feature Level 11_0)
+[2015.10.24-03.13.03:398][  0]LogD3D11RHI: Adapter has 1972MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.10.24-03.13.03:404][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.10.24-03.13.03:404][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 0 output[s]
+[2015.10.24-03.13.03:405][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.10.24-03.13.03:405][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.10.24-03.13.03:405][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.24-03.13.03:410][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.24-03.13.03:410][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.24-03.13.03:423][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.24-03.13.03:436][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../Projects/UE4Study/Intermediate/Shaders/WorkingDirectory/28340/).
+[2015.10.24-03.13.03:436][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../Projects/UE4Study/Intermediate/Shaders/tmp/1C96659447CD25DBB82578B640A987EB/'.
+[2015.10.24-03.13.03:436][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.24-03.13.04:826][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.24-03.13.04:831][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.24-03.13.04:836][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.24-03.13.04:841][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.24-03.13.04:846][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.24-03.13.04:849][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.24-03.13.04:853][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.24-03.13.04:857][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.24-03.13.04:861][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.24-03.13.04:864][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.24-03.13.04:868][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.24-03.13.04:872][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.24-03.13.04:873][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.24-03.13.04:889][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.24-03.13.04:892][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.24-03.13.04:896][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.24-03.13.04:900][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.24-03.13.04:900][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.24-03.13.04:972][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.24-03.13.05:032][  0]LogDerivedDataCache: Loaded boot cache 0.06s 41MB C:/Users/user/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.24-03.13.05:032][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/user/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.24-03.13.05:033][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Projects/UE4Study/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.24-03.13.05:033][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.24-03.13.05:033][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Projects/UE4Study/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.24-03.13.05:033][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.24-03.13.05:194][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.24-03.13.05:207][  0]LogDerivedDataCache: Using Local data cache path C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.24-03.13.05:387][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.24-03.13.05:390][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.24-03.13.05:512][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.24-03.13.05:512][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.24-03.13.05:854][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.24-03.13.06:633][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.24-03.13.06:725][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2015.10.24-03.13.06:873][  0]SourceControl: 信息 源码控制已禁用
+[2015.10.24-03.13.06:938][  0]SourceControl: 信息 源码控制已禁用
+[2015.10.24-03.13.06:945][  0]SourceControl: 信息 源码控制已禁用
+[2015.10.24-03.13.06:953][  0]SourceControl: 信息 源码控制已禁用
+[2015.10.24-03.13.07:094][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.24-03.13.07:180][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.10.24-03.13.07:180][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2015.10.24-03.13.07:248][  0]LogEngine: Initializing Engine...
+[2015.10.24-03.13.07:250][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.10.24-03.13.07:251][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.10.24-03.13.07:423][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.24-03.13.07:432][  0]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.24-03.13.07:448][  0]LogInit: FAudioDevice initialized.
+[2015.10.24-03.13.07:562][  0]LogDerivedDataCache: Saved boot cache 0.11s 41MB C:/Users/user/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.24-03.13.07:565][  0]LogInit: Texture streaming: Enabled
+[2015.10.24-03.13.07:570][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.24-03.13.07:570][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.24-03.13.07:570][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 9f32512f489ba9d85b11adafcc898a7b|b0673e94d52d486cbdf3580f32be2351|a1368a20-e5a8-4867-a4a8-60870698c502
+[2015.10.24-03.13.07:570][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.24-03.13.07:589][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (搜狗拼音输入法).
+[2015.10.24-03.13.07:654][  0]LogInit: Transaction tracking system initialized
+[2015.10.24-03.13.07:684][  0]BlueprintLog: New page: 编辑器加载
+[2015.10.24-03.13.07:779][  0]LocalizationService: 信息 本地化服务已被禁用
+[2015.10.24-03.13.07:847][  0]LogConsoleResponse:Display: 
+[2015.10.24-03.13.08:018][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.24-03.13.08:074][  0]LogFileCache: Scanning file cache for directory 'D:/Work/UE4/Projects/UE4Study/Content/' took 0.01s
+[2015.10.24-03.13.08:081][  0]SourceControl: 信息 源码控制已禁用
+[2015.10.24-03.13.08:081][  0]Cmd: MAP LOAD FILE="../../../../../Projects/UE4Study/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.24-03.13.08:314][  0]LightingResults: New page: 光照构建
+[2015.10.24-03.13.08:318][  0]MapCheck: New page: 地图检测
+[2015.10.24-03.13.08:318][  0]LightingResults: New page: 光照构建
+[2015.10.24-03.13.08:349][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA095BEAC0
+[2015.10.24-03.13.12:131][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.10.24-03.13.12:144][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.24-03.13.12:145][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.24-03.13.12:214][  0]MapCheck: 信息 地图检测完成：0个错误，0 个警告，用时68.342毫秒完成。
+[2015.10.24-03.13.12:214][  0]LogFileHelpers: Loading map 'Minimal_Default' took 4.133
+[2015.10.24-03.13.12:327][  0]LogCollectionManager: Loaded 0 collections in 0.001784 seconds
+[2015.10.24-03.13.12:370][  0]LogFileCache: Scanning file cache for directory 'D:/Work/UE4/Projects/UE4Study/Saved/Collections/' took 0.01s
+[2015.10.24-03.13.12:370][  0]LogFileCache: Scanning file cache for directory 'D:/Work/UE4/Projects/UE4Study/Content/Developers/user/Collections/' took 0.01s
+[2015.10.24-03.13.12:370][  0]LogFileCache: Scanning file cache for directory 'D:/Work/UE4/Projects/UE4Study/Content/Collections/' took 0.01s
+[2015.10.24-03.13.12:370][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 1867 classes and 333 folders.
+[2015.10.24-03.13.12:374][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.10.24-03.13.12:379][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.10.24-03.13.13:060][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.10.24-03.13.13:598][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2015.10.24-03.13.13:758][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.24-03.13.13:825][  0]LogLoad: Full Startup: 11.61 seconds (BP compile: 0.07 seconds)
+[2015.10.24-03.13.14:094][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.10.24-03.13.14:235][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.10.24-03.13.14:956][  1]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.10.24-03.13.15:576][  4]LogAssetRegistry: Asset discovery search completed in 8.8622 seconds
+[2015.10.24-03.13.15:576][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.10.24-03.13.15:576][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000024 seconds (updated 0 objects)
+[2015.10.24-03.14.59:294][722]Cmd: MAP LOAD FILE="../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.24-03.14.59:339][722]LightingResults: New page: 光照构建
+[2015.10.24-03.14.59:365][722]LoadErrors: New page: 正在加载地图： My_ComplexRoom.umap
+[2015.10.24-03.14.59:366][722]MapCheck: New page: 地图检测
+[2015.10.24-03.14.59:366][722]LightingResults: New page: 光照构建
+[2015.10.24-03.14.59:384][722]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA7852ADE0
+[2015.10.24-03.14.59:756][722]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2015.10.24-03.14.59:817][722]LogMaterial: Missing cached shader map for material Material__25, compiling. 
+[2015.10.24-03.14.59:830][722]LogStaticMesh: 正在构建静态网格物体SM_Wall_2xWindow...
+[2015.10.24-03.14.59:851][722]LogStaticMesh: Built static mesh [0.021038.2s] /Game/MyMeshes/SM_Wall_2xWindow.SM_Wall_2xWindow
+[2015.10.24-03.14.59:853][722]LogStaticMesh: 正在构建静态网格物体SM_Floor...
+[2015.10.24-03.14.59:856][722]LogStaticMesh: Built static mesh [0.002905.2s] /Game/MyMeshes/SM_Floor.SM_Floor
+[2015.10.24-03.14.59:950][722]LogStaticMesh: 正在构建静态网格物体SM_Door...
+[2015.10.24-03.15.00:018][722]LogStaticMesh: Built static mesh [0.068926.2s] /Game/MyMeshes/SM_Door.SM_Door
+[2015.10.24-03.15.00:023][722]LogStaticMesh: 正在构建静态网格物体SM_DoorFrame...
+[2015.10.24-03.15.00:049][722]LogStaticMesh: Built static mesh [0.025616.2s] /Game/MyMeshes/SM_DoorFrame.SM_DoorFrame
+[2015.10.24-03.15.00:051][722]LogStaticMesh: 正在构建静态网格物体SM_Window_Bottom...
+[2015.10.24-03.15.00:080][722]LogStaticMesh: Built static mesh [0.029476.2s] /Game/MyMeshes/SM_Window_Bottom.SM_Window_Bottom
+[2015.10.24-03.15.00:082][722]LogStaticMesh: 正在构建静态网格物体SM_Window_Top...
+[2015.10.24-03.15.00:105][722]LogStaticMesh: Built static mesh [0.023315.2s] /Game/MyMeshes/SM_Window_Top.SM_Window_Top
+[2015.10.24-03.15.00:139][722]LogMaterial: Missing cached shader map for material M_OldWood, compiling. 
+[2015.10.24-03.15.00:204][722]LogTexture:Display: 正在构建贴图: T_CrackedPaint_M_01 (AutoDXT)
+[2015.10.24-03.15.00:569][722]LogTexture:Display: 正在构建贴图: T_CrackedPaint_N_01 (BC5)
+[2015.10.24-03.15.00:715][722]LogTexture:Display: 正在构建贴图: T_CrackedPaint_M_01 (AutoDXT)
+[2015.10.24-03.15.00:982][722]LogMaterial: Missing cached shader map for material M_PaintedWood, compiling. 
+[2015.10.24-03.15.00:997][722]LogMaterial: Missing cached shader map for material M_Brick_Clay_Old, compiling. 
+[2015.10.24-03.15.01:033][722]LogMaterial: Missing cached shader map for material Wood_Painted, compiling. 
+[2015.10.24-03.15.01:047][722]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.10.24-03.15.01:093][722]LogTexture:Display: 正在构建贴图: T_CrackedPaint_N_01 (BC5)
+[2015.10.24-03.15.01:207][722]LogAIModule: Creating AISystem for world My_ComplexRoom
+[2015.10.24-03.15.01:261][722]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.24-03.15.01:298][722]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.24-03.15.01:356][722]MapCheck: 信息 地图检测完成：0个错误，0 个警告，用时58.384毫秒完成。
+[2015.10.24-03.15.01:356][722]LogFileHelpers: Loading map 'My_ComplexRoom' took 2.064
+[2015.10.24-03.15.12:580][309]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow3)
+[2015.10.24-03.15.20:138][407]Cmd: ACTOR SELECT ALL
+[2015.10.24-03.15.28:913][697]LogMaterial: Missing cached shader map for material M_OldWood, compiling. 
+[2015.10.24-03.15.28:989][697]LogLinker:Warning: 无法寻找到文件'/Game/Props/SM_MatPreviewMesh_02'
+[2015.10.24-03.15.28:990][697]LogLinker:Warning: 无法寻找到文件'/Game/Props/SM_MatPreviewMesh_02'
+[2015.10.24-03.15.28:991][697]LogUObjectGlobals:Warning: 寻找对象'Object /Game/Props/SM_MatPreviewMesh_02.SM_MatPreviewMesh_02'失败
+[2015.10.24-03.15.29:000][697]LogMaterial: Missing cached shader map for material M_OldWood, compiling. 
+[2015.10.24-03.15.29:007][697]LogMaterial: 0.000044 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-03.15.29:037][697]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2015.10.24-03.15.29:042][697]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2015.10.24-03.15.29:047][697]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.10.24-03.15.29:052][697]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.10.24-03.15.29:057][697]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_5, compiling. 
+[2015.10.24-03.15.32:731][896]MaterialEditorStats: 信息 Base pass shader with static lighting: 87 instructions
+[2015.10.24-03.15.32:731][896]MaterialEditorStats: 信息 Base pass shader with only dynamic lighting: 55 instructions
+[2015.10.24-03.15.32:731][896]MaterialEditorStats: 信息 Vertex shader: 33 instructions
+[2015.10.24-03.15.32:731][896]MaterialEditorStats: 信息 Texture samplers: 6/16
+[2015.10.24-03.15.35:623][ 47]LogRenderer: Reallocating scene render targets to support 1208x924 (Frame:5242).
+[2015.10.24-03.15.47:409][726]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.24-03.15.49:576][848]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow)
+[2015.10.24-03.15.50:933][923]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow)
+[2015.10.24-03.15.53:193][ 52]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow3)
+[2015.10.24-03.15.54:550][130]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Wall_2xWindow)
+[2015.10.24-03.15.55:745][198]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Wall_2xWindow2)
+[2015.10.24-03.16.23:791][628]LogMaterial: Missing cached shader map for material M_Brick_Clay_Old, compiling. 
+[2015.10.24-03.16.31:024][989]LogMaterial: Missing cached shader map for material M_Brick_Clay_Old, compiling. 
+[2015.10.24-03.16.31:140][989]LogMaterial: Missing cached shader map for material M_Brick_Clay_Old, compiling. 
+[2015.10.24-03.16.31:151][989]LogMaterial: 0.000043 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-03.16.31:180][989]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_60, compiling. 
+[2015.10.24-03.16.31:185][989]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_61, compiling. 
+[2015.10.24-03.16.31:189][989]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_62, compiling. 
+[2015.10.24-03.16.31:194][989]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_20, compiling. 
+[2015.10.24-03.16.31:198][989]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_63, compiling. 
+[2015.10.24-03.16.31:203][989]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_64, compiling. 
+[2015.10.24-03.16.31:208][989]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_65, compiling. 
+[2015.10.24-03.16.31:212][989]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_21, compiling. 
+[2015.10.24-03.16.36:507][279]MaterialEditorStats: 信息 Base pass shader with static lighting: 100 instructions
+[2015.10.24-03.16.36:507][279]MaterialEditorStats: 信息 Base pass shader with only dynamic lighting: 67 instructions
+[2015.10.24-03.16.36:507][279]MaterialEditorStats: 信息 Vertex shader: 33 instructions
+[2015.10.24-03.16.36:507][279]MaterialEditorStats: 信息 Texture samplers: 6/16
+[2015.10.24-03.16.44:823][715]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA0DDDCAE0
+[2015.10.24-03.16.44:924][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/My_ComplexRoom" FILE="../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.24-03.16.44:985][715]LogSavePackage: Save=35.326515ms
+[2015.10.24-03.16.44:985][715]LogSavePackage: Moving '../../../../../Projects/UE4Study/Saved/My_ComplexRoom7A37ECC34A1946046278A79A66306034.tmp' to '../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.24-03.16.44:988][715]LogSavePackage: Total save time: 42.832449ms
+[2015.10.24-03.16.44:988][715]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.24-03.16.45:013][715]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.139
+[2015.10.24-03.16.48:094][894]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow)
+[2015.10.24-03.16.51:486][ 88]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow3)
+[2015.10.24-03.16.52:411][139]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Wall_2xWindow)
+[2015.10.24-03.16.53:573][204]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Wall_2xWindow2)
+[2015.10.24-03.17.17:603][563]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow)
+[2015.10.24-03.17.31:453][347]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.24-03.17.42:106][964]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.24-03.17.44:729][114]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.24-03.18.03:373][199]LogMaterial: Missing cached shader map for material M_Concrete_Tiles, compiling. 
+[2015.10.24-03.18.27:000][533]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door3)
+[2015.10.24-03.18.27:993][588]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.24-03.18.41:651][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/My_ComplexRoom" FILE="../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.24-03.18.41:721][361]LogSavePackage: Save=42.948536ms
+[2015.10.24-03.18.41:721][361]LogSavePackage: Moving '../../../../../Projects/UE4Study/Saved/My_ComplexRoomE9EDE1DC40D4BFFBCA8066AFC49E5D0E.tmp' to '../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.24-03.18.41:725][361]LogSavePackage: Total save time: 50.566308ms
+[2015.10.24-03.18.41:725][361]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.24-03.18.41:762][361]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.171
+[2015.10.24-03.18.45:240][566]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2015.10.24-03.22.09:027][549]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2015.10.24-03.22.15:374][733]Cmd: SELECT NONE
+[2015.10.24-03.22.17:264][807]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2015.10.24-03.22.27:849][ 93]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame3)
+[2015.10.24-03.22.32:275][209]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_DoorFrame)
+[2015.10.24-03.22.33:897][251]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_DoorFrame2)
+[2015.10.24-03.22.56:460][285]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA180DCCC0
+[2015.10.24-03.22.56:571][285]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/My_ComplexRoom" FILE="../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.24-03.22.56:639][285]LogSavePackage: Save=38.766617ms
+[2015.10.24-03.22.56:639][285]LogSavePackage: Moving '../../../../../Projects/UE4Study/Saved/My_ComplexRoom500FC28345928DBE6144E6AA6345EC5C.tmp' to '../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.24-03.22.56:643][285]LogSavePackage: Total save time: 48.697963ms
+[2015.10.24-03.22.56:643][285]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.24-03.22.56:675][285]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.174
+[2015.10.24-03.23.37:629][733]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door2)
+[2015.10.24-03.23.40:274][885]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Door)
+[2015.10.24-03.23.43:295][ 44]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Door3)
+[2015.10.24-03.23.47:599][232]LogLinker:Warning: 无法寻找到文件'/Game/DT_Materials/M_PaintedWood'
+[2015.10.24-03.23.47:599][232]LogLinker:Warning: 无法在加载../../../../../Projects/UE4Study/Content/DT_Materials/M_PaintedWood_Inst3.uasset时寻找到资源'/Game/DT_Materials/M_PaintedWood'的文件。
+[2015.10.24-03.23.47:599][232]LoadErrors:Error: 错误 /Game/DT_Materials/M_PaintedWood_Inst3 : 无法寻找到资源的文件。 /Game/DT_Materials/M_PaintedWood
+[2015.10.24-03.23.47:600][232]LogLinker:Warning: 无法寻找到文件'/Game/DT_Materials/M_PaintedWood'
+[2015.10.24-03.23.47:600][232]LogLinker:Warning: 无法在加载../../../../../Projects/UE4Study/Content/DT_Materials/M_PaintedWood_Inst3.uasset时寻找到资源'/Game/DT_Materials/M_PaintedWood'的文件。
+[2015.10.24-03.23.47:600][232]LogLinker:Warning: 无法寻找到文件'/Game/DT_Materials/M_PaintedWood'
+[2015.10.24-03.23.47:600][232]LoadErrors: 信息 加载失败 /Game/DT_Materials/M_PaintedWood.M_PaintedWood 引用者 M_PaintedWood_Inst3
+[2015.10.24-03.23.47:600][232]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/DT_Materials/M_PaintedWood'的文件。
+[2015.10.24-03.24.00:460][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/My_ComplexRoom" FILE="../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.24-03.24.00:517][966]LogSavePackage: Save=32.863941ms
+[2015.10.24-03.24.00:517][966]LogSavePackage: Moving '../../../../../Projects/UE4Study/Saved/My_ComplexRoom49D677CC40E00293DBB5CE9BF12D373A.tmp' to '../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.24-03.24.00:521][966]LogSavePackage: Total save time: 40.050991ms
+[2015.10.24-03.24.00:521][966]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.24-03.24.00:547][966]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.141
+[2015.10.24-03.24.30:874][752]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame3)
+[2015.10.24-03.24.41:608][343]LogLinker:Warning: 无法寻找到文件'/Game/DT_Materials/M_PaintedWood'
+[2015.10.24-03.24.41:609][343]LogLinker:Warning: 无法在加载../../../../../Projects/UE4Study/Content/DT_Materials/M_PaintedWood_Inst2.uasset时寻找到资源'/Game/DT_Materials/M_PaintedWood'的文件。
+[2015.10.24-03.24.41:609][343]LoadErrors:Error: 错误 /Game/DT_Materials/M_PaintedWood_Inst2 : 无法寻找到资源的文件。 /Game/DT_Materials/M_PaintedWood
+[2015.10.24-03.24.41:609][343]LogLinker:Warning: 无法寻找到文件'/Game/DT_Materials/M_PaintedWood'
+[2015.10.24-03.24.41:609][343]LogLinker:Warning: 无法在加载../../../../../Projects/UE4Study/Content/DT_Materials/M_PaintedWood_Inst2.uasset时寻找到资源'/Game/DT_Materials/M_PaintedWood'的文件。
+[2015.10.24-03.24.41:609][343]LogLinker:Warning: 无法寻找到文件'/Game/DT_Materials/M_PaintedWood'
+[2015.10.24-03.24.41:610][343]LoadErrors: 信息 加载失败 /Game/DT_Materials/M_PaintedWood.M_PaintedWood 引用者 M_PaintedWood_Inst2
+[2015.10.24-03.24.41:610][343]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/DT_Materials/M_PaintedWood'的文件。
+[2015.10.24-03.24.43:450][446]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA0E1A05E0
+[2015.10.24-03.24.43:533][446]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/My_ComplexRoom" FILE="../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.24-03.24.43:587][446]LogSavePackage: Save=31.465958ms
+[2015.10.24-03.24.43:587][446]LogSavePackage: Moving '../../../../../Projects/UE4Study/Saved/My_ComplexRoomB742FB2144ACC125F3E28AB49B74F3DC.tmp' to '../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.24-03.24.43:590][446]LogSavePackage: Total save time: 37.366863ms
+[2015.10.24-03.24.43:590][446]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.24-03.24.43:615][446]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.131
+[2015.10.24-03.24.48:459][735]LogLinker:Warning: 无法寻找到文件'/Game/DT_Materials/M_PaintedWood'
+[2015.10.24-03.24.48:459][735]LogLinker:Warning: 无法在加载../../../../../Projects/UE4Study/Content/DT_Materials/M_PaintedWood_Inst.uasset时寻找到资源'/Game/DT_Materials/M_PaintedWood'的文件。
+[2015.10.24-03.24.48:459][735]LoadErrors:Error: 错误 /Game/DT_Materials/M_PaintedWood_Inst : 无法寻找到资源的文件。 /Game/DT_Materials/M_PaintedWood
+[2015.10.24-03.24.48:459][735]LogLinker:Warning: 无法寻找到文件'/Game/DT_Materials/M_PaintedWood'
+[2015.10.24-03.24.48:459][735]LogLinker:Warning: 无法在加载../../../../../Projects/UE4Study/Content/DT_Materials/M_PaintedWood_Inst.uasset时寻找到资源'/Game/DT_Materials/M_PaintedWood'的文件。
+[2015.10.24-03.24.48:460][735]LogLinker:Warning: 无法寻找到文件'/Game/DT_Materials/M_PaintedWood'
+[2015.10.24-03.24.48:460][735]LoadErrors: 信息 加载失败 /Game/DT_Materials/M_PaintedWood.M_PaintedWood 引用者 M_PaintedWood_Inst
+[2015.10.24-03.24.48:460][735]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/DT_Materials/M_PaintedWood'的文件。
+[2015.10.24-03.24.56:694][217]LogMaterial: Missing cached shader map for material M_PaintedWood, compiling. 
+[2015.10.24-03.24.56:720][217]LogMaterial: Missing cached shader map for material M_PaintedWood, compiling. 
+[2015.10.24-03.24.56:822][217]LogLinker:Warning: 无法寻找到文件'/Game/Props/SM_MatPreviewMesh_02'
+[2015.10.24-03.24.56:823][217]LogLinker:Warning: 无法寻找到文件'/Game/Props/SM_MatPreviewMesh_02'
+[2015.10.24-03.24.56:825][217]LogUObjectGlobals:Warning: 寻找对象'Object /Game/Props/SM_MatPreviewMesh_02.SM_MatPreviewMesh_02'失败
+[2015.10.24-03.24.56:837][217]LogMaterial: Missing cached shader map for material M_PaintedWood, compiling. 
+[2015.10.24-03.24.56:847][217]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-03.24.56:873][217]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2015.10.24-03.24.56:877][217]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2015.10.24-03.24.56:880][217]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2015.10.24-03.24.56:883][217]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2015.10.24-03.24.56:886][217]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionComponentMask_2, compiling. 
+[2015.10.24-03.24.56:889][217]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionOneMinus_3, compiling. 
+[2015.10.24-03.24.56:893][217]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2015.10.24-03.24.56:897][217]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.10.24-03.24.56:900][217]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2015.10.24-03.25.09:106][892]MaterialEditorStats: 信息 Base pass shader with static lighting: 92 instructions
+[2015.10.24-03.25.09:106][892]MaterialEditorStats: 信息 Base pass shader with only dynamic lighting: 60 instructions
+[2015.10.24-03.25.09:106][892]MaterialEditorStats: 信息 Vertex shader: 33 instructions
+[2015.10.24-03.25.09:106][892]MaterialEditorStats: 信息 Texture samplers: 7/16
+[2015.10.24-03.25.17:753][353]LogRenderer: Reallocating scene render targets to support 1392x924 (Frame:42405).
+[2015.10.24-03.25.35:163][385]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA062BC680
+[2015.10.24-03.25.35:165][385]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA1CF3C860
+[2015.10.24-03.25.35:234][385]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DT_Materials/M_PaintedWood_Inst" FILE="../../../../../Projects/UE4Study/Content/DT_Materials/M_PaintedWood_Inst.uasset" SILENT=true
+[2015.10.24-03.25.35:252][385]LogSavePackage: Save=12.891179ms
+[2015.10.24-03.25.35:253][385]LogSavePackage: Moving '../../../../../Projects/UE4Study/Saved/M_PaintedWood_Inst8A942AF749B13ACD1C5142B2F70CC52E.tmp' to '../../../../../Projects/UE4Study/Content/DT_Materials/M_PaintedWood_Inst.uasset'
+[2015.10.24-03.25.35:256][385]LogSavePackage: Total save time: 20.248819ms
+[2015.10.24-03.25.35:256][385]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/UE4Study/Content/DT_Materials/M_PaintedWood_Inst.uasset
+[2015.10.24-03.25.48:138][144]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA1077D800
+[2015.10.24-03.25.48:194][144]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DT_Materials/M_PaintedWood_Inst2" FILE="../../../../../Projects/UE4Study/Content/DT_Materials/M_PaintedWood_Inst2.uasset" SILENT=true
+[2015.10.24-03.25.48:212][144]LogSavePackage: Save=12.305796ms
+[2015.10.24-03.25.48:212][144]LogSavePackage: Moving '../../../../../Projects/UE4Study/Saved/M_PaintedWood_Inst25B396D9A40E84E7242FB9B8D18EF3E11.tmp' to '../../../../../Projects/UE4Study/Content/DT_Materials/M_PaintedWood_Inst2.uasset'
+[2015.10.24-03.25.48:215][144]LogSavePackage: Total save time: 19.316949ms
+[2015.10.24-03.25.48:215][144]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/UE4Study/Content/DT_Materials/M_PaintedWood_Inst2.uasset
+[2015.10.24-03.25.58:366][733]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA1CF3E200
+[2015.10.24-03.25.58:424][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DT_Materials/M_PaintedWood_Inst3" FILE="../../../../../Projects/UE4Study/Content/DT_Materials/M_PaintedWood_Inst3.uasset" SILENT=true
+[2015.10.24-03.25.58:442][733]LogSavePackage: Save=13.427367ms
+[2015.10.24-03.25.58:442][733]LogSavePackage: Moving '../../../../../Projects/UE4Study/Saved/M_PaintedWood_Inst3E34C10CE4D0355BA707CE19DAB398545.tmp' to '../../../../../Projects/UE4Study/Content/DT_Materials/M_PaintedWood_Inst3.uasset'
+[2015.10.24-03.25.58:446][733]LogSavePackage: Total save time: 20.053808ms
+[2015.10.24-03.25.58:446][733]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/UE4Study/Content/DT_Materials/M_PaintedWood_Inst3.uasset
+[2015.10.24-03.26.09:724][392]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.24-03.26.20:965][ 48]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.24-03.26.40:467][208]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2015.10.24-03.27.54:670][597]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor2)
+[2015.10.24-03.28.08:156][376]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/My_ComplexRoom" FILE="../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.24-03.28.08:217][376]LogSavePackage: Save=34.677425ms
+[2015.10.24-03.28.08:217][376]LogSavePackage: Moving '../../../../../Projects/UE4Study/Saved/My_ComplexRoomA4B5565B4CD711C776889B9ADEE0F587.tmp' to '../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.24-03.28.08:220][376]LogSavePackage: Total save time: 42.483486ms
+[2015.10.24-03.28.08:220][376]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.24-03.28.08:247][376]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.144
+[2015.10.24-03.28.36:927][ 87]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x502)
+[2015.10.24-03.28.38:356][168]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Pillar_50x504)
+[2015.10.24-03.28.39:105][208]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Pillar_50x500)
+[2015.10.24-03.28.39:994][257]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Pillar_50x501)
+[2015.10.24-03.28.40:687][294]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Pillar_50x505)
+[2015.10.24-03.28.41:590][344]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Pillar_50x503)
+[2015.10.24-03.29.18:464][462]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.24-03.29.21:627][625]LogEditorViewport: Clicking Background
+[2015.10.24-03.29.32:745][270]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2015.10.24-03.29.35:663][438]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2015.10.24-03.29.39:100][637]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2015.10.24-03.30.15:796][821]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x505)
+[2015.10.24-03.30.31:156][681]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x505)
+[2015.10.24-03.30.31:870][723]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x505)
+[2015.10.24-03.30.32:694][772]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor2)
+[2015.10.24-03.30.33:714][831]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x505)
+[2015.10.24-03.31.15:347][304]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x504)
+[2015.10.24-03.31.17:128][409]LogWindows: LaunchURL http://docs.unrealengine.com/latest/ZHO/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu
+[2015.10.24-03.31.48:912][250]LogEditorViewport: Clicking Background
+[2015.10.24-03.31.50:216][328]LogEditorViewport: Clicking Background
+[2015.10.24-03.31.51:303][393]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x508)
+[2015.10.24-03.32.16:880][908]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.24-03.32.16:880][908]PIE: New page: SIE 会话: My_ComplexRoom (2015年10月24日 下午7:32:16)
+[2015.10.24-03.32.16:880][908]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_My_ComplexRoom
+[2015.10.24-03.32.16:884][908]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003862s)
+[2015.10.24-03.32.16:885][908]LogAIModule: Creating AISystem for world My_ComplexRoom
+[2015.10.24-03.32.16:885][908]LogPlayLevel: PIE: World Init took: (0.000762s)
+[2015.10.24-03.32.16:885][908]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/My_ComplexRoom.My_ComplexRoom to /Game/StarterContent/Maps/UEDPIE_0_My_ComplexRoom.My_ComplexRoom (0.004841s)
+[2015.10.24-03.32.16:905][908]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/StarterContent/Maps/UEDPIE_0_My_ComplexRoom.My_ComplexRoom:PersistentLevel.Pillar_50x509"
+[2015.10.24-03.32.16:909][908]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.24-03.32.16:919][908]LogInit: FAudioDevice initialized.
+[2015.10.24-03.32.17:065][908]LogWorld: Game class is 'GameMode'
+[2015.10.24-03.32.17:090][908]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_My_ComplexRoom.My_ComplexRoom up for play (max tick rate 60) at 2015.10.24-11.32.17
+[2015.10.24-03.32.17:090][908]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_My_ComplexRoom.My_ComplexRoom:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.24-03.32.17:090][908]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_My_ComplexRoom.My_ComplexRoom:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.24-03.32.17:091][908]LogWorld: Bringing up level for play took: 0.022609
+[2015.10.24-03.32.17:092][908]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.10.24-03.32.17:094][908]PIE: 信息 /Game/StarterContent/Maps/UEDPIE_0_My_ComplexRoom的‘在编辑器中播放’的起始时间-0.742
+[2015.10.24-03.32.17:141][908]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/StarterContent/Maps/UEDPIE_0_My_ComplexRoom.My_ComplexRoom:PersistentLevel.Pillar_50x509"
+[2015.10.24-03.32.18:289][974]LogEditorViewport: Clicking Background
+[2015.10.24-03.32.19:555][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/My_ComplexRoom" FILE="../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.24-03.32.19:611][ 45]LogSavePackage: Save=33.044086ms
+[2015.10.24-03.32.19:612][ 45]LogSavePackage: Moving '../../../../../Projects/UE4Study/Saved/My_ComplexRoomC90653AF49766BEBB9806EBC6C2762CF.tmp' to '../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.24-03.32.19:615][ 45]LogSavePackage: Total save time: 39.995074ms
+[2015.10.24-03.32.19:615][ 45]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.24-03.32.19:639][ 45]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.136
+[2015.10.24-03.32.23:793][294]LogEditorViewport: Clicking Background
+[2015.10.24-03.32.52:919][566]LogSelection:Warning: PIE object was selected: "PointLight /Game/StarterContent/Maps/UEDPIE_0_My_ComplexRoom.My_ComplexRoom:PersistentLevel.PointLight_7"
+[2015.10.24-03.32.55:302][706]LogSelection:Warning: PIE object was selected: "PointLight /Game/StarterContent/Maps/UEDPIE_0_My_ComplexRoom.My_ComplexRoom:PersistentLevel.PointLight2"
+[2015.10.24-03.32.56:815][795]LogSelection:Warning: PIE object was selected: "PointLight /Game/StarterContent/Maps/UEDPIE_0_My_ComplexRoom.My_ComplexRoom:PersistentLevel.PointLight_7"
+[2015.10.24-03.32.58:146][874]LogSelection:Warning: PIE object was selected: "PointLight /Game/StarterContent/Maps/UEDPIE_0_My_ComplexRoom.My_ComplexRoom:PersistentLevel.PointLight_7"
+[2015.10.24-03.32.58:146][874]LogSelection:Warning: PIE object was selected: "PointLight /Game/StarterContent/Maps/UEDPIE_0_My_ComplexRoom.My_ComplexRoom:PersistentLevel.PointLight2"
+[2015.10.24-03.32.59:278][941]LogSelection:Warning: PIE object was selected: "PointLight /Game/StarterContent/Maps/UEDPIE_0_My_ComplexRoom.My_ComplexRoom:PersistentLevel.PointLight_7"
+[2015.10.24-03.33.13:873][738]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.24-03.33.13:873][738]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/StarterContent/Maps/UEDPIE_0_My_ComplexRoom.My_ComplexRoom:PersistentLevel.SM_Floor_14"
+[2015.10.24-03.33.16:126][816]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.24-03.33.16:126][816]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/StarterContent/Maps/UEDPIE_0_My_ComplexRoom.My_ComplexRoom:PersistentLevel.SM_Floor_14"
+[2015.10.24-03.33.43:659][319]LogEditorViewport: Clicking Background
+[2015.10.24-03.33.49:941][695]LogEditorViewport: Clicking Background
+[2015.10.24-03.33.57:244][117]LogSelection:Warning: PIE object was selected: "PointLight /Game/StarterContent/Maps/UEDPIE_0_My_ComplexRoom.My_ComplexRoom:PersistentLevel.PointLight2"
+[2015.10.24-03.33.57:724][145]LogSelection:Warning: PIE object was selected: "PointLight /Game/StarterContent/Maps/UEDPIE_0_My_ComplexRoom.My_ComplexRoom:PersistentLevel.PointLight_7"
+[2015.10.24-03.34.00:875][303]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.00:908][304]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.00:936][305]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.00:966][306]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.00:995][307]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.01:027][308]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.01:070][309]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.01:100][310]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.01:194][313]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.01:228][314]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.01:262][315]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.01:294][316]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.01:327][317]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.01:361][318]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.01:394][319]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.01:460][321]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.01:494][322]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.01:529][323]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.01:561][324]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.01:594][325]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.01:628][326]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.01:660][327]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.02:818][376]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.02:847][377]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.02:878][378]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.02:910][379]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.02:945][380]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.02:979][381]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.03:011][382]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.03:043][383]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.03:078][384]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.03:111][385]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.03:146][386]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.03:177][387]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.03:211][388]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.04:597][447]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.04:628][448]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.04:659][449]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.04:694][450]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.04:728][451]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.04:760][452]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.04:793][453]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.04:827][454]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.04:861][455]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.04:895][456]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.04:927][457]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.04:961][458]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.10:900][687]LogSelection:Warning: PIE object was selected: "PointLight /Game/StarterContent/Maps/UEDPIE_0_My_ComplexRoom.My_ComplexRoom:PersistentLevel.PointLight2"
+[2015.10.24-03.34.12:110][759]LogSelection:Warning: PIE object was selected: "PointLight /Game/StarterContent/Maps/UEDPIE_0_My_ComplexRoom.My_ComplexRoom:PersistentLevel.PointLight_7"
+[2015.10.24-03.34.16:204][  4]LogSelection:Warning: PIE object was selected: "PointLightComponent /Game/StarterContent/Maps/UEDPIE_0_My_ComplexRoom.My_ComplexRoom:PersistentLevel.PointLight_7.LightComponent0"
+[2015.10.24-03.34.43:887][484]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.45:821][582]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.45:854][583]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.45:887][584]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.45:921][585]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.45:954][586]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.45:988][587]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.46:019][588]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.46:052][589]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.46:086][590]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.46:120][591]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.46:153][592]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.46:879][618]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.46:907][619]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.46:938][620]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.46:970][621]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.47:003][622]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.47:037][623]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.47:070][624]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.47:103][625]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.47:137][626]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.47:171][627]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.48:754][692]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.48:787][693]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.48:822][694]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.48:853][695]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.48:886][696]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.48:919][697]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.48:954][698]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.48:987][699]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.49:053][701]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.53:273][915]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.53:303][916]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.53:338][917]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.53:372][918]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.53:403][919]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.53:437][920]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.53:470][921]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.53:502][922]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.53:535][923]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.53:569][924]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.53:602][925]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.53:636][926]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.53:670][927]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.57:338][ 67]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.57:370][ 68]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.57:404][ 69]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.57:435][ 70]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.57:471][ 71]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.57:502][ 72]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.57:536][ 73]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.57:573][ 74]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.57:602][ 75]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.57:636][ 76]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.57:671][ 77]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.58:670][117]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.58:703][118]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.58:739][119]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.58:772][120]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.58:803][121]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.58:837][122]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.58:870][123]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.58:903][124]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.58:934][125]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.58:970][126]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.59:003][127]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.59:037][128]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.59:070][129]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.59:101][130]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.59:137][131]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.34.59:168][132]PIE:Warning: 警告 Mobility of PointLight_7 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2015.10.24-03.35.02:777][292]LogSelection:Warning: PIE object was selected: "PointLight /Game/StarterContent/Maps/UEDPIE_0_My_ComplexRoom.My_ComplexRoom:PersistentLevel.PointLight2"
+[2015.10.24-03.35.03:325][324]LogSelection:Warning: PIE object was selected: "PointLight /Game/StarterContent/Maps/UEDPIE_0_My_ComplexRoom.My_ComplexRoom:PersistentLevel.PointLight_7"
+[2015.10.24-03.35.05:657][463]LogSelection:Warning: PIE object was selected: "PointLight /Game/StarterContent/Maps/UEDPIE_0_My_ComplexRoom.My_ComplexRoom:PersistentLevel.PointLight_7"
+[2015.10.24-03.35.05:658][463]LogEditorActor: Deleted Actor: PointLight
+[2015.10.24-03.35.05:692][463]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2015.10.24-03.35.12:222][783]LogSelection:Warning: PIE object was selected: "PointLight /Game/StarterContent/Maps/UEDPIE_0_My_ComplexRoom.My_ComplexRoom:PersistentLevel.PointLight2"
+[2015.10.24-03.35.14:599][925]LogSelection:Warning: PIE object was selected: "PointLight /Game/StarterContent/Maps/UEDPIE_0_My_ComplexRoom.My_ComplexRoom:PersistentLevel.PointLight2"
+[2015.10.24-03.35.14:599][925]LogEditorActor: Deleted Actor: PointLight
+[2015.10.24-03.35.14:626][925]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2015.10.24-03.36.01:678][440]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x501)
+[2015.10.24-03.36.01:678][440]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/StarterContent/Maps/UEDPIE_0_My_ComplexRoom.My_ComplexRoom:PersistentLevel.Pillar_50x501"
+[2015.10.24-03.36.12:113][ 55]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.24-03.36.13:704][150]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.13:704][150]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.13:720][151]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.13:720][151]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.13:737][152]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.13:737][152]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.13:753][153]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.13:754][153]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.13:770][154]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.13:770][154]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.13:787][155]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.13:787][155]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.13:803][156]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.13:803][156]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.13:820][157]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.13:820][157]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.13:837][158]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.13:837][158]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.13:853][159]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.13:853][159]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.13:870][160]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.13:870][160]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.13:887][161]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.13:887][161]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.13:903][162]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.13:903][162]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.13:920][163]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.13:920][163]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.13:937][164]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.13:937][164]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.13:953][165]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.13:953][165]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.13:970][166]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.13:970][166]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.13:986][167]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.13:986][167]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.14:003][168]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.14:003][168]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.14:019][169]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.14:019][169]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.14:036][170]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.14:036][170]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.14:053][171]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.14:053][171]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.14:070][172]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.14:070][172]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.14:087][173]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.14:087][173]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.14:104][174]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.14:104][174]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.14:120][175]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.14:120][175]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.14:137][176]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.14:137][176]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.14:153][177]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.14:153][177]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.14:170][178]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.14:170][178]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.14:187][179]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.14:187][179]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.14:203][180]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.14:203][180]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.14:220][181]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.14:220][181]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.14:237][182]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.14:237][182]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.14:253][183]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.14:253][183]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:430][253]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:430][253]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:446][254]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:446][254]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:463][255]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:463][255]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:479][256]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:480][256]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:496][257]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:496][257]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:513][258]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:513][258]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:530][259]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:530][259]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:547][260]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:547][260]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:563][261]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:563][261]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:580][262]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:580][262]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:596][263]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:596][263]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:613][264]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:613][264]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:629][265]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:630][265]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:646][266]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:646][266]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:663][267]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:663][267]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:680][268]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:680][268]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:696][269]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:696][269]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:713][270]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:713][270]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:729][271]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:729][271]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:746][272]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:746][272]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:763][273]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:763][273]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:780][274]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:780][274]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:797][275]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:797][275]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:813][276]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:813][276]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:830][277]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:830][277]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:847][278]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:847][278]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:863][279]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:863][279]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:880][280]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:880][280]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:896][281]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:896][281]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:913][282]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:913][282]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:929][283]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:929][283]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:946][284]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.15:946][284]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:040][349]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:040][349]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:073][351]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:073][351]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:090][352]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:090][352]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:106][353]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:107][353]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:123][354]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:123][354]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:140][355]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:140][355]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:157][356]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:157][356]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:174][357]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:174][357]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:190][358]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:190][358]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:206][359]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:206][359]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:223][360]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:223][360]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:240][361]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:240][361]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:256][362]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:257][362]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:273][363]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:273][363]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:423][372]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:423][372]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:440][373]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:440][373]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:456][374]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:456][374]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:473][375]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:473][375]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:490][376]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:490][376]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:506][377]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:506][377]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:523][378]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.17:523][378]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.20:988][585]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.20:988][585]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.21:004][586]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.21:004][586]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.21:020][587]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.21:020][587]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.21:037][588]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.21:037][588]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.21:053][589]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.21:054][589]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.21:070][590]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.21:070][590]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.21:087][591]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.21:087][591]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.21:103][592]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.21:104][592]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.21:121][593]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.21:121][593]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.21:137][594]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.21:137][594]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.21:153][595]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.21:153][595]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.21:171][596]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.21:171][596]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.21:188][597]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.21:188][597]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.21:204][598]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.21:204][598]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.21:221][599]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.21:221][599]PIE:Warning: 警告 Mobility of Pillar_50x501 : StaticMeshComponent0 has to be 'Movable' if you'd like to 移动. 
+[2015.10.24-03.36.57:957][743]LogEditorActor: Deleted Actor: PointLight
+[2015.10.24-03.36.57:978][743]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2015.10.24-03.37.12:027][581]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/My_ComplexRoom" FILE="../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.24-03.37.12:085][581]LogSavePackage: Save=33.573906ms
+[2015.10.24-03.37.12:085][581]LogSavePackage: Moving '../../../../../Projects/UE4Study/Saved/My_ComplexRoomA64E0DA2458F452D5A1449AA65BFBBA1.tmp' to '../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.24-03.37.12:088][581]LogSavePackage: Total save time: 40.871736ms
+[2015.10.24-03.37.12:088][581]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.24-03.37.12:113][581]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.138
+[2015.10.24-03.37.22:868][ 80]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA68E134C0
+[2015.10.24-03.37.22:868][ 80]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA1529A980
+[2015.10.24-03.37.22:874][ 80]LightingResults: New page: 光照构建
+[2015.10.24-03.37.22:875][ 80]MapCheck: New page: 地图检测
+[2015.10.24-03.37.22:875][ 80]LightingResults: New page: 光照构建
+[2015.10.24-03.37.22:895][ 80]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA1C3172E0
+[2015.10.24-03.37.22:896][ 80]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.24-03.37.22:927][ 80]LoadErrors: New page: 新建地图
+[2015.10.24-03.37.27:310][325]Cmd: MAP LOAD FILE="../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.24-03.37.27:348][325]LightingResults: New page: 光照构建
+[2015.10.24-03.37.27:370][325]LoadErrors: New page: 正在加载地图： My_ComplexRoom.umap
+[2015.10.24-03.37.27:370][325]MapCheck: New page: 地图检测
+[2015.10.24-03.37.27:370][325]LightingResults: New page: 光照构建
+[2015.10.24-03.37.27:392][325]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA7684F240
+[2015.10.24-03.37.27:413][325]LogAIModule: Creating AISystem for world My_ComplexRoom
+[2015.10.24-03.37.27:460][325]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.24-03.37.27:490][325]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.24-03.37.27:539][325]MapCheck: 信息 地图检测完成：0个错误，0 个警告，用时48.326毫秒完成。
+[2015.10.24-03.37.27:539][325]LogFileHelpers: Loading map 'My_ComplexRoom' took 0.229
+[2015.10.24-03.37.29:657][449]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2015.10.24-03.37.32:945][644]Cmd: TRANSACTION UNDO
+[2015.10.24-03.37.32:945][644]LogEditorTransaction: Undo 移动Actor
+[2015.10.24-03.37.45:518][374]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor2)
+[2015.10.24-03.37.52:286][729]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor2)
+[2015.10.24-03.38.12:939][961]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2015.10.24-03.39.02:903][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/My_ComplexRoom" FILE="../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.24-03.39.02:960][868]LogSavePackage: Save=32.898270ms
+[2015.10.24-03.39.02:960][868]LogSavePackage: Moving '../../../../../Projects/UE4Study/Saved/My_ComplexRoomF502E0104E3C6F92368237B489DF640C.tmp' to '../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.24-03.39.02:963][868]LogSavePackage: Total save time: 39.659556ms
+[2015.10.24-03.39.02:963][868]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.24-03.39.03:007][868]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.156
+[2015.10.24-03.39.08:838][204]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor2)
+[2015.10.24-03.40.40:221][581]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Top6)
+[2015.10.24-03.40.41:447][651]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top5)
+[2015.10.24-03.40.41:865][673]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom6)
+[2015.10.24-03.40.42:167][688]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom5)
+[2015.10.24-03.40.42:652][714]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top2)
+[2015.10.24-03.40.43:005][732]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top)
+[2015.10.24-03.40.43:377][751]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom2)
+[2015.10.24-03.40.43:804][773]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom)
+[2015.10.24-03.40.44:293][799]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top4)
+[2015.10.24-03.40.44:645][817]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom4)
+[2015.10.24-03.40.46:129][902]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top3)
+[2015.10.24-03.40.46:588][926]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom3)
+[2015.10.24-03.42.37:339][494]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.24-03.42.40:524][675]LogEditorViewport: Clicking Background
+[2015.10.24-03.42.41:673][743]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x405)
+[2015.10.24-03.42.42:819][805]LogEditorViewport: Clicking Background
+[2015.10.24-03.42.53:211][403]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2015.10.24-03.42.55:349][528]Cmd: DELETE
+[2015.10.24-03.42.55:349][528]Cmd: ACTOR DELETE
+[2015.10.24-03.42.55:350][528]LogEditorActor: Deleted Actor: PointLight
+[2015.10.24-03.42.55:386][528]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2015.10.24-03.42.58:564][714]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2015.10.24-03.43.18:148][864]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/My_ComplexRoom" FILE="../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.24-03.43.18:205][864]LogSavePackage: Save=32.534443ms
+[2015.10.24-03.43.18:205][864]LogSavePackage: Moving '../../../../../Projects/UE4Study/Saved/My_ComplexRoomE830F1F84B613F7FFF988F81071E6AA3.tmp' to '../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.24-03.43.18:208][864]LogSavePackage: Total save time: 39.877575ms
+[2015.10.24-03.43.18:208][864]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.24-03.43.18:233][864]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.139
+[2015.10.24-03.43.20:438][993]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Top6)
+[2015.10.24-03.43.20:987][ 23]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top5)
+[2015.10.24-03.43.22:118][ 88]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom6)
+[2015.10.24-03.43.22:461][106]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom5)
+[2015.10.24-03.43.22:888][129]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top2)
+[2015.10.24-03.43.23:252][148]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top)
+[2015.10.24-03.43.23:719][173]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom2)
+[2015.10.24-03.43.24:029][189]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom)
+[2015.10.24-03.43.26:942][360]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top4)
+[2015.10.24-03.43.27:258][376]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top3)
+[2015.10.24-03.43.27:621][395]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom4)
+[2015.10.24-03.43.27:889][408]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom3)
+[2015.10.24-03.44.53:750][323]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/My_ComplexRoom" FILE="../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.24-03.44.53:807][323]LogSavePackage: Save=32.885883ms
+[2015.10.24-03.44.53:807][323]LogSavePackage: Moving '../../../../../Projects/UE4Study/Saved/My_ComplexRoomCB2E09A44819EB6E18BBB4803F9533C7.tmp' to '../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.24-03.44.53:810][323]LogSavePackage: Total save time: 39.066035ms
+[2015.10.24-03.44.53:810][323]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.24-03.44.53:834][323]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.139
+[2015.10.24-03.45.01:048][747]LogEditorViewport: Clicking Background
+[2015.10.24-03.47.59:033][372]LogEditorViewport: Clicking Background
+[2015.10.24-03.47.59:780][416]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2015.10.24-03.48.28:439][104]Cmd: TRANSACTION UNDO
+[2015.10.24-03.48.28:439][104]LogEditorTransaction: Undo 旋转Actor
+[2015.10.24-03.50.09:104][ 13]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2015.10.24-03.50.34:400][ 75]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2015.10.24-03.50.45:439][715]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2015.10.24-03.51.05:049][865]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom)
+[2015.10.24-03.51.09:187][ 92]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2015.10.24-03.51.21:005][771]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2015.10.24-03.52.37:603][343]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom5)
+[2015.10.24-03.52.39:459][451]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Top5)
+[2015.10.24-03.52.40:853][532]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom6)
+[2015.10.24-03.52.42:787][645]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom5)
+[2015.10.24-03.52.43:343][675]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top6)
+[2015.10.24-03.52.43:718][694]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top5)
+[2015.10.24-03.52.44:923][763]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top2)
+[2015.10.24-03.52.45:285][781]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top)
+[2015.10.24-03.52.45:879][813]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom2)
+[2015.10.24-03.52.46:336][837]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom)
+[2015.10.24-03.52.46:918][868]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top4)
+[2015.10.24-03.52.47:306][888]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top3)
+[2015.10.24-03.52.47:799][914]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom4)
+[2015.10.24-03.52.48:309][941]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom3)
+[2015.10.24-03.53.01:489][712]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.24-03.53.53:859][840]LogEditorViewport: Clicking Background
+[2015.10.24-03.54.35:885][349]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2015.10.24-03.54.51:055][222]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom5)
+[2015.10.24-03.54.52:433][295]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom2)
+[2015.10.24-03.54.53:638][364]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom5)
+[2015.10.24-03.55.04:127][972]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2015.10.24-03.55.22:218][ 28]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom5)
+[2015.10.24-03.55.25:426][209]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Top5)
+[2015.10.24-03.55.26:203][253]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Top5)
+[2015.10.24-03.55.26:918][295]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Top5)
+[2015.10.24-03.55.27:866][351]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Top6)
+[2015.10.24-03.55.33:963][690]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom6)
+[2015.10.24-03.55.34:684][730]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom5)
+[2015.10.24-03.55.35:346][767]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top5)
+[2015.10.24-03.55.41:058][ 97]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2015.10.24-03.55.59:056][147]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x408)
+[2015.10.24-03.56.02:467][337]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x509)
+[2015.10.24-03.56.03:558][395]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Top5)
+[2015.10.24-03.56.05:556][512]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Pillar_50x509)
+[2015.10.24-03.56.06:629][574]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Wall_2xWindow3)
+[2015.10.24-03.56.08:137][662]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top6)
+[2015.10.24-03.56.08:632][688]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom6)
+[2015.10.24-03.56.09:316][725]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom5)
+[2015.10.24-03.56.10:181][774]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top)
+[2015.10.24-03.56.10:813][809]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom2)
+[2015.10.24-03.56.11:410][842]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom)
+[2015.10.24-03.56.11:867][866]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top2)
+[2015.10.24-03.56.23:282][543]LogEditorViewport: Clicking Background
+[2015.10.24-03.56.24:552][615]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2015.10.24-03.56.25:423][665]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom6)
+[2015.10.24-03.56.26:018][697]LogEditorViewport: Clicking Background
+[2015.10.24-03.56.58:218][581]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Top2)
+[2015.10.24-03.57.01:255][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/My_ComplexRoom" FILE="../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.24-03.57.01:314][753]LogSavePackage: Save=34.928001ms
+[2015.10.24-03.57.01:314][753]LogSavePackage: Moving '../../../../../Projects/UE4Study/Saved/My_ComplexRoom8BF3C24A42881C0D7B727D84EF815E06.tmp' to '../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.24-03.57.01:317][753]LogSavePackage: Total save time: 42.305108ms
+[2015.10.24-03.57.01:317][753]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.24-03.57.01:343][753]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.143
+[2015.10.24-03.57.06:012][976]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom2)
+[2015.10.24-03.57.07:778][ 67]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Top2)
+[2015.10.24-03.57.09:523][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/My_ComplexRoom" FILE="../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.24-03.57.09:581][139]LogSavePackage: Save=34.913490ms
+[2015.10.24-03.57.09:581][139]LogSavePackage: Moving '../../../../../Projects/UE4Study/Saved/My_ComplexRoom021E871747A3E60B325F52BED88DABB3.tmp' to '../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.24-03.57.09:585][139]LogSavePackage: Total save time: 41.308470ms
+[2015.10.24-03.57.09:585][139]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.24-03.57.09:609][139]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.139
+[2015.10.24-03.57.17:517][592]LogEditorViewport: Clicking Background
+[2015.10.24-03.59.39:162][641]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (AtmosphericFog)
+[2015.10.24-03.59.41:999][796]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2015.10.24-03.59.47:512][116]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (AtmosphericFog)
+[2015.10.24-03.59.51:972][380]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2015.10.24-03.59.55:088][564]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (AtmosphericFog)
+[2015.10.24-03.59.58:577][770]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2015.10.24-04.00.01:273][928]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (AtmosphericFog)
+[2015.10.24-04.00.04:139][ 96]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2015.10.24-04.00.07:134][270]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (AtmosphericFog)
+[2015.10.24-04.00.27:323][463]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2015.10.24-04.00.28:579][536]LogEditorViewport: Clicking on Actor (CTRL LMB): AtmosphericFog (AtmosphericFog)
+[2015.10.24-04.01.36:941][536]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top6)
+[2015.10.24-04.01.37:454][564]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top5)
+[2015.10.24-04.01.38:358][616]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom6)
+[2015.10.24-04.01.39:812][701]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom5)
+[2015.10.24-04.01.45:121][  3]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top2)
+[2015.10.24-04.01.45:617][ 31]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom2)
+[2015.10.24-04.01.46:826][102]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.24-04.01.47:760][155]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom5)
+[2015.10.24-04.01.54:294][533]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom2)
+[2015.10.24-04.01.57:943][728]LogEditorViewport: Clicking Background
+[2015.10.24-04.01.59:023][782]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2015.10.24-04.02.20:039][  6]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom5)
+[2015.10.24-04.02.21:130][ 62]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top5)
+[2015.10.24-04.02.30:769][595]Cmd: TRANSACTION UNDO
+[2015.10.24-04.02.30:770][595]LogEditorTransaction: Undo 移动Actor
+[2015.10.24-04.02.45:555][447]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (AtmosphericFog)
+[2015.10.24-04.03.23:065][590]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow)
+[2015.10.24-04.03.25:507][721]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2015.10.24-04.03.43:436][749]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Top5)
+[2015.10.24-04.03.44:652][815]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top6)
+[2015.10.24-04.03.45:233][845]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom6)
+[2015.10.24-04.03.45:801][875]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom5)
+[2015.10.24-04.03.52:513][257]Cmd: TRANSACTION UNDO
+[2015.10.24-04.03.52:513][257]LogEditorTransaction: Undo 旋转Actor
+[2015.10.24-04.04.03:249][884]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Top6)
+[2015.10.24-04.04.04:249][940]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top5)
+[2015.10.24-04.04.04:986][981]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom6)
+[2015.10.24-04.04.05:451][  5]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom5)
+[2015.10.24-04.04.09:129][207]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom2)
+[2015.10.24-04.04.10:063][252]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom)
+[2015.10.24-04.04.10:895][298]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top)
+[2015.10.24-04.04.11:263][316]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top2)
+[2015.10.24-04.04.36:611][831]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.24-04.05.22:090][985]LogEditorViewport: Clicking Background
+[2015.10.24-04.06.06:952][793]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/My_ComplexRoom" FILE="../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.24-04.06.07:019][793]LogSavePackage: Save=39.065681ms
+[2015.10.24-04.06.07:019][793]LogSavePackage: Moving '../../../../../Projects/UE4Study/Saved/My_ComplexRoomF4AF1A75401F7D5D3980BC8B851A186C.tmp' to '../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.24-04.06.07:023][793]LogSavePackage: Total save time: 48.064444ms
+[2015.10.24-04.06.07:023][793]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.24-04.06.07:053][793]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.171
+[2015.10.24-04.09.52:369][751]LogEditorViewport: Clicking Background
+[2015.10.24-04.09.56:043][956]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top6)
+[2015.10.24-04.09.56:879][  1]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top5)
+[2015.10.24-04.09.57:748][ 49]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom6)
+[2015.10.24-04.09.59:052][124]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom5)
+[2015.10.24-04.11.34:960][ 18]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Top6)
+[2015.10.24-04.12.08:036][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/My_ComplexRoom" FILE="../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.24-04.12.08:097][730]LogSavePackage: Save=35.055767ms
+[2015.10.24-04.12.08:097][730]LogSavePackage: Moving '../../../../../Projects/UE4Study/Saved/My_ComplexRoomFD78347A470B35B51A0FCCA560BB7859.tmp' to '../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.24-04.12.08:100][730]LogSavePackage: Total save time: 43.375008ms
+[2015.10.24-04.12.08:100][730]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.24-04.12.08:125][730]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.149
+[2015.10.24-04.12.14:723][113]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Top6)
+[2015.10.24-04.12.15:116][135]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom6)
+[2015.10.24-04.12.16:842][236]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top6)
+[2015.10.24-04.12.23:173][612]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom6)
+[2015.10.24-04.12.24:362][680]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top6)
+[2015.10.24-04.12.50:657][251]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top5)
+[2015.10.24-04.12.51:194][280]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom5)
+[2015.10.24-04.12.52:060][329]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top2)
+[2015.10.24-04.12.52:546][354]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom2)
+[2015.10.24-04.12.53:226][390]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom)
+[2015.10.24-04.12.54:176][443]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top)
+[2015.10.24-04.12.55:133][497]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top4)
+[2015.10.24-04.12.55:737][530]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Top3)
+[2015.10.24-04.12.56:340][563]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom4)
+[2015.10.24-04.12.56:793][586]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Window_Bottom3)
+[2015.10.24-04.13.22:905][180]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.24-04.13.24:803][290]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x401)
+[2015.10.24-04.14.25:680][840]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/My_ComplexRoom" FILE="../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.24-04.14.25:739][840]LogSavePackage: Save=35.285461ms
+[2015.10.24-04.14.25:739][840]LogSavePackage: Moving '../../../../../Projects/UE4Study/Saved/My_ComplexRoom3FD41A644D3626B731487980C23706BB.tmp' to '../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.24-04.14.25:742][840]LogSavePackage: Total save time: 41.673716ms
+[2015.10.24-04.14.25:742][840]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.24-04.14.25:767][840]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.146
+[2015.10.24-04.17.23:587][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/My_ComplexRoom" FILE="../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.24-04.17.23:648][375]LogSavePackage: Save=35.107441ms
+[2015.10.24-04.17.23:648][375]LogSavePackage: Moving '../../../../../Projects/UE4Study/Saved/My_ComplexRoom647A03774C7B7CC599A548BFC644A008.tmp' to '../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.24-04.17.23:651][375]LogSavePackage: Total save time: 43.878637ms
+[2015.10.24-04.17.23:651][375]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.24-04.17.23:677][375]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.150
+[2015.10.24-04.17.35:630][ 88]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Top6)
+[2015.10.24-04.17.36:815][153]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom6)
+[2015.10.24-04.18.33:213][ 91]LogStaticMesh: 正在构建静态网格物体SM_Window_Bottom...
+[2015.10.24-04.18.33:236][ 91]LogStaticMesh: Built static mesh [0.022829.2s] /Game/DT_Architecture/SM_Window_Bottom.SM_Window_Bottom
+[2015.10.24-04.18.43:557][630]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/My_ComplexRoom" FILE="../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.24-04.18.43:616][630]LogSavePackage: Save=34.950298ms
+[2015.10.24-04.18.43:616][630]LogSavePackage: Moving '../../../../../Projects/UE4Study/Saved/My_ComplexRoomC3FDECFA459D095A1AD0F4945D3AF4EA.tmp' to '../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.24-04.18.43:619][630]LogSavePackage: Total save time: 41.444726ms
+[2015.10.24-04.18.43:619][630]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.24-04.18.43:644][630]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.146
+[2015.10.24-04.19.06:222][629]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.10.24-04.19.06:317][629]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.10.24-04.19.06:325][629]LogMaterial: 0.000040 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-04.19.06:350][629]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2015.10.24-04.19.21:865][414]MaterialEditorStats: 信息 Base pass shader with static lighting: 100 instructions
+[2015.10.24-04.19.21:865][414]MaterialEditorStats: 信息 Base pass shader with only dynamic lighting: 80 instructions
+[2015.10.24-04.19.21:865][414]MaterialEditorStats: 信息 Base pass shader for self shadowed translucency: 117 instructions
+[2015.10.24-04.19.21:865][414]MaterialEditorStats: 信息 Vertex shader: 68 instructions
+[2015.10.24-04.19.21:865][414]MaterialEditorStats: 信息 Texture samplers: 8/16
+[2015.10.24-04.19.31:538][989]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.10.24-04.19.31:561][989]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.10.24-04.19.31:690][989]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.10.24-04.19.31:702][989]LogMaterial: 0.000036 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-04.19.31:729][989]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2015.10.24-04.19.50:683][ 19]MaterialEditorStats: 信息 Base pass shader with static lighting: 100 instructions
+[2015.10.24-04.19.50:683][ 19]MaterialEditorStats: 信息 Base pass shader with only dynamic lighting: 80 instructions
+[2015.10.24-04.19.50:683][ 19]MaterialEditorStats: 信息 Base pass shader for self shadowed translucency: 117 instructions
+[2015.10.24-04.19.50:683][ 19]MaterialEditorStats: 信息 Vertex shader: 68 instructions
+[2015.10.24-04.19.50:683][ 19]MaterialEditorStats: 信息 Texture samplers: 8/16
+[2015.10.24-04.19.54:529][230]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.10.24-04.19.54:642][230]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.10.24-04.19.54:654][230]LogMaterial: 0.000031 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-04.19.54:679][230]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2015.10.24-04.20.05:725][849]MaterialEditorStats: 信息 Base pass shader with static lighting: 100 instructions
+[2015.10.24-04.20.05:726][849]MaterialEditorStats: 信息 Base pass shader with only dynamic lighting: 80 instructions
+[2015.10.24-04.20.05:726][849]MaterialEditorStats: 信息 Base pass shader for self shadowed translucency: 117 instructions
+[2015.10.24-04.20.05:726][849]MaterialEditorStats: 信息 Vertex shader: 68 instructions
+[2015.10.24-04.20.05:726][849]MaterialEditorStats: 信息 Texture samplers: 8/16
+[2015.10.24-04.20.15:532][434]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.10.24-04.20.24:925][957]MaterialEditorStats: 信息 Base pass shader with static lighting: 100 instructions
+[2015.10.24-04.20.24:925][957]MaterialEditorStats: 信息 Base pass shader with only dynamic lighting: 80 instructions
+[2015.10.24-04.20.24:925][957]MaterialEditorStats: 信息 Base pass shader for self shadowed translucency: 117 instructions
+[2015.10.24-04.20.24:925][957]MaterialEditorStats: 信息 Vertex shader: 68 instructions
+[2015.10.24-04.20.24:925][957]MaterialEditorStats: 信息 Texture samplers: 8/16
+[2015.10.24-04.20.33:427][454]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.10.24-04.20.43:034][  4]MaterialEditorStats: 信息 Base pass shader with static lighting: 100 instructions
+[2015.10.24-04.20.43:034][  4]MaterialEditorStats: 信息 Base pass shader with only dynamic lighting: 80 instructions
+[2015.10.24-04.20.43:034][  4]MaterialEditorStats: 信息 Base pass shader for self shadowed translucency: 117 instructions
+[2015.10.24-04.20.43:034][  4]MaterialEditorStats: 信息 Vertex shader: 68 instructions
+[2015.10.24-04.20.43:034][  4]MaterialEditorStats: 信息 Texture samplers: 8/16
+[2015.10.24-04.21.18:005][ 64]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom5)
+[2015.10.24-04.21.19:365][142]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.24-04.21.20:943][232]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom6)
+[2015.10.24-04.21.25:195][482]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom5)
+[2015.10.24-04.22.49:833][620]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom6)
+[2015.10.24-04.23.25:305][720]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.24-04.23.35:118][293]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom5)
+[2015.10.24-04.23.46:012][866]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA198FEB60
+[2015.10.24-04.23.46:013][866]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA1AE2EB60
+[2015.10.24-04.23.46:015][866]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA065971A0
+[2015.10.24-04.23.46:120][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/My_ComplexRoom" FILE="../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.24-04.23.46:188][866]LogSavePackage: Save=39.328289ms
+[2015.10.24-04.23.46:188][866]LogSavePackage: Moving '../../../../../Projects/UE4Study/Saved/My_ComplexRoom6DEC4ED74C904A1541DD309ED544465C.tmp' to '../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.24-04.23.46:192][866]LogSavePackage: Total save time: 48.699383ms
+[2015.10.24-04.23.46:192][866]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.24-04.23.46:220][866]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.166
+[2015.10.24-04.23.47:186][923]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.24-04.24.56:211][293]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom5)
+[2015.10.24-04.25.00:160][512]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom6)
+[2015.10.24-04.25.03:871][731]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2xWindow3)
+[2015.10.24-04.25.41:471][614]LogStaticMesh: 正在构建静态网格物体SM_Wall_2xWindow...
+[2015.10.24-04.25.41:485][614]LogStaticMesh: Built static mesh [0.013661.2s] /Game/DT_Architecture/SM_Wall_2xWindow.SM_Wall_2xWindow
+[2015.10.24-04.25.44:606][770]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/My_ComplexRoom" FILE="../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.24-04.25.44:699][770]LogSavePackage: Save=59.383160ms
+[2015.10.24-04.25.44:699][770]LogSavePackage: Moving '../../../../../Projects/UE4Study/Saved/My_ComplexRoom4E1960BE4EA9B528025B11B70BC196C9.tmp' to '../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.24-04.25.44:705][770]LogSavePackage: Total save time: 71.352731ms
+[2015.10.24-04.25.44:705][770]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.24-04.25.44:750][770]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.233
+[2015.10.24-04.26.31:547][505]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/My_ComplexRoom" FILE="../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.24-04.26.31:615][505]LogSavePackage: Save=39.824486ms
+[2015.10.24-04.26.31:615][505]LogSavePackage: Moving '../../../../../Projects/UE4Study/Saved/My_ComplexRoom5C4627344A2109A765F5B38E0E3FEA95.tmp' to '../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.24-04.26.31:619][505]LogSavePackage: Total save time: 48.354663ms
+[2015.10.24-04.26.31:619][505]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.24-04.26.31:647][505]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.172
+[2015.10.24-04.26.33:791][622]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/My_ComplexRoom" FILE="../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.24-04.26.33:858][622]LogSavePackage: Save=40.324574ms
+[2015.10.24-04.26.33:858][622]LogSavePackage: Moving '../../../../../Projects/UE4Study/Saved/My_ComplexRoom2B6CA092449FDEB5555506A4D1A1449E.tmp' to '../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.24-04.26.33:862][622]LogSavePackage: Total save time: 47.526132ms
+[2015.10.24-04.26.33:862][622]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.24-04.26.33:889][622]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.163
+[2015.10.24-04.26.34:981][687]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom6)
+[2015.10.24-04.26.38:011][861]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2015.10.24-04.26.41:382][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/My_ComplexRoom" FILE="../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.24-04.26.41:463][ 36]LogSavePackage: Save=38.374474ms
+[2015.10.24-04.26.41:463][ 36]LogSavePackage: Moving '../../../../../Projects/UE4Study/Saved/My_ComplexRoomB900F2E3440B52A3A3D3029883277EC0.tmp' to '../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.24-04.26.41:467][ 36]LogSavePackage: Total save time: 45.682210ms
+[2015.10.24-04.26.41:467][ 36]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.24-04.26.41:498][ 36]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.407
+[2015.10.24-04.26.56:792][910]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/My_ComplexRoom" FILE="../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.24-04.26.56:859][910]LogSavePackage: Save=36.684860ms
+[2015.10.24-04.26.56:859][910]LogSavePackage: Moving '../../../../../Projects/UE4Study/Saved/My_ComplexRoomD73A23614F263F1CDBDC73889D3A637F.tmp' to '../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.24-04.26.56:862][910]LogSavePackage: Total save time: 43.165844ms
+[2015.10.24-04.26.56:862][910]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.24-04.26.56:887][910]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.349
+[2015.10.24-04.27.09:033][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/My_ComplexRoom" FILE="../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.24-04.27.09:099][591]LogSavePackage: Save=38.475342ms
+[2015.10.24-04.27.09:099][591]LogSavePackage: Moving '../../../../../Projects/UE4Study/Saved/My_ComplexRoom9CF322364C5E80011061C5B07392221C.tmp' to '../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.24-04.27.09:102][591]LogSavePackage: Total save time: 46.082143ms
+[2015.10.24-04.27.09:102][591]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.24-04.27.09:129][591]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.159
+[2015.10.24-04.27.18:191][104]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom6)
+[2015.10.24-04.27.28:240][667]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.24-04.27.29:843][760]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom6)
+[2015.10.24-04.28.10:516][263]LightingResults: New page: 光照构建
+[2015.10.24-04.28.10:517][263]MapCheck: New page: 地图检测
+[2015.10.24-04.28.10:517][263]LightingResults: New page: 光照构建
+[2015.10.24-04.28.10:543][263]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA18088EA0
+[2015.10.24-04.28.10:543][263]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.24-04.28.10:577][263]LoadErrors: New page: 新建地图
+[2015.10.24-04.28.10:683][268]LogEditorViewport: Clicking Background
+[2015.10.24-04.28.14:189][462]Cmd: MAP LOAD FILE="../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.24-04.28.14:226][462]LightingResults: New page: 光照构建
+[2015.10.24-04.28.14:250][462]LoadErrors: New page: 正在加载地图： My_ComplexRoom.umap
+[2015.10.24-04.28.14:250][462]MapCheck: New page: 地图检测
+[2015.10.24-04.28.14:250][462]LightingResults: New page: 光照构建
+[2015.10.24-04.28.14:270][462]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA18088C20
+[2015.10.24-04.28.14:444][462]LogAIModule: Creating AISystem for world My_ComplexRoom
+[2015.10.24-04.28.14:494][462]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.24-04.28.14:525][462]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.24-04.28.14:582][462]MapCheck: 信息 地图检测完成：0个错误，0 个警告，用时57.275毫秒完成。
+[2015.10.24-04.28.14:582][462]LogFileHelpers: Loading map 'My_ComplexRoom' took 0.396
+[2015.10.24-04.28.21:376][819]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2015.10.24-04.28.21:925][845]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2015.10.24-04.28.22:613][879]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2015.10.24-04.28.24:654][986]Cmd: DELETE
+[2015.10.24-04.28.24:654][986]Cmd: ACTOR DELETE
+[2015.10.24-04.28.24:655][986]LogEditorActor: Deleted Actor: PointLight
+[2015.10.24-04.28.24:701][986]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2015.10.24-04.28.28:497][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/My_ComplexRoom" FILE="../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.24-04.28.28:573][204]LogSavePackage: Save=45.976318ms
+[2015.10.24-04.28.28:573][204]LogSavePackage: Moving '../../../../../Projects/UE4Study/Saved/My_ComplexRoom9096EA0C475EB60169FFCF98C43D8CF1.tmp' to '../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.24-04.28.28:579][204]LogSavePackage: Total save time: 56.620814ms
+[2015.10.24-04.28.28:579][204]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.24-04.28.28:610][204]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.185
+[2015.10.24-04.28.31:098][343]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom6)
+[2015.10.24-04.31.43:958][838]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom6)
+[2015.10.24-04.32.23:007][ 81]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom6)
+[2015.10.24-04.32.58:776][ 38]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.24-04.33.04:460][373]Cmd: TRANSACTION UNDO
+[2015.10.24-04.33.04:460][373]LogEditorTransaction: Undo 点击Actor
+[2015.10.24-04.33.05:070][384]Cmd: TRANSACTION UNDO
+[2015.10.24-04.33.05:070][384]LogEditorTransaction: Undo 编辑Static Mesh
+[2015.10.24-04.33.27:315][595]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom6)
+[2015.10.24-04.33.38:463][174]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2015.10.24-04.33.39:103][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/My_ComplexRoom" FILE="../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.24-04.33.39:165][201]LogSavePackage: Save=36.053467ms
+[2015.10.24-04.33.39:165][201]LogSavePackage: Moving '../../../../../Projects/UE4Study/Saved/My_ComplexRoom4521F25744AB508B7E0D8E82AC2056CA.tmp' to '../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.24-04.33.39:169][201]LogSavePackage: Total save time: 44.619039ms
+[2015.10.24-04.33.39:169][201]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.24-04.33.39:194][201]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.151
+[2015.10.24-04.33.39:793][237]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom6)
+[2015.10.24-04.33.48:392][711]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom2)
+[2015.10.24-04.33.49:824][794]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom6)
+[2015.10.24-04.34.09:230][782]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/My_ComplexRoom" FILE="../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.24-04.34.09:290][782]LogSavePackage: Save=35.561165ms
+[2015.10.24-04.34.09:290][782]LogSavePackage: Moving '../../../../../Projects/UE4Study/Saved/My_ComplexRoomF45CA7294760778E09F2D887775331E5.tmp' to '../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.24-04.34.09:293][782]LogSavePackage: Total save time: 42.650890ms
+[2015.10.24-04.34.09:293][782]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.24-04.34.09:318][782]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.147
+[2015.10.24-04.34.10:440][847]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom2)
+[2015.10.24-04.34.12:073][942]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom6)
+[2015.10.24-04.34.17:810][246]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom2)
+[2015.10.24-04.34.18:540][286]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Top2)
+[2015.10.24-04.34.20:470][398]LogEditorViewport: Clicking Background
+[2015.10.24-04.34.23:827][598]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom5)
+[2015.10.24-04.34.24:359][625]LogEditorViewport: Clicking Background
+[2015.10.24-04.35.00:736][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/My_ComplexRoom" FILE="../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.24-04.35.00:803][475]LogSavePackage: Save=39.074173ms
+[2015.10.24-04.35.00:803][475]LogSavePackage: Moving '../../../../../Projects/UE4Study/Saved/My_ComplexRoomA9CE70C04E4828BC021118B684F41BE1.tmp' to '../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.24-04.35.00:806][475]LogSavePackage: Total save time: 46.817943ms
+[2015.10.24-04.35.00:806][475]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.24-04.35.00:835][475]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.166
+[2015.10.24-04.35.12:112][986]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/My_ComplexRoom" FILE="../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.24-04.35.12:206][986]LogSavePackage: Save=58.487743ms
+[2015.10.24-04.35.12:206][986]LogSavePackage: Moving '../../../../../Projects/UE4Study/Saved/My_ComplexRoom55E872614B7C92CBCB3A459B2CE595BC.tmp' to '../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.24-04.35.12:215][986]LogSavePackage: Total save time: 72.117198ms
+[2015.10.24-04.35.12:215][986]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.24-04.35.12:260][986]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.247
+[2015.10.24-04.35.52:306][ 91]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom2)
+[2015.10.24-04.35.53:610][166]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom6)
+[2015.10.24-04.36.47:606][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/My_ComplexRoom" FILE="../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.24-04.36.47:667][365]LogSavePackage: Save=36.863590ms
+[2015.10.24-04.36.47:667][365]LogSavePackage: Moving '../../../../../Projects/UE4Study/Saved/My_ComplexRoom866769C34D90F62302D7AAB0355D96B1.tmp' to '../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap'
+[2015.10.24-04.36.47:671][365]LogSavePackage: Total save time: 43.688934ms
+[2015.10.24-04.36.47:671][365]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/UE4Study/Content/StarterContent/Maps/My_ComplexRoom.umap
+[2015.10.24-04.36.47:699][365]LogFileHelpers: Saving map 'My_ComplexRoom' took 0.152
+[2015.10.24-04.50.53:475][224]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2015.10.24-04.52.15:336][344]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_Bottom6)
+[2015.10.24-05.01.33:956][505]Cmd: QUIT_EDITOR
+[2015.10.24-05.01.34:491][505]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (搜狗拼音输入法).
+[2015.10.24-05.01.34:653][505]LogExit: Preparing to exit.
+[2015.10.24-05.01.35:257][505]LogExit: Editor shut down
+[2015.10.24-05.01.35:257][505]LogExit: Transaction tracking system shut down
+[2015.10.24-05.01.35:259][505]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA1CABCFE0
+[2015.10.24-05.01.35:261][505]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA0D8F3420
+[2015.10.24-05.01.35:261][505]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA0DDDF880
+[2015.10.24-05.01.35:405][505]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA0FDB85E0
+[2015.10.24-05.01.35:405][505]LogExit: Object subsystem successfully closed.
+[2015.10.24-05.01.35:416][505]LogD3D11RHI: Shutdown
+[2015.10.24-05.01.35:416][505]LogD3D11RHI: CleanupD3DDevice
+[2015.10.24-05.01.35:515][505]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.10.24-05.01.35:532][505]LogModuleManager: Shutting down and abandoning module NewLevelDialog (199)
+[2015.10.24-05.01.35:532][505]LogModuleManager: Shutting down and abandoning module MaterialEditor (198)
+[2015.10.24-05.01.35:532][505]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2015.10.24-05.01.35:532][505]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2015.10.24-05.01.35:532][505]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2015.10.24-05.01.35:532][505]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2015.10.24-05.01.35:532][505]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2015.10.24-05.01.35:534][505]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2015.10.24-05.01.35:534][505]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2015.10.24-05.01.35:534][505]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2015.10.24-05.01.35:534][505]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.10.24-05.01.35:534][505]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.10.24-05.01.35:534][505]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.10.24-05.01.35:534][505]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.10.24-05.01.35:534][505]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.10.24-05.01.35:534][505]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.10.24-05.01.35:534][505]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.10.24-05.01.35:534][505]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.10.24-05.01.35:535][505]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.10.24-05.01.35:535][505]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.10.24-05.01.35:535][505]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.10.24-05.01.35:535][505]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.10.24-05.01.35:535][505]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.10.24-05.01.35:535][505]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.10.24-05.01.35:535][505]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.10.24-05.01.35:535][505]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.10.24-05.01.35:535][505]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.10.24-05.01.35:535][505]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.10.24-05.01.36:429][505]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.10.24-05.01.36:429][505]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.10.24-05.01.36:429][505]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.10.24-05.01.36:429][505]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.10.24-05.01.36:429][505]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.10.24-05.01.36:429][505]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.10.24-05.01.36:429][505]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.10.24-05.01.36:429][505]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.10.24-05.01.36:429][505]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.10.24-05.01.36:430][505]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.10.24-05.01.36:430][505]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.10.24-05.01.36:430][505]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.10.24-05.01.36:430][505]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.10.24-05.01.36:430][505]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.10.24-05.01.36:430][505]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.10.24-05.01.36:430][505]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.10.24-05.01.36:430][505]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.10.24-05.01.36:430][505]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.10.24-05.01.36:430][505]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.10.24-05.01.36:430][505]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.10.24-05.01.36:431][505]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.10.24-05.01.36:431][505]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.10.24-05.01.36:431][505]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.10.24-05.01.36:431][505]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.10.24-05.01.36:431][505]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.10.24-05.01.36:431][505]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.10.24-05.01.36:431][505]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.10.24-05.01.36:431][505]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.10.24-05.01.36:431][505]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.10.24-05.01.36:431][505]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.10.24-05.01.36:431][505]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.10.24-05.01.36:432][505]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.10.24-05.01.36:432][505]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.10.24-05.01.36:432][505]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.10.24-05.01.36:432][505]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.10.24-05.01.36:432][505]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.10.24-05.01.36:432][505]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.10.24-05.01.36:432][505]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.10.24-05.01.36:432][505]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.10.24-05.01.36:432][505]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.10.24-05.01.36:433][505]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.10.24-05.01.36:433][505]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.10.24-05.01.36:433][505]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.10.24-05.01.36:433][505]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.10.24-05.01.36:433][505]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.10.24-05.01.36:433][505]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.10.24-05.01.36:433][505]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.10.24-05.01.36:433][505]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.10.24-05.01.36:433][505]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.10.24-05.01.36:433][505]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.10.24-05.01.36:474][505]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.10.24-05.01.36:474][505]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.10.24-05.01.36:474][505]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.10.24-05.01.36:474][505]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.10.24-05.01.36:475][505]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.10.24-05.01.36:475][505]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.10.24-05.01.36:475][505]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.10.24-05.01.36:475][505]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.10.24-05.01.36:617][505]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.10.24-05.01.36:618][505]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.10.24-05.01.36:618][505]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.10.24-05.01.36:618][505]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.10.24-05.01.36:618][505]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.10.24-05.01.36:618][505]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.10.24-05.01.36:618][505]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.10.24-05.01.36:618][505]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.10.24-05.01.36:618][505]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.10.24-05.01.36:618][505]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.10.24-05.01.36:618][505]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.10.24-05.01.36:618][505]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.10.24-05.01.36:618][505]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.10.24-05.01.36:618][505]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.10.24-05.01.36:618][505]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.10.24-05.01.36:619][505]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.10.24-05.01.36:619][505]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.10.24-05.01.36:619][505]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.10.24-05.01.36:619][505]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.10.24-05.01.36:619][505]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.10.24-05.01.36:619][505]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.10.24-05.01.36:619][505]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.10.24-05.01.36:619][505]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.10.24-05.01.36:620][505]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.10.24-05.01.36:623][505]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.10.24-05.01.36:631][505]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.10.24-05.01.36:813][505]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.10.24-05.01.36:813][505]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.10.24-05.01.36:813][505]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.10.24-05.01.36:915][505]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.10.24-05.01.36:915][505]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.10.24-05.01.36:915][505]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.10.24-05.01.36:925][505]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.10.24-05.01.36:925][505]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.10.24-05.01.36:925][505]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.10.24-05.01.36:925][505]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.10.24-05.01.36:925][505]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.10.24-05.01.36:925][505]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.10.24-05.01.36:925][505]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.10.24-05.01.36:925][505]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.10.24-05.01.36:925][505]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.10.24-05.01.36:925][505]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.10.24-05.01.36:925][505]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.10.24-05.01.36:925][505]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.10.24-05.01.36:925][505]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.10.24-05.01.36:925][505]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.10.24-05.01.36:925][505]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.10.24-05.01.36:925][505]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.10.24-05.01.36:931][505]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.10.24-05.01.36:931][505]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.10.24-05.01.36:931][505]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.10.24-05.01.36:931][505]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.10.24-05.01.36:931][505]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.10.24-05.01.36:931][505]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.10.24-05.01.36:931][505]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.10.24-05.01.36:931][505]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.10.24-05.01.36:931][505]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.10.24-05.01.36:932][505]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.10.24-05.01.36:935][505]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.10.24-05.01.37:019][505]LogDerivedDataCache: Shutdown
+[2015.10.24-05.01.37:019][505]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.10.24-05.01.37:019][505]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.10.24-05.01.37:019][505]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.10.24-05.01.37:019][505]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.10.24-05.01.37:019][505]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.10.24-05.01.37:019][505]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.10.24-05.01.37:019][505]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.10.24-05.01.37:019][505]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.10.24-05.01.37:019][505]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.10.24-05.01.37:019][505]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.10.24-05.01.37:020][505]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.10.24-05.01.37:020][505]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.10.24-05.01.37:020][505]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.10.24-05.01.37:020][505]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.10.24-05.01.37:020][505]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.10.24-05.01.37:020][505]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.10.24-05.01.37:020][505]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.10.24-05.01.37:020][505]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.10.24-05.01.37:020][505]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.10.24-05.01.37:020][505]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.10.24-05.01.37:020][505]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.10.24-05.01.37:020][505]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.10.24-05.01.37:020][505]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.10.24-05.01.37:020][505]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.10.24-05.01.37:020][505]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.10.24-05.01.37:020][505]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.10.24-05.01.37:020][505]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.10.24-05.01.37:020][505]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.10.24-05.01.37:020][505]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.10.24-05.01.37:020][505]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.10.24-05.01.37:020][505]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.10.24-05.01.37:020][505]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.10.24-05.01.37:020][505]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.10.24-05.01.37:020][505]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.10.24-05.01.37:021][505]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.10.24-05.01.37:021][505]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.10.24-05.01.45:032][505]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.10.24-05.01.45:032][505]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.10.24-05.01.45:033][505]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.10.24-05.01.45:033][505]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.10.24-05.01.45:033][505]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.10.24-05.01.45:033][505]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.10.24-05.01.45:057][505]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.10.24-05.01.45:057][505]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.10.24-05.01.45:057][505]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.10.24-05.01.45:057][505]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.10.24-05.01.45:057][505]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.10.24-05.01.45:057][505]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.10.24-05.01.45:057][505]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.10.24-05.01.45:057][505]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.10.24-05.01.45:057][505]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.10.24-05.01.45:057][505]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.10.24-05.01.45:059][505]LogExit: Exiting.
+[2015.10.24-05.01.45:090][505]Log file closed, 10/24/15 13:01:45
